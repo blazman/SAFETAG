@@ -56,7 +56,7 @@
      id="path2" />
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:133.333px;line-height:1.25;font-family:sans-serif;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:3.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     style="font-style:normal;font-weight:normal;font-size:133.333px;line-height:1.25;font-family:sans-serif;fill:#0721eb;fill-opacity:1;stroke:#ffffff;stroke-width:3.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
      x="32.351646"
      y="226.41759"
      id="text837"><tspan
@@ -64,5 +64,5 @@
        id="tspan835"
        x="32.351646"
        y="226.41759"
-       style="font-size:133.333px;fill:none;stroke:#ffffff;stroke-width:3.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">BETA</tspan></text>
+       style="font-size:133.333px;fill:#0721eb;stroke:#ffffff;stroke-width:3.2;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;fill-opacity:1;">BETA</tspan></text>
 </svg>

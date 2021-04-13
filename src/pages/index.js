@@ -95,7 +95,7 @@ function IndexPage({ data }) {
               <HomepageTitle size="jumbo" variation="white">
                 Safetag
               </HomepageTitle>
-              <Subheading>Custom guide creator_</Subheading>
+              <Subheading>Custom guide creator_ (BETA)</Subheading>
             </InpageHeadline>
             <p>
               Security Auditing Framework and Evaluation Template for Advocacy
