@@ -22,7 +22,7 @@ import Heading, { Subheading } from "../styles/type/heading"
 import MoreLink from "../styles/button/more-link"
 import Card, { CardHeader, CardHeading, CardList } from "../styles/card"
 
-import LogoSymbolWhite from "../../static/assets/logo/SafetagSymbolWhite.svg"
+import LogoSymbolWhite from "../../static/assets/logo/SafetagSymbolWhiteBETA.svg"
 
 const HomepageHeader = styled(InpageHeader)`
   background-color: ${themeVal("color.primary")};
