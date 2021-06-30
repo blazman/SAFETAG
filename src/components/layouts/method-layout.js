@@ -68,10 +68,8 @@ const ActivityCard = styled(Card)`
 `
 
 function MethodLayout({ data, location }) {
-  const {
-    frontmatter,
-    fields: { frontmattermd },
-  } = data.method.childMarkdownRemark
+  const frontmatter = data.method.frontmatter
+  const frontmattermd = data.method.fields.frontmattermd
 
   // creates an object with activity names as keys and activity slugs as values
   let activities = data.activities.edges
@@ -102,7 +100,7 @@ function MethodLayout({ data, location }) {
   let prevPage = location.state && location.state.prevPage || ""
 
   // Fix images URL by adding app root url with prefix
-  const sections = mapValues(frontmattermd, section => {
+  const sections = mapValues(frontmatter, section => {
     if (section && section.html) {
       return section.html.replace(
         /<img src="\/img/g,
@@ -139,13 +137,13 @@ function MethodLayout({ data, location }) {
                 Summary
               </InpageTitle>
               <div
-                dangerouslySetInnerHTML={{ __html: sections.summary }}
+                dangerouslySetInnerHTML={{ __html: frontmattermd.summary.html }}
               ></div>
               <InpageTitle size="large" withDeco>
                 Purpose
               </InpageTitle>
               <div
-                dangerouslySetInnerHTML={{ __html: sections.purpose }}
+                dangerouslySetInnerHTML={{ __html: frontmattermd.purpose.html }}
               ></div>
             </MethodIntro>
             <MethodMeta>
@@ -186,7 +184,7 @@ function MethodLayout({ data, location }) {
               </InpageTitle>
               <SquareUl
                 dangerouslySetInnerHTML={{
-                  __html: sections.guiding_questions,
+                  __html: frontmattermd.guiding_questions.html,
                 }}
               ></SquareUl>
             </section>
@@ -198,7 +196,7 @@ function MethodLayout({ data, location }) {
                 <CardHeading>Operational Security</CardHeading>
                 <div
                   dangerouslySetInnerHTML={{
-                    __html: sections.operational_security,
+                    __html: frontmattermd.operational_security.html,
                   }}
                 ></div>
               </Card>
@@ -208,7 +206,7 @@ function MethodLayout({ data, location }) {
                 <CardHeading>Preparation</CardHeading>
                 <SquareUl
                   dangerouslySetInnerHTML={{
-                    __html: sections.preparation,
+                    __html: frontmattermd.preparation.html,
                   }}
                 ></SquareUl>
               </Card>
@@ -223,7 +221,7 @@ function MethodLayout({ data, location }) {
                   </InpageTitle>
                   <SquareUl
                     dangerouslySetInnerHTML={{
-                      __html: sections.outputs,
+                      __html: frontmattermd.outputs.html,
                     }}
                   ></SquareUl>
                 </>
@@ -292,39 +290,31 @@ export default MethodLayout
 
 export const query = graphql`
   query($slug: String!) {
-    method: file(fields: { slug: { eq: $slug } }) {
-      childMarkdownRemark {
-        html
-        frontmatter {
-          title
-          authors
-          activities
-          info_provided
-          info_required
-          references
-          method_icon
-        }
-        fields {
-          frontmattermd {
-            summary {
-              html
-            }
-            purpose {
-              html
-            }
-            guiding_questions {
-              html
-            }
-            preparation {
-              html
-            }
-            outputs {
-              html
-            }
-            operational_security {
-              html
-            }
-          }
+    method: markdownRemark(fields: { slug: { eq: $slug } }) {
+      html
+      frontmatter {
+        title
+        authors
+        activities
+        info_provided
+        info_required
+        references
+        method_icon
+        summary
+        purpose
+        guiding_questions
+        preparation
+        outputs
+        operational_security
+      }
+      fields {
+        frontmattermd {
+          summary { html }
+          purpose { html }
+          guiding_questions { html }
+          preparation { html }
+          outputs { html }
+          operational_security { html }
         }
       }
     }
