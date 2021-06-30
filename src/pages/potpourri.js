@@ -72,7 +72,7 @@ const ContactButton = styled(Button)`
   margin-top: 1rem;
 `
 
-function IndexPage({ data }) {
+function IndexPage() {
 
   return (
     <GlobalLayout>
@@ -127,7 +127,7 @@ function IndexPage({ data }) {
                             What a cool card!
                         </CardHeading>
                     </CardHeader>
-                    <p>Great test in a card right? Too bad there's only one of me</p>
+                    <p>Great test in a card right? Too bad there&apos;s only one of me</p>
 
                 </Card>
             </HomeCardList>
