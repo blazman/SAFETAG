@@ -3,7 +3,7 @@ backend:
   repo: safetag/safetag
   open_authoring: true
   branch: guide-source
-  site_domain: safetag-guide.netlify.app
+  site_domain: safetag.org
 
 media_folder: static/img
 public_folder: /img
@@ -202,6 +202,12 @@ collections:
           name: "method_icon",
           widget: "image",
           required: true,
+        }
+      - {
+          label: "Position",
+          name: "position",
+          widget: "number",
+          required: true
         }
       - {
           label: "Activities",
