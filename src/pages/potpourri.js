@@ -22,7 +22,7 @@ import {
 import Heading, { Subheading } from "../styles/type/heading"
 import MoreLink from "../styles/button/more-link"
 import Card, { CardHeader, CardHeading, CardList } from "../styles/card"
-import { SquareUl } from "../../styles/type/lists"
+import { SquareUl } from "../styles/type/lists"
 import LogoSymbolWhite from "../../static/assets/logo/SafetagSymbolWhiteBETA.svg"
 
 const HomepageHeader = styled(InpageHeader)`
