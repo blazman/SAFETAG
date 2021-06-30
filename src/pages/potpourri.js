@@ -14,6 +14,7 @@ import {
   Inpage,
   InpageHeader,
   InpageHeaderInner,
+  InpageInnerColumns,
   InpageHeadline,
   InpageBody,
   InpageBodyInner,
@@ -21,7 +22,7 @@ import {
 import Heading, { Subheading } from "../styles/type/heading"
 import MoreLink from "../styles/button/more-link"
 import Card, { CardHeader, CardHeading, CardList } from "../styles/card"
-
+import { SquareUl } from "../../styles/type/lists"
 import LogoSymbolWhite from "../../static/assets/logo/SafetagSymbolWhiteBETA.svg"
 
 const HomepageHeader = styled(InpageHeader)`
@@ -156,7 +157,7 @@ function IndexPage() {
               <Card border="base">
                 <CardHeading>Black Boxy 2</CardHeading>
                 <SquareUl>
-                I really don't know what this does  
+                I really don&apos;t know what this does  
                 </SquareUl>
                 <p>And this is outside of Square Ul</p>
               </Card>
