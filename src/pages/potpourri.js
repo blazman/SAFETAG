@@ -127,7 +127,7 @@ function IndexPage() {
                             What a cool card!
                         </CardHeading>
                     </CardHeader>
-                    <p>Great test in a card right? Too bad there&apos;s only one of me</p>
+                    <p>Great test in a card right? Too bad there&apos;s only one of me. Will I get wider with more text? Lets see</p>
 
                 </Card>
             </HomeCardList>
@@ -140,22 +140,28 @@ function IndexPage() {
         <InpageBody variation="blue">
           <InpageBodyInner>
             <Heading id="license" size="jumbo" variation="primary" withDeco>
-              License
+              Another header opportunity for style
             </Heading>
-            <p>
-              SAFETAG resources are available under a <a
-              href="https://creativecommons.org/licenses/by-sa/3.0/">Creative
-              Commons Attribution-ShareAlike (CC BY-SA 3.0) License</a>.
-            </p>
-            <p>
-              Check out the <Link to="/credits/">Credits and Licensing
-              </Link> page for content attribution and a usage guide to
-              referring to the &quot;SAFETAG&quot; wordmark.
+            <p>bla - hey can we try some columns?</p>
 
-            </p>
-            <p>
-            </p>
           </InpageBodyInner>
+          <InpageInnerColumns columnLayout="1:1">
+            
+              <Card border="base">
+                <CardHeading>Black Boxy 1</CardHeading>
+                <p>This is some text</p>
+              </Card>
+            
+            
+              <Card border="base">
+                <CardHeading>Black Boxy 2</CardHeading>
+                <SquareUl>
+                I really don't know what this does  
+                </SquareUl>
+                <p>And this is outside of Square Ul</p>
+              </Card>
+            
+          </InpageInnerColumns>
         </InpageBody>
 
         <InpageBody>
