@@ -135,7 +135,7 @@ function IndexPage({ data }) {
               </ul>
             </SquareUl>
             <div>
-              <img src="/img/activities_flow.svg" style={{ maxWidth: '100%' }}/>
+              <Trans i18nKey="index-about-activity-flow-image"><img src="/img/activities_flow.svg" style={{ maxWidth: '100%' }}/></Trans>
             </div>
           </InpageInnerColumns>
         </InpageBody>
