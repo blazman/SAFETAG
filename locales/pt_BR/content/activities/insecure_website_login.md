@@ -4,11 +4,11 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Completado
+  - Completado
 skills_required:
-    - Varredura de Vulnerabilidades
+  - Varredura de Vulnerabilidades
 skills_trained: []
 summary: |
   As senhas administrativas e de usuário no site são enviadas sem criptografia.

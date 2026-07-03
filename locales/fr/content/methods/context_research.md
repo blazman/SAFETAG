@@ -2,10 +2,7 @@
 title: Context Research
 position: 20
 summary: |
-  This component allows the auditor to identify the relevant regional and
-  technological context needed to provide a safe and informed SAFETAG audit.
-  This component consists of desk research that is collected and analyzed by the
-  auditor, as well as inputs from the Interview component.
+  Ce volet permet à l’auditeur d’identifier le contexte régional et technologique pertinent nécessaire pour réaliser un audit SAFETAG sûr et éclairé. Ce volet comprend des recherches documentaires collectées et analysées par l’auditeur, ainsi que des informations recueillies lors des entretiens.
 short_summary: Identify the relevant regional and technological context needed to provide a safe and informed audit.
 the_flow_of_information: "![](/img/context_research.png)"
 guiding_questions: |

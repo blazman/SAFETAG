@@ -4,13 +4,13 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Ninguno
+  - Ninguno
 skills_required:
-    - Inalámbrico
-    - Análisis de Tráfico
-    - Auditoría de contraseñas
+  - Inalámbrico
+  - Análisis de Tráfico
+  - Auditoría de contraseñas
 skills_trained: []
 summary: |
   WPS was built as an addition to WPA to make it easier to add devices without

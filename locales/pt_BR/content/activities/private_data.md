@@ -4,12 +4,12 @@ approaches:
   - Interpessoal
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - Facilitação em Grupo
-    - Avaliação de Riscos
+  - Facilitação em Grupo
+  - Avaliação de Riscos
 skills_trained: []
 summary: |
   Guie a equipe por uma atividade para que eles listem os dados privados dentro da organização (por exemplo, usando o folheto “informações pessoais a serem mantidas em sigilo”.[^informações_pessoais_a_serem_mantidas_em_sigilo])

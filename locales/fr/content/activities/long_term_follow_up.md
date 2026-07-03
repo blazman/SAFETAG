@@ -4,11 +4,11 @@ approaches:
   - Interpersonnel
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Complète
+  - Complète
 skills_required:
-    - Rédaction de rapport
+  - Rédaction de rapport
 skills_trained: []
 summary: |
   Faites un suivi avec l'hôte après quelques mois pour vérifier les progrès, obtenir des rétroactions à long terme et vous connecter à de nouvelles ressources.

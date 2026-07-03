@@ -4,11 +4,11 @@ approaches:
   - Interpersonal
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Completo
+  - Completo
 skills_required:
-    - Escritura del Informe
+  - Escritura del Informe
 skills_trained: []
 summary: |
   Follow up with host after a few months to check on progress, get long-term

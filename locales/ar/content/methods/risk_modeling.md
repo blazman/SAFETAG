@@ -10,8 +10,7 @@ summary: |
   exposed to a malicious actor, who will be understood through threat 
   profiling activities.  This results in the staff creating a risk
   matrix and threat profiles which are used as the foundation of the auditor's recommendations.
-short_summary: |
-   Identify and map critical organizaional processes and profile the possible attackers in order to develop a risk matrix.
+short_summary: Identify and map critical organizaional processes and profile the possible attackers in order to develop a risk matrix.
 the_flow_of_information: "![](/img/risk_modeling.png)"
 method_icon: "/img/risk_modeling_icon.png"
 guiding_questions: |
@@ -22,28 +21,28 @@ guiding_questions: |
   * Are those adversaries capable of carrying out these threats?
   * Do they have the desire and ability to conduct an attack?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Process Mapping
-    - Risk Modeling Using the Pre-Mortem Strategy
-    - Creating a Risk Matrix
-    - Sensitive Data
-    - Self Doxing
-    - Guiding Questions for High-Risk Organisations
-    - تقييم التهديدات القانونية
-    - Threat Identification
-    - Threat Interaction
+  - Process Mapping
+  - Risk Modeling Using the Pre-Mortem Strategy
+  - Creating a Risk Matrix
+  - Sensitive Data
+  - Self Doxing
+  - Guiding Questions for High-Risk Organisations
+  - تقييم التهديدات القانونية
+  - Threat Identification
+  - Threat Interaction
 references:
-    - Risk Modeling
-    - Threat Modeling Resources (General)
-    - Risk Assessment Activities
-    - Threat Assessment Activities
-    - Risk Matrix Activities
-    - Alternative Risk Modeling Activities
-    - Guiding Questions for High-Risk Organisations
-    - Threat research by focus area
-    - Threat research by method
-    - General Threats by Region
+  - Risk Modeling
+  - Threat Modeling Resources (General)
+  - Risk Assessment Activities
+  - Threat Assessment Activities
+  - Risk Matrix Activities
+  - Alternative Risk Modeling Activities
+  - Guiding Questions for High-Risk Organisations
+  - Threat research by focus area
+  - Threat research by method
+  - General Threats by Region
 outputs: |
   * Maps of critical processes.
   * A list of organizational assets.
@@ -61,6 +60,7 @@ info_required: []
 info_provided: []
 purpose: |
   Making the host organization's knowledge and experience central to the risk assessment process allows the auditor to put discovered threats and recommendations into the host's own narrative. With greater ownership of the process the staff will be more engaged in addressing the threats identified when the audit is complete. [^social_engineering_important_all] By engaging as many staff as possible the auditor is also providing a framework for staff to examine future concerns when the auditor is gone. The existing in/formal security practices captured during this process will be used to remove organizational and psycho-social barriers to starting new practices.
+
 preparation: |
   * Risk Modeling and Proccess Mapping exercises can be intense and challenging to facilitate.   Risk modeling will require a mixed approach of exercises, and the order which you identify each component will vary depending upon the organization. Prepare and review your exercises, and plan for how they will flow together. Note your specific desired outcomes to easily recover or re-direct the activity based on emergent needs. Review the [Frontline Defenders' Risk Assessment Activity](https://www.frontlinedefenders.org/sites/default/files/workbook_eng_master.pdf) if needed.
   * Threat Identification discussions, where you facilitate group activities where staff identify possible adversaries and the threats that they have/can leverage against the group, can trigger strong emotions and be draining for the participants. Prepare accordingly to schedule this with downtime (i.e. not right before or after another intense exercise) and to have a plan to address the psychosocial needs of individuals.

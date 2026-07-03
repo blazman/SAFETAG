@@ -3,7 +3,7 @@ title: Risks of Data Lost and Found
 approaches: []
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options: []
 skills_required: []
 skills_trained: []

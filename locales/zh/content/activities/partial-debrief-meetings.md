@@ -25,7 +25,7 @@ overview: >
 
   "
 
-Considerations: |
+considerations: |
   Even when the activity suggests synchronous spaces for the
   partial debriefs, these might also happen over other channels like emails, chats, or other asynchronous spaces as long as they work for both the organization and the auditor. When there are more sensitive topics to discuss that can affect the course of the audit, the organization’s operations, or involve sensitive information; there is the possibility of organizing a synchronous space like a call or an in-person meeting.
 walk_through: >-

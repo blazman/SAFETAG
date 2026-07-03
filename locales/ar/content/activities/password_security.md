@@ -4,11 +4,11 @@ approaches:
   - بين الأشخاص
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - مكتمل
+  - مكتمل
 skills_required:
-    - Surveys
+  - Surveys
 skills_trained: []
 summary: |
   Weak and "shared" passwords are prevalent - even after hundreds of
@@ -32,14 +32,14 @@ walk_through: |
   gather this information. The earlier questions are more important in terms of
   getting a sense of password practices, so consider adapting or shortening the
   survey based on staff/leadership buy-in and risk considerations.
-  
-  
+
+
   How many passwords do you have to remember for accounts and devices used to do
   your work?
-  
+
   If you tried to login to your computer account right now, how many attempts
   do you think it would take?
-  
+
   Have you written down your  current  password?
   - [ ] No
   - [ ] Yes, on paper
@@ -56,17 +56,17 @@ walk_through: |
   - [ ] I always keep the password with me
   - [ ] I wrote down a reminder instead of the actual password
   - [ ] Other
-  
+
   Have you ever forgotten your current password?
   - [ ] No
   - [ ] Yes
   If yes,  how did you recover it?
-  
+
   Have you ever forgotten old work passwords?
   - [ ] No
   - [ ] Yes
   If yes, how did you recover it?
-  
+
   When you created your current password, which of the following did you do?
   - [ ] I reused an old password
   - [ ] I modified an old password
@@ -91,7 +91,7 @@ walk_through: |
   - [ ] Based on a phone number
   - [ ] Based on an address
   - [ ] Based on a birthday
-  
+
   How long is your  current  password (total number of characters)?
   - [ ] I prefer not to answer.
   What symbols (characters  other than letters and numbers) are in your
@@ -109,7 +109,7 @@ walk_through: |
   - [ ] No Numbers
   - [ ] I prefer not to answer.
   How many symbols are in  your current password?
-  
+
   In  which positions in your password are the symbols?
   - [ ] First
   - [ ] Second
@@ -127,10 +127,10 @@ recommendations: |
   like Shakespeare or religious texts, but also should not include number
   sequences or phrases, especially if they are related to the organization, its
   employees or its work, and to use unique passwords for each account.
-  
+
   Because this becomes logistically difficult, **password managers** such as
   KeePassX or other systems are recommended.
-  
+
   Specifically for **wireless passwords**, choosing a strong WPA key is one of
   the most important steps toward defending an organization’s network perimeter
   from an adversary with the ability to spend some time in the vicinity of the
@@ -138,12 +138,12 @@ recommendations: |
   protection of employees and partners (and confidential data) from the sort of
   persistent exposure that eventually brings down even the most well-secured
   information systems.
-  
+
   Because shared keys inevitably end up being written on whiteboards, given to
   office visitors and emailed to partners, the WPA key should also be changed
   periodically. This does not have to happen frequently, but anything less than
   three or four times per year may be unsafe.
-  
+
   As WPA3 becomes more widely adopted, upgrading your network to WPA3
   authentication will provide substantial security against wireless password
   attacks.

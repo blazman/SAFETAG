@@ -4,10 +4,10 @@ approaches:
   - Interpessoal
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 skills_trained: []
 remote_options:
-    - with-support
+  - with-support
 time_required_minutes: 120
 organization_size_under: 25
 summary: |
@@ -19,9 +19,9 @@ walk_through: |
 considerations: |
   * Trate os dados de modelagem de risco com a máxima segurança.* Certifique-se de que todas as anotações/desenhos físicos sejam apagados e destruídos depois de registrados digitalmente.* Certifique-se de que todas as gravações digitais desse processo sejam mantidas em segurança e criptografadas.
 skills_required:
-    - Facilitação em Grupo
-    - Atenção psicossocial
-    - Avaliação de Riscos
+  - Facilitação em Grupo
+  - Atenção psicossocial
+  - Avaliação de Riscos
 overview: |
   * Atividade “pré-mortem”* Identificação de processos críticos* Mapeamento de processos críticos selecionados* Identificação de ameaças (controle/confidencialidade/identidade/integridade/autenticação/acesso)* Identificação de impacto* Exploração adversária (probabilidade)* Classificação de impacto
 recommendations: "Essa atividade pode causar um sentimento de desesperança, além de despertar medos ou desafios diretos que a equipe enfrenta. É importante lembrar à equipe que qualquer risco pode ser minimizado e, na verdade, o objetivo de uma auditoria é identificar os riscos mais prioritários com base na probabilidade real e fornecer orientações sobre como minimizá-los."

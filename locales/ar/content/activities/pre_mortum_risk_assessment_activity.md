@@ -4,10 +4,10 @@ approaches:
   - بين الأشخاص
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 skills_trained: []
 remote_options:
-    - with-support
+  - with-support
 time_required_minutes: 120
 organization_size_under: 25
 summary: |
@@ -19,7 +19,7 @@ materials_needed: |
   * Camera to digitally capture the data
 walk_through: |
   Prepare a flipchart / space on the white-board to keep track of process', threats, impacts, and adversaries that are identified during other activities. Participants can easily get ahead of the process as they explore individual ideas. Keeping a space for these "upcoming" activities will help re-center them on the activity at hand.
-  
+
   **Pre-Mortem Strategy: (30 Minutes)** The pre-mortem strategy was devised to take participants out of a perspective of defending their plans and strategies and shielding themselves from flaws. They are given "a perspective where they [are] actively searching for flaws in their own plan." [^pre-mortum]
   * Explain the pre-mortem activity. The participants are to imagine that it is months into the future and they have continued doing their work as normal. And something happened that left them entirely unable to function or functioning at a very poor level. "That is all they know; they have to explain what has happened." [^pre-mortum]
   * Create a broad list of possible explanations for what has happened.
@@ -47,9 +47,9 @@ considerations: |
   * Ensure that any physical notes/drawings are erased and destroyed once digitally recorded.
   * Ensure that any digital recordings of this process are kept secure and encrypted.
 skills_required:
-    - Group Facilitation
-    - Psycho-social care
-    - تحليل الخطر
+  - Group Facilitation
+  - Psycho-social care
+  - تحليل الخطر
 overview: |
   * "Pre-Mortem" Activity
   * Identification of critical processes
@@ -58,6 +58,5 @@ overview: |
   * Impact Identification
   * Adversary Exploration (Likelyhood)
   * Impact Ranking
-recommendations: |
-   "This activity can lead to feelings of hopelessness as well as stir up direct fears or challenges that the staff face. It is important to remind the staff that any risk can be mitigated, and indeed it is the goal of an audit to identify the highest priority ones based on actual likelihood and provide guidance on mitigation."
+recommendations: "\"This activity can lead to feelings of hopelessness as well as stir up direct fears or challenges that the staff face. It is important to remind the staff that any risk can be mitigated, and indeed it is the goal of an audit to identify the highest priority ones based on actual likelihood and provide guidance on mitigation.\""
 ---

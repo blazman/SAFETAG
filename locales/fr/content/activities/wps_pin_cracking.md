@@ -4,13 +4,13 @@ approaches:
   - Technique
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Aucun
+  - Aucun
 skills_required:
-    - Sans fil
-    - Analyse du trafic
-    - Vérification du mot de passe
+  - Sans fil
+  - Analyse du trafic
+  - Vérification du mot de passe
 skills_trained: []
 summary: |
   WPS was built as an addition to WPA to make it easier to add devices without

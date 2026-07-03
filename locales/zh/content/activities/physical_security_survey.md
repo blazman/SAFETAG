@@ -5,12 +5,12 @@ approaches:
   - 研究
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - 部分
+  - 部分
 skills_required:
-    - Surveys
-    - Interviewing
+  - Surveys
+  - Interviewing
 skills_trained: []
 summary: |
   This activity helps the auditor assess the organization's current operational
@@ -23,17 +23,17 @@ overview: |
   The auditor interviews and/or requests survey input from organizational
   representatives, requests supporting documentation (e.g. policies) as
   relevant, and iterates/repeats as needed.
-  
+
   This activity is used to solidify the auditor's understanding of the physical
   risks the organization faces in its work as they impact information security:
-  
+
   * Discuss potential risks and history
   * Explore the physical office setup
   * Determine access controls and related policies (who has access to what,
   when?)
   * Determine where and when staff members work (office, cafe, co-working
   spaces, home, on travel/remote assignments)
-  
+
   This can be done entirely remotely over secure communications channels (see
   operational security considerations), and may be useful to be done partially
   or fully in advance of an in-person audit to further understand operational
@@ -57,7 +57,7 @@ considerations: |
 walk_through: |
   This activity should build on the preparation work of the auditor, as well as
   the capacity assessment and  context research work:
-  
+
   * **Capacity Assessment:** If the auditor has already completed the Capacity
   Assessment interview, many of the answers from its introductory "Open Up"
   questions (5-22) provide threat history, likelihood, and some basic policy
@@ -71,7 +71,7 @@ walk_through: |
   into likely technical capabilities of adversaries (are malware or other
   surillance tools used (https://sii.transparencytoolkit.org/) ? Physical
   surveillance/monitoring? Keyloggers?)
-  
+
   Once an initial interview or survey has taken place (as part of capacity
   assessment or dedicated to the above-mentioned questions), Send a follow-up
   request for any policies mentioned or referred to (travel policies,
@@ -84,39 +84,39 @@ walk_through: |
   there are no policies governing these topics, the auditor can ask their points
   of contact for these discussions what the general practices are and expand and
   verify this through additional activities.
-  
+
   In creating new questions, be careful to not "lead" on security in a way that
   would discourage honest and transparent responses.  For example, ask "Do you
   host community events and trainings?" instead of "Do you allow outside people
   into your office"?
-  
+
   Below are questions not already covered in the capacity assessment interview
   process, and after that selected questions from that process which are of
   particular use here.
-  
+
   **Office layout and proximity concerns**
-  
+
   Describe your office - is it on a floor of a building? An entire floor? (What
   level of the building?) How close are other buildings? Is it a shared, open
   office space or co-working space? (shared network? open access?)?
-  
+
   Has the organization dealt with robberies/theft, break-ins, or office raids?
   If so, what happened, when, and how did you respond (or do you have a policy
   or contingency plan? When was that last reviewed/updated?)
-  
+
   What other wifi networks can you see? (See https://wigle.net/ )
-  
+
   **Physical Access Controls**
-  
+
   Do you consider your office space to be secure?
-  
+
   - [ ] No
   - [ ] Yes
-  
+
   Who has independent access to the office space, and routine after-hours access
   (i.e. who is able to unlock the space).  This may include security, cleaning
   or other building service personnel.
-  
+
   Do you have policies and procedures for authorizing and limiting unauthorized
   physical access to digital systems and the facilities in which they are
   housed?
@@ -133,13 +133,13 @@ walk_through: |
   - [ ] No
   - [ ] Yes
   **Device Controls**
-  
+
   Do you have procedures for physically securing portable devices such as
   laptops and mobile phones?
   - [ ] No
   - [ ] Yes
   If yes, please highlight them
-  
+
   Do you have a key personnel responsible for the security of digital resources?
   - [ ] No
   - [ ] Yes
@@ -152,15 +152,15 @@ walk_through: |
   - [ ] No
   - [ ] Yes
   If yes, what are the procedures?
-  
+
   **Emergency Planning**
-  
+
   Do you have a business continuity plan in case of serious incidents or
   disaster to your digital resources and is it current?
   - [ ] No
   - [ ] Yes
   If yes, please highlight the steps taken.
-  
+
   Does your plan identify areas and facilities that need to be sealed off
   immediately in case of an emergency?
   - [ ] No
@@ -169,15 +169,15 @@ walk_through: |
   - [ ] No
   - [ ] Yes
   **Programs and staff**
-  
+
   * Do you host events or trainings at the office?  Open "cybercafe" or
   community meeting space?
   * Do you host 1:1 meetings with funders, partners,
   * Do staff work from or meet at homes or cafes/restaurants?
-  
+
   **Selected questions from the Capacity Assessment Interview,  "Open Up"
   section:**
-  
+
   * What issues does the organization work on? Are these issues sensitive where
   you work?
   * Where does your organization have activities?
@@ -198,9 +198,9 @@ walk_through: |
     * Run trainings
     * Receive trainings
     * Fundraising
-  
+
   **From "Threat Information"**
-  
+
   * To your knowledge, how often do the below incidents occur in the geographic
   areas or issue areas in which your organization is active? Could you please
   tell me if you think they happen never, sometimes or often
@@ -262,7 +262,7 @@ walk_through: |
     * Equiptment and/or supplies have been made ready
     * Other
   **From the Technical Only section**:
-  
+
   * Are Disaster Recovery Procedures in place for the application data?
   * Are Change Management procedures in place?
   * What is the mean time to repair systems outages?
@@ -274,7 +274,7 @@ walk_through: |
     * When was the last time the backups were restored?
 recommendations: |
   See recommendation section in the [Guided Tour Activity](https://safetag.org/activities/guided_tour).
-  
+
   For useful organizational policy recommendations, review the SANS  
   [Information Security Policy
   Templates](https://www.sans.org/security-resources/policies)

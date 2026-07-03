@@ -4,18 +4,18 @@ approaches:
   - Interpersonnel
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - avec assistance
+  - avec assistance
 skills_required: []
 skills_trained: []
 summary: |
   Cette activité vise à identifier les vulnérabilités physiques potentielles aux pratiques de sécurité de l'information d'une organisation en documentant l'aménagement physique actuel du bureau et l'emplacement des actifs clés, ainsi que les risques « externes » potentiels tels que les espaces de bureau à proximité/partagés.
-  
+
   Cela peut être fait en personne indépendamment ou en parallèle de l'activité "Visite guidée", et peut également être fait en amont d'une évaluation ou à distance par un membre du personnel volontaire qui sait où se trouvent ces actifs (souvent un membre du personnel technique ou administratif). Cela peut également être effectué dans un environnement multi-bureaux ou à domicile où l'auditeur n'est pas en mesure de visiter tous les sites.
 overview: |
   Dans cette activité, l'auditeur ou l'organisation dessine une carte de l'espace de bureau et note les emplacements d'informations ou d'actifs potentiellement précieux.
-  
+
   Cette activité peut être jumelée à l'activité de visite guidée, pour réduire la gêne de prendre des notes en se promenant dans le bureau pendant la visite, et si elle est effectuée à distance, les deux activités distinctes peuvent être utilisées pour vérifier l'exactitude de chacune. Cela peut également être fait par un point de contact organisationnel à l'avance pour fournir une préparation supplémentaire à l'auditeur.
 materials_needed: |
   * Bloc-notes et/ou logiciel simple de dessin ou de plan d'étage
@@ -31,9 +31,9 @@ considerations: |
 walk_through: |
   Faites le tour du bureau et dessinez une carte du plan d'étage (ne vous fiez pas à votre mémoire). Envisagez de prendre des photos de zones spécifiques (par exemple, des dispositions confuses ou des zones difficiles à capturer dans le dessin). Prenez des notes sur l'endroit où les intrus pourraient accéder au bureau, où les données sensibles peuvent se trouver (dans le bureau du directeur exécutif, dans un placard de stockage, sur les appareils) et d'autres éléments pertinents.
   Notez également l'intimité globale que le bureau offre (s'agit-il d'un espace de bureau partagé, d'un bâtiment partagé, etc.)
-  
+
   Notez les emplacements de l'un des éléments suivants qui s'appliquent :
-  
+
   * Bureaux et rangements :
   * Salles de réunions
   * Bureaux/bureaux du personnel
@@ -45,7 +45,7 @@ walk_through: |
   * Fenêtres accessibles vers l'extérieur (terrasses, rez-de-chaussée, etc.)
   * Les escaliers de secours
   * Accès sous-sol/toit
-  
+
   * Personnes (le personnel varie considérablement, adaptez-le si nécessaire)
   * Directeur exécutif
   * Autres administrateurs
@@ -55,7 +55,7 @@ walk_through: |
   * Administrateur du bureau
   * Le personnel informatique
   * Personnel supplémentaire
-  
+
   * Infrastructure et appareils :
   * Boîte à fusibles / réseau électrique
   * Modem câble/DSL
@@ -65,8 +65,8 @@ walk_through: |
   * Déchiqueteuse
   * Serveurs (serveur de fichiers, courriel, sauvegarde, etc.) et/ou ordinateurs de bureau/tour (qui ne quittent jamais le bureau)
   * Sauvegardes numériques (lecteurs de bande, disques durs, "time machines" etc.)
-  
-  
+
+
   Si vous effectuez cette activité à distance et/ou avant un audit, il peut être
   utile de demander à plusieurs membres du personnel de dessiner indépendamment des cartes et de fournir à l'organisation des questions d'orientation supplémentaires :
   * Si vous jouiez à cache-cache, quel serait le meilleur endroit où aller ?

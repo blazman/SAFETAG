@@ -4,9 +4,9 @@ approaches:
   - လူလူခြင်းဆက်ဆံမှုဆိုင်ရာ
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - ပြည့်စုံသည်
+  - ပြည့်စုံသည်
 skills_required: []
 skills_trained: []
 summary: |
@@ -29,9 +29,10 @@ walk_through: |
   (e.g. server hardening, website migration), as well as services that could
   help address their needs (e.g. secure hosting providers, rapid response
   support).
-  
+
   Follow up with both the organization and the resources introduced to check in
   on process and revise which introductions you make going forward.
+
 recommendations: ''
 organization_size_under: 100
 time_required_minutes: 30

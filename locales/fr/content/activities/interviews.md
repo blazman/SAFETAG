@@ -4,15 +4,15 @@ approaches:
   - Interpersonnel
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Complète
+  - Complète
 skills_required:
-    - Entrevue
+  - Entrevue
 skills_trained: []
 summary: |
   L'auditeur mène des entretiens avec divers membres du personnel pour recueillir des informations sur les risques et la capacité de l'organisation.
-  
+
   Les sessions de questions-réponses sont sans aucun doute des aspects _boîte blanche_ d'une évaluation de sécurité, et
   vous entendrez de temps en temps des refoulements du type "Vous n'auriez pas
   trouvé cette chose si nous ne vous avions pas parlé de cette autre chose.
@@ -32,9 +32,9 @@ considerations: |
   * Si l'auditeur ou l'organisation pense qu'il y a de bonnes chances de surveillance sur le canal sur lequel vous communiquez, faites le reste de l'entretien sur un canal sécurisé ou en personne si possible, bien que certaines informations soient essentielles à faire avant de planifier l'audit. L'incapacité de le faire contribue à une situation de non-droit.
 walk_through: |
   Les questions ci-dessous sont grossièrement divisées en catégories pour la direction, le personnel du programme et le personnel technique. Les questions destinées au personnel technique peuvent être posées au responsable ou à un autre point de contact. Dans cette section, il y a des questions spécifiques auxquelles souvent seul le personnel informatique réel est susceptible de pouvoir répondre. Un auditeur peut trouver utile de poser à nouveau les mêmes questions à plusieurs membres du personnel. Plus précisément, cependant, les « questions d'identification de la menace de base » doivent être posées à la personne que l'auditeur estime le plus capable ou désireuse d'y répondre.
-  
+
   Dans tous les cas, la boîte à outils HCD vous recommande de "réchauffer le participant avec des questions avec lesquelles il est à l'aise". [^HCD_toolkit] - équilibrez cela avec le fait de ne pas poser de questions que vous devriez déjà connaître grâce à la recherche organisationnelle fondamentale, suivies de questions informatives qui "suscitent plus grandes, voire ambitieuses, en pensant qu'elles ne sont peut-être pas habituées au quotidien". [^HCD_toolkit]
-  
+
   * Quelle est votre position dans l'organisation ?
   * Quelles sont vos principales responsabilités dans cette organisation ?
   * Sur quelles questions l'organisation travaille-t-elle ? (Fournissez un exemple si nécessaire - exemples ci-dessous)
@@ -61,9 +61,9 @@ walk_through: |
   * Combien de projets votre organisation gère-t-elle actuellement ?
   * Quelle est la langue de travail de l'organisation ? (pour le dictionnaire de mot de passe)
   * Pourquoi faites-vous l'audit ?
-  
+
   ###### Questions de gestion et de base
-  
+
   * Pourriez-vous me dire, approximativement, quel pourcentage du budget annuel actuel de l'organisation est consacré au soutien à l'utilisation de la technologie numérique ou mobile ?
   * L'organisation a-t-elle son propre espace de bureau ?
   * L'organisation a-t-elle un nom de domaine ou une identité de marque qui est utilisée pour toutes les communications en ligne ?
@@ -86,13 +86,13 @@ walk_through: |
   * Organiser des formations
   * Recevoir des formations
   * Collecte de fonds
-  
+
   **Soyez spécifique**
-  
+
   "Creusez plus profondément le défi à relever et invitez avec des scénarios" et si "."
-  
+
   * Le responsable est-il au courant qu'un test est sur le point d'être effectué ?
-  
+
   * Quelle est la raison la plus importante pour laquelle votre organisation existe ? (Fournissez un exemple si nécessaire - exemples ci-dessous)
   * Sensibiliser dans le domaine politique de l'organisation.
   * Pour influer sur la politique.
@@ -111,11 +111,11 @@ walk_through: |
   * Services financiers
   * Autres services
   * L'organisation a-t-elle une hiérarchie pour la prise de décision, selon laquelle différentes personnes ont des responsabilités et des niveaux d'autorité différents ?
-  
+
   **Soyez personnel**
-  
+
   "Creusez plus profondément les pratiques en dehors du travail et invitez avec des scénarios" et si "."
-  
+
   * Le personnel travaille-t-il généralement à distance ?
   * Le personnel ramène-t-il généralement ses appareils de travail à la maison ?
   * Le personnel accède-t-il généralement aux actifs de l'organisation à partir d'appareils personnels ? (Fournissez un exemple si nécessaire - exemples ci-dessous)
@@ -131,11 +131,11 @@ walk_through: |
   * À quelle heure le personnel entre-t-il et sort-il habituellement du bureau ?
   * Dans quelle mesure l'environnement du bureau est-il sécurisé ?
   * Quels sont les moyens de transport couramment utilisés ?
-  
+
   ###### Questions du personnel du programme
-  
+
   Pour les organisations ayant des opérations/programmes en ligne importants, les questions suivantes peuvent être posées au point de contact de la direction et/ou à un membre du personnel du programme.
-  
+
   * L'organisation s'appuie-t-elle principalement sur les médias numériques dans son travail ?
   * Quels outils numériques votre organisation utilise-t-elle ? (Les exemples suivent)
   * Courriel
@@ -176,11 +176,11 @@ walk_through: |
   * Dans quelle mesure pensez-vous que votre organisation est capable d'utiliser les outils technologiques numériques et mobiles appropriés pour le travail de l'organisation ?
   * De quelles manières, le cas échéant, avez-vous constaté que la technologie entrave le travail de l'organisation ?
   * Quelles nouvelles activités utilisant les technologies numériques ou mobiles l'organisation aimerait-elle entreprendre à l'avenir ? Veuillez donner des exemples de programmes, d'activités ou de fonctions de gestion
-  
+
   ###### Questions du personnel technique
   Demandez-les au membre du personnel le plus technique avec lequel vous êtes en contact. Si l'organisation dispose d'un support informatique dédié, cette section comprend également des questions spécifiques pour l'informatique.
-  
-  
+
+
   * Le personnel de l'organisation a-t-il accès à des ordinateurs pour son travail ?
   * Combien de membres du personnel n'ont pas accès à leur propre ordinateur ou ont besoin de partager des ordinateurs avec d'autres ?
   * Combien de membres du personnel utilisent leurs appareils personnels pour accéder aux actifs de l'organisation ?
@@ -252,9 +252,9 @@ walk_through: |
   * logiciel de contournement
   * autre
   * Autre logiciel important pour le travail de l'organisation ? Veuillez décrire si nécessaire?
-  
+
   **informatique uniquement**
-  
+
   * Existe-t-il des systèmes qui pourraient être qualifiés de fragiles ? (systèmes ayant tendance à planter, systèmes d'exploitation plus anciens ou non corrigés)
   * L'organisation dispose-t-elle d'une procédure standard pour l'installation de logiciels ? Si oui, peuvent-ils fournir une liste des logiciels qu'ils installent ?
   * Un logiciel de surveillance du système est-il en place ?
@@ -278,9 +278,9 @@ walk_through: |
   * Combien d'adresses IP internes, le cas échéant ?
   * Combien d'adresses IP externes, le cas échéant ?
   * Existe-t-il des dispositifs en place susceptibles d'avoir un impact sur les résultats des analyses d'audit, tels qu'un pare-feu, un système de détection/prévention des intrusions, un pare-feu d'application Web ou des équilibreurs de charge ?
-  
+
   ###### Questions de référence sur l'identification des menaces
-  
+
   * À votre connaissance, à quelle fréquence les incidents ci-dessous se produisent-ils dans les zones géographiques ou les zones problématiques dans lesquelles votre organisation est active ? Pourriez-vous s'il vous plaît me dire si vous pensez qu'ils n'arrivent jamais, parfois ou souvent
   * Le gouvernement intercepte légalement les informations communiquées par la société civile ou une personne privée
   * Le gouvernement confisque légalement l'équipement en raison des informations qu'il contient
@@ -328,7 +328,7 @@ walk_through: |
   * Il existe des plans spécifiques en place pour des situations spécifiques
   * L'équipement et/ou les fournitures ont été préparés
   * Autre
-  
+
   * L'organisation connaît-elle des pannes de courant dans son bureau
   * L'organisation a-t-elle accès à Internet dans ses bureaux ?
   * Au cours du dernier mois, votre organisation a-t-elle perdu l'accès à Internet pour des raisons autres que des pannes de courant
@@ -338,9 +338,9 @@ walk_through: |
   * Harcèlement ?
   * Surveillance?
   * Violence physique?
-  
+
   ###### Questions pour les organisations connues à haut risque
-  
+
   Voir [Guiding Questions for High Risk Organizations](https://safetag.org/activities/interviews_highrisk) si l'on craint que l'organisation ne soit ciblée par des acteurs de menace avancés.
 recommendations: ''
 organization_size_under: 50

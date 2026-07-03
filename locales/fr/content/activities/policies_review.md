@@ -4,16 +4,15 @@ approaches:
   - Recherche
 position: 50
 authors:
-    - Carlos Guerra
-    - Candace Lazarou
+  - Carlos Guerra
+  - Candace Lazarou
 skills_required: []
 skills_trained: []
 remote_options:
-    - Complète
+  - Complète
 time_required_minutes: 60
 organization_size_under: 1000
-summary: |
-   L'activité vise à comprendre le contexte de la politique de sécurité interne de l'organisation, à rechercher les politiques existantes, à comprendre comment elles se traduisent en pratique et/ou sont appliquées, à les évaluer et à détecter les améliorations ou mises à jour potentielles.
+summary: L'activité vise à comprendre le contexte de la politique de sécurité interne de l'organisation, à rechercher les politiques existantes, à comprendre comment elles se traduisent en pratique et/ou sont appliquées, à les évaluer et à détecter les améliorations ou mises à jour potentielles.
 overview: |
   * Examiner les politiques écrites ayant des implications en matière de sécurité
   * Identifier les domaines à améliorer dans les politiques existantes
@@ -22,11 +21,11 @@ overview: |
 materials_needed: ""
 walk_through: |
   Demandez de la documentation - cela peut provenir du travail d'évaluation des capacités, des premiers contacts avec l'organisation ou d'autres activités.
-  
+
   Examinez la documentation et comparez-la avec les bases de référence existantes et avec les vulnérabilités identifiées. Ces politiques contribuent-elles à atténuer les risques ? (voir références).
-  
+
   Vérifiez les domaines couverts par les politiques, voici quelques exemples :
-  
+
   * **Classification des données :** Qu'est-ce qui est sensible et quels sont les "niveaux" de sensibilité.
   * **Conservation et traitement des données :** Où les informations doivent être stockées en fonction de leur sensibilité, de la durée de stockage et de la manière dont elles doivent être supprimées ou éliminées.
   * **Communications :** Quels sont les canaux de communication acceptables et ceux à éviter, les exigences minimales des canaux de communication pour transmettre des données sensibles.
@@ -36,14 +35,14 @@ walk_through: |
   * **Mot de passe, authentification et gestion de compte :** Critères de mot de passe sécurisé, authentification multi-facteurs pour des comptes spécifiques, gestionnaires de mots de passe, etc.
   * **Utilisation et gestion de l'appareil :** Chiffrement de l'appareil, emplacements où les informations sensibles peuvent être stockées, gestion des supports amovibles, verrouillage de l'écran, mots de passe de l'appareil, utilisation partagée, etc.
   * **Navigation Web sécurisée :** Utilisation de VPN, sites Web restreints, interaction avec des liens et fichiers suspects, etc.
-  
+
   Assurez-vous également de prendre des notes sur les aspects opérationnels suivants des politiques :
-  
+
   * Les politiques sont applicables aux processus organisationnels actuels ? Si non, le personnel essaie de les adapter de manière informelle à la situation actuelle ou ignore-t-il complètement les politiques ?
   * Comment les politiques sont-elles stockées ? Est-ce que tout le monde y a accès ?
   * À quelle fréquence sont-ils mis à jour ? Il y a des personnes chargées de la révision ?
   * Existe-t-il des moyens de vérifier la conformité aux politiques ? L'organisation les vérifie?
-  
+
   Avec toutes ces informations, proposez une carte comme celle de l'activité "Identifier les accords informels".
 considerations: ""
 recommendations: |

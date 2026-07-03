@@ -3,7 +3,7 @@ title: Lista de Verificação do Kit de Viagem
 approaches: []
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options: []
 skills_required: []
 skills_trained: []

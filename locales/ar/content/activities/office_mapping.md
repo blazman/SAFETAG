@@ -4,9 +4,9 @@ approaches:
   - بين الأشخاص
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required: []
 skills_trained: []
 summary: |
@@ -14,7 +14,7 @@ summary: |
   organization's information security practices by documenting the current
   physical layout of the office and the locations of key assets, as well as
   potential "external" risks such as nearby/shared office spaces.
-  
+
   This can be done in person independently or alongside the "Guided Tour"
   activity, and can also be done in advance of an assessment or remotely by a
   willing staff member who knows where these assets are located (often a
@@ -24,7 +24,7 @@ summary: |
 overview: |
   In this activity, the auditor or the organization draws a map of the office
   space and notes locations of potentially valuable information or assets.
-  
+
   This activity can be paired with the Guided Tour activity, to reduce the
   awkwardness of taking notes while walking around the office during the Tour,
   and if being done remotely, the two separate activities can be used to
@@ -60,9 +60,9 @@ walk_through: |
   director's desk, in a storage closet, on devices), and relevant other items. 
   Also note the overall privacy that the office provides (is it a shared office
   space, shared building, etc.)
-  
+
   Note the locations of any of the following that apply:
-  
+
   * Office rooms and storage:
     * Meeting rooms
     * Staff offices/desks
@@ -74,7 +74,7 @@ walk_through: |
     * Windows accessible to the outside (terraces, ground floor, etc.)
     * Fire escapes
     * Basement/Roof access
-  
+
   * People (staffing varies widely, adapt as relevant)
     * Executive Director
     * Other directors
@@ -84,7 +84,7 @@ walk_through: |
     * Office admin
     * IT staff
     * Additional staff
-  
+
   * Infrastucture and Devices:
     * Fuse box / electricity mains
     * Cable/DSL modem
@@ -94,8 +94,8 @@ walk_through: |
     * Paper shredder
     * Servers (fileserver, email, backup, etc.) and/or desktop/tower computers (which never leave the office)
     * Digital backups (tape drives, hard drives, "time machines" etc.)
-  
-  
+
+
   If doing this activity remotely and/or in advance of an audit, it may be
   useful to have multiple staff members independently draw maps and to provide
   the organization with additional guiding questions:

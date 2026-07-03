@@ -4,11 +4,11 @@ approaches:
   - Interpessoal
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Completado
+  - Completado
 skills_required:
-    - Escrita de Relatórios
+  - Escrita de Relatórios
 skills_trained: []
 summary: |
   Entre em contato com o anfitrião após alguns meses para ver como estão as coisas, ter um retorno depois de um longo prazo e se comentar de recursos novos.

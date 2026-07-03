@@ -4,11 +4,11 @@ approaches:
   - 人际的
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Complete
+  - Complete
 skills_required:
-    - 撰写报告
+  - 撰写报告
 skills_trained: []
 summary: |
   Follow up with host after a few months to check on progress, get long-term

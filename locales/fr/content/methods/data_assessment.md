@@ -1,11 +1,10 @@
 ---
 title: Data Assessment
-position: 80  
+position: 80
 summary: |
   This component allows the auditor to identify what sensitive data exists for
   the organization, where it is stored, how it is transferred, and who accesses it.
-short_summary: |
-   This component allows the auditor to identify what sensitive data exists for the organization, where it is stored, and how it is transferred.
+short_summary: This component allows the auditor to identify what sensitive data exists for the organization, where it is stored, and how it is transferred.
 the_flow_of_information: "![](/img/data_assessment.png)"
 method_icon: "/img/data_assessment_icon.png"
 guiding_questions: |
@@ -16,16 +15,16 @@ guiding_questions: |
   * Does the staff agree on what constitutes sensitive data?
   * What data does each staff member need to be able to access in order to do their job?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Sensitive Data
-    - Risques de perte et de découverte des données
-    - Évaluation de l'utilisation des services cloud
-    - Les impacts d'un appareil perdu
-    - Les impacts d'un appareil "trouvé"
-    - Données privées
+  - Sensitive Data
+  - Risques de perte et de découverte des données
+  - Évaluation de l'utilisation des services cloud
+  - Les impacts d'un appareil perdu
+  - Les impacts d'un appareil "trouvé"
+  - Données privées
 references:
-    - Data Assessment
+  - Data Assessment
 outputs: |
   * A map of the staff's understanding of critical organizational data:
       * what that data is,
@@ -45,7 +44,7 @@ purpose: |
   needs. While the auditor has insight on some of this based on the Network
   Access and Network Mapping work, cross-staff understanding and agreement on
   what constitutes sensitive data will support later organizational change.
-  
+
   An adversary who obtains a laptop, workstation, or backup drive will be able to read or modify sensitive information on the device, even if that staff member has set a strong account password. This applies to threats involving loss, theft, and confiscation, but also to "checkpoint" scenarios in which they may only have access for a few minutes. Furthermore, in the event of a burglary or office raid, an adversary could obtain all sensitive information on the organization's devices, possibly even undetected.
 preparation: |
   * Facilitation skills or experience is useful for these exercises

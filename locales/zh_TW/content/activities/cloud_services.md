@@ -4,10 +4,10 @@ approaches:
   - Research
 position: 50
 authors:
-    - Natasha Msonza
-    - Neil Blazevic
+  - Natasha Msonza
+  - Neil Blazevic
 remote_options:
-    - 完成
+  - 完成
 skills_required: []
 skills_trained: []
 summary: |
@@ -29,9 +29,9 @@ overview: |
   * Review formal policies of cloud services in use
   * Search for historical security problems with each provider and their
   response to it.
-  
+
   **Expected Outputs**
-  
+
   * A list of all identified 3rd party / cloud services in use
   * A mapping of what data and metadata and which users have access on which
   providers
@@ -52,7 +52,7 @@ recommendations: |
   Schedule regular (annual?) reviews of the external services to ensure that
   they meet organizational requirements for functionality and security, business
   solvency, and exporting or transferring of data.
-  
+
   When considering formalizing the use of new 3rd party services, review the
   questions and processes here to help guide the decision.
 organization_size_under: 1000

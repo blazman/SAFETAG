@@ -4,17 +4,17 @@ approaches:
   - Technical
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - Traffic Analysis
-    - Analisis Malware
+  - Traffic Analysis
+  - Analisis Malware
 skills_trained: []
 summary: |
   Any content that is sent out over the network without encryption is easy to
   intercept; this includes email, web passwords, and chat messages.
-  
+
   This attacker could be someone, such as a patron of the Internet cafe where a
   staff member is working, who just happens to be using the same local network
   to connect to the Internet. Or, she could work for an organization with

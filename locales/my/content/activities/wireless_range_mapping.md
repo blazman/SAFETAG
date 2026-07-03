@@ -4,11 +4,11 @@ approaches:
   - နည်းပညာပိုင်း
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - None
+  - None
 skills_required:
-    - ကြိုးမဲ့
+  - ကြိုးမဲ့
 skills_trained: []
 summary: |
   This component allows the auditor to show the "visibility" of an
@@ -27,7 +27,7 @@ overview: |
   it can also identify devices using that network. It is useful to do this in
   parallel with Office Mapping to build a more comprehensive view of the
   information assets of the organization.
-  
+
   * Identify and verify the network(s) belonging to the organization
   * Create a map or photos indicating the range of each relevant wireless access
   point.
@@ -46,7 +46,7 @@ considerations: |
 walk_through: |
   Map the range of the organizations wireless network outside of office space,
   using wifite or other tools to track network strength.
-  
+
   A variety of apps and tools can support this work without resorting to
   professional "wifi site survey" tools. If the Office Mapping exercise has
   taken place, that map can serve as the starting point to expand the map
@@ -56,12 +56,12 @@ walk_through: |
   can use wavemon, kismet, wifite, and even the networkmanager command line
   tools to track visible networks and their strengths [as described on
   StackExchange](https://askubuntu.com/questions/237777/is-there-a-tool-like-wifi-analyzer-for-ubuntu):
-  
+
   ```
   watch  "nmcli -f "CHAN,BARS,SIGNAL,SSID" d wifi list ifname wlx10feed21ae1d  |
   sort -n"
   ```
-  
+
   * https://www.netspotapp.com/ (OSX, Windows, free for non-commercial uses)
   * http://wifianalyzer.mobi,  http://wifiheat.com/ (Android)
 recommendations: |
@@ -69,7 +69,7 @@ recommendations: |
   reduce how far the network is transmitted outside of the office space, and
   changing devices which do not move to better enable this without loss of
   functionality.
-  
+
   See also [Monitoring Open Wireless Traffic](https://safetag.org/activities/monitor_open_wireless_traffic) recommendations and [Network Access](https://safetag.org/activities/network_access)
   security recommendations.
 organization_size_under: 500

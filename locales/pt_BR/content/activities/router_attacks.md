@@ -4,11 +4,11 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - Redes
+  - Redes
 skills_trained: []
 summary: |
   Muitos roteadores sem fio ainda usam a senha padrão listada em [“_RouterDefault Password Search_”](http://www.routerpasswords.com/) (Pesquisa de senhas padrão de roteadores), o que significa que qualquer pessoa com acesso à rede também pode assumir o controle total do roteador, adicionando ferramentas de acesso remoto ou configurando outros ataques.

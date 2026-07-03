@@ -2,20 +2,20 @@
 title: Physical and Operational Security
 position: 110
 activities:
-    - လှုပ်ရှားမှုလေ့လာရေးလမ်းညွှန်
-    - လုပ်ငန်းလည်ပတ်မှုလုံခြုံရေးစစ်တမ်း
-    - ရုံး မြေပုံဆွဲခြင်း
-    - Scavenger Hunt
-    - Monitor Open Wireless Traffic
-    - Wireless Range Mapping
-    - ဘဝရဲ့တစ်နေ့တာ 
-    - A Night in the Life
+  - လှုပ်ရှားမှုလေ့လာရေးလမ်းညွှန်
+  - လုပ်ငန်းလည်ပတ်မှုလုံခြုံရေးစစ်တမ်း
+  - ရုံး မြေပုံဆွဲခြင်း
+  - Scavenger Hunt
+  - Monitor Open Wireless Traffic
+  - Wireless Range Mapping
+  - ဘဝရဲ့တစ်နေ့တာ
+  - A Night in the Life
 authors:
-    - SAFETAG
+  - SAFETAG
 info_provided: []
 info_required: []
 references:
-    - လုပ်ငန်းလည်ပတ်မှုဆိုင်ရာ လုံခြုံရေး
+  - လုပ်ငန်းလည်ပတ်မှုဆိုင်ရာ လုံခြုံရေး
 method_icon: "/img/physical_assessment_icon.png"
 summary: |
   The organizational security methodology is focused on how to mitigate against
@@ -29,7 +29,7 @@ purpose: |
   While the SAFETAG framework is focused on the security of data, the
   physicality of devices, backup drives, servers, and even hard-wired networks
   cannot be overlooked.
-  
+
   For many organizations, digital threats that depend on physical access are
   considered the least probable. So much so, that many security specialists
   concede that there is no proper defense against an attacker with physical
@@ -38,7 +38,7 @@ purpose: |
   houses. The risks that advocacy and media organizations face are far more
   varied, and the cost of lost information can be crippling to their ability to
   operate.
-  
+
   Depending on the specific threats for each organization, the auditor should
   consider the challenges of not only one-time exfiltration of data as well as
   potential ways an adversary could use physical access or proximity to the

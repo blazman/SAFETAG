@@ -4,11 +4,11 @@ approaches:
   - လူလူခြင်းဆက်ဆံမှုဆိုင်ရာ
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - ပြည့်စုံသည်
+  - ပြည့်စုံသည်
 skills_required:
-    - Report writing
+  - Report writing
 skills_trained: []
 summary: |
   Follow up with host after a few months to check on progress, get long-term

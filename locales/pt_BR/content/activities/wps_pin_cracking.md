@@ -4,13 +4,13 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Nenhum
+  - Nenhum
 skills_required:
-    - Sem fio
-    - Análise de Tráfego
-    - Auditoria de Senhas
+  - Sem fio
+  - Análise de Tráfego
+  - Auditoria de Senhas
 skills_trained: []
 summary: |
   O WPS foi criado como um complemento ao WPA para facilitar a adição de dispositivos sem precisar digitar senhas seguras, mas essa facilidade de uso significa que um malfeitor pode se passar por um dispositivo e reduzir efetivamente as senhas potencialmente muito difíceis que o WPA permite a um simples PIN numérico de 8 caracteres. Além disso, o sistema WPS permite que um invasor trabalhe nesse PIN em duas partes paralelas, reduzindo ainda mais sua segurança. Isso, assim como o WEP, é um ataque “ao vivo” — você precisa ficar conectado à rede —, mas também como o WEP, é um ataque garantido; sua força bruta no sistema WPS acabará (em 2 a 10 horas) permitindo seu acesso à rede.

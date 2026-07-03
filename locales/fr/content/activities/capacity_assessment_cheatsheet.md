@@ -4,9 +4,9 @@ approaches:
   - Recherche
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Partiel
+  - Partiel
 skills_required: []
 skills_trained: []
 summary: |
