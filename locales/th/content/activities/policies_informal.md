@@ -5,12 +5,12 @@ approaches:
   - Research
 position: 50
 authors:
-    - Carlos Guerra
-    - Candace Lazarou
+  - Carlos Guerra
+  - Candace Lazarou
 skills_required: []
 skills_trained: []
 remote_options:
-    - Complete
+  - Complete
 time_required_minutes: 60
 organization_size_under: 1000
 summary: |
@@ -33,7 +33,7 @@ walk_through: |
   medium-sized organizations, arrange group conversations around a few specific
   what-if scenarios (this can be integrated into the Data Mapping or Process
   Mapping approaches). Discussions can include:
-  
+
   * How passwords are created, used, and shared
   * Who has access to what information (e.g. HR, finance, partners)
   * Destruction/loss of office devices (fire, natural disaster, etc.)
@@ -42,14 +42,14 @@ walk_through: |
   * New people join or leave the organization
   * Everyday communications both internally and with key sensitive partners like sources, at-risk beneficiaries, and funders if applicable
   * For high-risk organizations:
-  
+
     * Response to raids on the office or key staff homes
     * Response to arrests of staff or key partners
-  
+
   Meet with members of the organization and present to them the situations on the previous list, asking if there are some codes or agreements regarding security aspects of the situations presented, take notes of the responses and possible differences between the criteria or knowledge of the agreements. This could be explained by the lack of documentation and formal ways to transmit the agreements
-  
+
   Build a map of practices considering these aspects:
-  
+
   * What practices are presumed to be in place (e.g. everyone thinks everyone else is using unique passwords)
   * What is being applied in practice (with their possible variations among staff members)
   * What needs to be updated or defined
@@ -64,9 +64,9 @@ recommendations: |
   effective to adopt. Encourage a "testing" phase of these practices for the
   organization to then begin formalizing the ones which work and test new
   approaches for any which did not continue.
-  
+
   Some ways of getting information about shared agreements might be:
-  
+
   * Asking about them during the interviews.
   * Short internal discussions with staff members
   * Asking about them alongside threat identification activities and/or process mapping
