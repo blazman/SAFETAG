@@ -4,12 +4,12 @@ approaches:
   - Recherche
 position: 1
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Complète
+  - Complète
 skills_required:
-    - Recherche
-    - Langue
+  - Recherche
+  - Langue
 skills_trained: []
 summary: |
   Cet exercice se concentre sur la recherche et la reconfirmation des problèmes régionaux, des tendances générales aux restrictions légales spécifiques et aux problèmes de sécurité, ainsi que sur les actualités et les défis persistants.
@@ -26,24 +26,24 @@ considerations: |
   * Maintenir les données sur les attaques ciblées et les attaques affectant la ligne de travail de l'organisation en toute sécurité.
 walk_through: |
   Vérifiez les rapports sur les [menaces régionales](#Threat-research-by-region) auxquelles sont confrontées les organisations avec leur [domaine prioritaire](#Threat-research-by-topic).
-  
+
   * Menaces ciblées
     * Énumérez tous les acteurs concernés et leurs relations avec des organisations similaires.
     * Répertoriez toutes les menaces actuelles et les menaces à venir pour des organisations similaires.
     * Dressez la liste de tous les cas documentés d'acteurs pertinents exécutant ces menaces.
-  
+
   * Menaces décentralisées
     * Répertoriez toutes les menaces actuelles et les menaces à venir pour des organisations similaires.
     * Identifier la motivation de ces menaces.
     * Énumérez toutes les instances documentées de ces menaces en cours d'exécution.
-  
+
   Identifiez tous les [risques juridiques](#technical-threats-by-region) associés à la réalisation de l'audit. Communications et stockage sécurisés, criminalistique réseau, exploitation des appareils, formation à la sécurité numérique.
-  
+
   * Identifier tous les contrôles d'exportation/importation qui pourraient mettre l'auditeur ou l'organisation en danger.
   * Identifiez toutes les lois et réglementations nationales susceptibles de mettre en danger l'auditeur ou l'organisation.
-  
+
   Identifiez les [obstacles infrastructurels](#communications-infrastructure-research) à l'adoption de pratiques de sécurité numérique.
-  
+
   Explorez le paysage de la sécurité du matériel et des logiciels identifié lors des entretiens en effectuant une [analyse de vulnérabilité.](#vulnerability-analysis)
 recommendations: ''
 organization_size_under: 1000

@@ -4,12 +4,12 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - sslstrip
-    - monitoramento de tráfego
+  - sslstrip
+  - monitoramento de tráfego
 skills_trained: []
 summary: |
   Um problema comum com os serviços de e-mail é a falta de criptografia adequada. A equipe só deve poder se conectar ao servidor de e-mail da organização usando criptografia SSL ou TLS.Quando um funcionário envia ou recebe um e-mail, um invasor com acesso à mesma rede local pode facilmente e de forma invisível ler, gravar ou modificar todas as mensagens em trânsito de e para o servidor de e-mail da organização.Mesmo um funcionário informado que tente configurar seu cliente de e-mail para exigir criptografia SSL ou TLS não conseguirá fazê-lo porque o servidor de e-mail não oferece suporte a isso. Para o webmail, um funcionário que tente inserir o endereço alternativo seguro (“https://”;) ao fazer login pode não conseguir fazê-lo, porque o aplicativo Webmail não oferece suporte a isso.O adversário pode ser alguém, como um cliente do cibercafé onde um funcionário está trabalhando, que por acaso está usando a mesma rede local para se conectar à Internet. Ou pode ser alguém que trabalha para uma organização com acesso privilegiado à rede relevante, como o provedor de serviços de Internet (ISP) da %{organização}.

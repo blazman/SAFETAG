@@ -4,10 +4,10 @@ approaches:
   - Interpersonnelle
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 skills_trained: []
 remote_options:
-    - Entier
+  - Entier
 time_required_minutes: 120
 organization_size_under: 1000
 summary: |
@@ -33,9 +33,9 @@ walk_through: |
   * Partager une décharge de responsabilité signée par l'organisation hôte. [^PETS_permission_to_test]
   * Obtenir l'approbation de tout tiers, si nécessaire. [^PETS_tierces_parties]
   L'accord d'audit, l'accord de non-divulgation, l'exonération de responsabilité peuvent être réalisés au moyen d'un seul document, ou ils peuvent être des documents distincts.
-  
+
   Les auditeurs sont encouragés à utiliser, ou au moins à faire référence, à des textes provenant des sources suivantes:
-  
+
   * Exemple de texte pour un énoncé de travail et un accord d'engagement dans l'[activité d'accord de confidentialité] (https://safetag.org/activities/confidentiality_agreement/).
   * Le [Générateur d'accord SAFETAG](https://github.com/SAFETAG/safetag_agreement_generator), un script python qui fournit un arbre de décision couvrant les points ci-dessus, et construit un accord de base en langage clair qui peut être traduit et formalisé comme nécessaire. Des exemples de sorties et un diagramme de l'arbre de décision complet sont disponibles dans le dossier "outputs" du référentiel du générateur d'accords. Celui-ci remplace le projet d'accord qui faisait auparavant partie de SAFETAG.
 considerations: |
@@ -47,7 +47,7 @@ overview: |
   level of access that an auditor will have, what is off limits, and the process
   for modifying the scope of the audit when new information arises.
   [^PETS_legal_considerations], [^PETS_separate_permissions]
-  
+
   * Determine a point person for the audit and exchange contact information.  [^PETS_emergency_contact]
   * Explain and get approval to the scope of audit from the host.
   * Agree to the timeline, location, and attendees of the on-site audit. [^pets_pre-engagement_location]

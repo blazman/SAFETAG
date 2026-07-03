@@ -4,20 +4,20 @@ approaches:
   - Recherche
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Complète
+  - Complète
 skills_required:
-    - Recherche
-    - Collecte de fonds
-    - Rédaction de rapport
+  - Recherche
+  - Collecte de fonds
+  - Rédaction de rapport
 skills_trained: []
 summary: |
   Dans ce composant, l'auditeur documente les ressources que l'hôte peut être en mesure 
   d'exploiter pour résoudre les vulnérabilités techniques, réglementaires, organisationnelles ou 
   comportementales 
   identifiées lors de l'audit.
-  
+
   Cela peut inclure, mais sans s'y limiter, le support technique local et les groupes/organisations commerciales d'intervention en cas d'incident, 
   les endroits où obtenir des logiciels à prix réduit, 
   les formateurs et les guides/ressources qu'ils peuvent utiliser pour soutenir leur perfectionnement.

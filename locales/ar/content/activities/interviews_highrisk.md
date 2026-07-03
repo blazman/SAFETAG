@@ -4,12 +4,12 @@ approaches:
   - بين الأشخاص
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - مكتمل
+  - مكتمل
 skills_required:
-    - Interviewing
-    - Malware Analysis
+  - Interviewing
+  - Malware Analysis
 skills_trained: []
 summary: |
   This additional interview activity is to identify if there are any indicators
@@ -39,9 +39,9 @@ overview: |
   compelling, they should be localised and the threats should reflect common
   challenges in their line of work. Much of this can come from your technical
   context research work.
-  
+
   **Expected Outputs**
-  
+
   * Indicators of attack or compromise of the organization
   * Information about attacks against similar organizations and/or community
   members
@@ -51,7 +51,7 @@ materials_needed: |
   1 hr interview as an org, depending on organisational culture
 considerations: |
   **Operational Security**
-  
+
   * In case you do an interview online, the data needs to be protected (end to
   end encryption, tor, vpns, etc)
   * Get the consent of the participant to speak with them over that channel, or
@@ -60,9 +60,9 @@ considerations: |
   * Might consider not having the conversation in the office, but somewhere
   trusted
   * Might want to leave devices outside of the room
-  
+
   **Psychological Considerations**
-  
+
   * Ask the staff to keep the stories generalised, not personalised during the
   organisation interview
   * Staff might be embarrassed talk an incident about in front of the entire org
@@ -77,7 +77,7 @@ considerations: |
   an early stage of the audit
 walk_through: |
   **Individual Interview**
-  
+
   * Have you encountered suspicious messages, emails, etc. in the course of your
   work or personal life?
     * *If "No" or "I don't know", the auditor should give an example of what an suspicious message might look like.*
@@ -101,13 +101,13 @@ walk_through: |
   can provide detail)
   * Why do you think you are targeted?
   * What would you like to get out of this audit?
-  
+
   **Group Interview**
-  
+
   **NOTE**: Remind the staff that if it's not public within the organisation
   and/or happened to a personal account, then don't share it during this
   session.
-  
+
   * Have you been hacked before (as an organisation)?
     * *If the answer is "No" or "I don't know", the auditor should give an example of what an attack might look like. If they still say no, then move on to other questions for the risk assessment:*
       * DDoS attack
@@ -124,32 +124,32 @@ walk_through: |
     *If the answer is "yes"*
       * Can you tell me about that event/incident/hack?(i.e. who was involved, when it happened, what happened, was it personal or work-related? what were the consequences? (financial, physical, emotional, reputational))
   * What did you do after? Who do you ask for help from?
-  
+
   * Do you have something that you can show us? (i.e. an email, screenshots,
   social network messages, the actual infected machine, message from the
   attacker, social network pages made by attackers, leaked information)
-  
+
   * Do you feel you feel targeted as an organisation? How does this impact your
   operations?
-  
+
   * Why do you think you are targeted?
-  
+
   * Do you know who was behind the attack?
-  
+
   * Has this happened to colleagues, peer organisations, community members, CSO
   actors (journos, etc)? (Add actors based on context research)
-  
+
   **NOTE**: Repeat above questions per incident
-  
+
   * Do you have a sense of your adversaries or those who seek to disrupt your
   work? Are aware of their capabilities? (i.e. Are they well funded? Do they
   have advanced technical expertise? Are they government backed?)
-  
+
   * What is their motivation for attacking you or any other peer org in the
   community?
-  
+
   * What is your motivation for having the audit?
-  
+
   **NOTE**: Could lead to further conversations about what data they have, what
   assets are the most important, sensitive and possibly targeted
 recommendations: |

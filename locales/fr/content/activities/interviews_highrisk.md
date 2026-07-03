@@ -4,12 +4,12 @@ approaches:
   - Interpersonnel
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Complète
+  - Complète
 skills_required:
-    - Entrevue
-    - Analyse de logiciel malveillant
+  - Entrevue
+  - Analyse de logiciel malveillant
 skills_trained: []
 summary: |
   Cette activité d'entretien supplémentaire consiste à identifier s'il existe des indicateurs indiquant que l'organisation a peut-être déjà été attaquée et/ou compromise, ou si quelqu'un qu'ils connaissent a fait face à des menaces avancées. Cela devrait aider à identifier les menaces / acteurs de la menace auxquels ils sont confrontés et leur intention. Cela aidera l'auditeur à hiérarchiser le travail avec l'organisation pendant l'audit et à effectuer un suivi et à comprendre si l'auditeur possède l'expertise pour traiter ou comprendre la menace ou si une expertise externe est nécessaire.
@@ -22,9 +22,9 @@ overview: |
   question, mais pour collecter des données et en tirer des informations qui façonneront l'audit.
   * Soyez conscient du temps et ne passez pas trop de temps à expliquer ce que sont les menaces avancées
   * Avant de commencer le processus d'entretien, renseignez-vous sur les attaques connues ou courantes auxquelles vous pouvez faire référence (attaques DDoS, logiciels malveillants, hameçonnage, ransomware, etc.) pour rappeler au personnel et lancer la conversation. Pour que les histoires soient convaincantes, elles doivent être localisées et les menaces doivent refléter les défis communs dans leur domaine de travail. Une grande partie de cela peut provenir de votre travail de recherche sur le contexte technique.
-  
+
   **Résultats attendus**
-  
+
   * Indicateurs d'attaque ou de compromission de l'organisation
   * Informations sur les attaques contre des organisations similaires et/ou des membres de la communauté
   * Menaces et intentions nouvelles ou vérifiées
@@ -33,16 +33,16 @@ materials_needed: |
   Entretien d'1 heure en tant qu'organisation, selon la culture organisationnelle
 considerations: |
   **Sécurité opérationnelle**
-  
+
   * Si vous faites un entretien en ligne, les données doivent être protégées (chiffrement de bout en bout, tor, vpns, etc.)
   * Obtenez le consentement du participant pour lui parler sur ce canal, ou
   ajouter des détails sur l'application VOIP et la protection des renseignements personnels de l'
   accord
   * Peut envisager de ne pas avoir la conversation au bureau, mais dans un endroit de confiance
   * Peut vouloir laisser des appareils à l'extérieur de la pièce
-  
+
   **Considérations psychologiques**
-  
+
   * Demandez au personnel de garder les histoires généralisées et non personnalisées lors de l'entretien d'organisation
   * Le personnel pourrait être gêné de parler d'un incident devant toute l'organisation
   * Le personnel peut exagérer ou surestimer les attaques en raison d'un manque de compréhension de l'attaque et de son impact
@@ -52,7 +52,7 @@ considerations: |
   * Soyez prudent, étant donné que le sujet peut être déclencheur ou difficile et qu'il s'agit d'une étape précoce de l'audit
 walk_through: |
   **Entretien Individuel**
-  
+
   * Avez-vous rencontré des messages, courriels, etc. suspects dans le cadre de votre travail ou de votre vie personnelle ?
   * *Si "Non" ou "Je ne sais pas", l'auditeur doit donner un exemple de ce à quoi un message suspect pourrait ressembler.*
   * *Si "oui", posez ces questions pour chaque événement suspect :*
@@ -74,13 +74,13 @@ walk_through: |
   peut fournir des détails)
   * Pourquoi pensez-vous être ciblé ?
   * Qu'aimeriez-vous retirer de cet audit ?
-  
+
   **Entrevue de groupe**
-  
+
   **REMARQUE** : Rappelez au personnel que si ce n'est pas public au sein de l'organisation
   et/ou est arrivé à un compte personnel, alors ne le partagez pas pendant cette
   session.
-  
+
   * Avez-vous déjà été piraté (en tant qu'organisation) ?
   * *Si la réponse est "Non" ou "Je ne sais pas", l'auditeur doit donner un exemple de ce à quoi pourrait ressembler une attaque. S'ils disent toujours non, passez à d'autres questions pour l'évaluation des risques :*
   * Attaque DDoS
@@ -97,29 +97,29 @@ walk_through: |
   *Si la réponse est oui"*
   * Pouvez-vous me parler de cet événement/incident/piratage ? (c'est-à-dire qui était impliqué, quand cela s'est produit, que s'est-il passé, était-ce personnel ou lié au travail ? Quelles ont été les conséquences ? (financières, physiques, émotionnelles, réputationnelles))
   * Qu'avez-vous fait après ? A qui demandez-vous de l'aide ?
-  
+
   * Avez-vous quelque chose à nous montrer ? (c'est-à-dire un courriel, des captures d'écran,
   messages de réseaux sociaux, machine réellement infectée, message de l'attaquant, pages de réseaux sociaux créées par des attaquants, fuite d'informations)
-  
+
   * Avez-vous l'impression de vous sentir ciblé en tant qu'organisation ? Quel impact cela a-t-il sur vos opérations ?
-  
+
   * Pourquoi pensez-vous être ciblé ?
-  
+
   * Savez-vous qui était derrière l'attaque ?
-  
+
   * Cela est-il arrivé à des collègues, des organisations homologues, des membres de la communauté, des OSC
   acteurs (journaux, etc.) ? (Ajouter des acteurs en fonction de la recherche contextuelle)
-  
+
   **REMARQUE** : Répétez les questions ci-dessus par incident
-  
+
   * Avez-vous une idée de vos adversaires ou de ceux qui cherchent à perturber votre
   travailler? Sont conscients de leurs capacités ? (c'est-à-dire sont-ils bien financés ?
   avez une expertise technique avancée? Sont-ils soutenus par le gouvernement ?)
-  
+
   * Quelle est leur motivation pour vous attaquer ou toute autre organisation de pairs dans la communauté ?
-  
+
   * Quelle est votre motivation pour passer l'audit ?
-  
+
   **REMARQUE** : Pourrait mener à d'autres conversations sur les données dont ils disposent,
   les actifs sont les plus importants, sensibles et éventuellement ciblés
 recommendations: |

@@ -4,18 +4,18 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Completo
+  - Completo
 skills_required:
-    - Ferramentas de Inteligência em Fontes Abertas
+  - Ferramentas de Inteligência em Fontes Abertas
 skills_trained: []
 summary: |
   Este componente permite ao auditor identificar rapidamente recursos disponíveis publicamente (como sites, redes externas, servidores de e-mail, mas também informações de redes sociais) conectados à organização e coletar remotamente informações
   sobre esses recursos.
-  
+
   Embora grande parte do SAFETAG se concentre nos desafios de segurança digital dentro e ao redor do escritório, ataques remotos ao site da organização, redes externas e informações  disponíveis sem intenções em “fontes abertas” representam ameaças reais e merecem atenção significativa. O SAFETAG toma muito cuidado para adotar uma abordagem bem passiva nesse trabalho, especialmente quando feito fora do local, para não ter consequências indesejadas na infraestrutura da organização ou prejudicar os cuidados com a segurança operacional.
-  
+
   Esse trabalho remoto também contribui para a compreensão do auditor sobre a presença digital da organização (e sua própria compreensão sobre ela) e indicará vulnerabilidades específicas a serem investigadas quando se estiver no local.
 overview: |
   * Reconhecimento passivo
