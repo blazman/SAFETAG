@@ -6,8 +6,7 @@ summary: |
   technological context needed to provide a safe and informed SAFETAG audit.
   This component consists of desk research that is collected and analyzed by the
   auditor, as well as inputs from the Interview component.
-short_summary: |
-   Identify the relevant regional and technological context needed to provide a safe and informed audit.
+short_summary: Identify the relevant regional and technological context needed to provide a safe and informed audit.
 the_flow_of_information: "![](/img/context_research.png)"
 guiding_questions: |
   * What infrastructural barriers exist in the region?
@@ -16,14 +15,14 @@ guiding_questions: |
   * Are there legal ramifications to digital security in the country? (e.g. legality of encryption, anonymity tools, etc.)
   * Has any organization or individual made specific threats, or demonstrated intention or mindset to attack on the organization or similar organizations?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Regional Context Research
-    - Technical Context Research
-    - Assessing legal threats
+  - Regional Context Research
+  - Technical Context Research
+  - Assessing legal threats
 references:
-    - Other Context Analysis Methodologies
-    - Communications infrastructure research
+  - Other Context Analysis Methodologies
+  - Communications infrastructure research
 operational_security: |
   * Use VPNs or Tor to search if conducting the search from a country that is
   highly competitive with the organization’s country, or is known to surveil.
@@ -41,7 +40,7 @@ purpose: |
   at-risk organizations and auditors will develop assumptions based upon their
   experience. It is important that an audit is based on information that is
   current and accurate.
-  
+
   Checking the assumptions both of the organization and of the auditor by researching the current regional and technological context will ensure that an auditor is basing their work on accurate assessments of the conditions the organization faces and that they are making informed operational security considerations.
 preparation: ""
 ---

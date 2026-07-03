@@ -8,14 +8,14 @@ the_flow_of_information: "![](/img/context_research.png)"
 guiding_questions: |
   * Quais são as barreiras de infraestrutura que existem na região?* Quais são as principais ameaças digitais não direcionadas nesta região?* Quais são as principais ameaças digitais direcionadas que as organizações que fazem esse trabalho enfrentam nessa região/país?* Existem implicações legais para a segurança digital no país? (por exemplo, legalidade da criptografia, ferramentas de anonimato, etc.)* Alguma organização ou pessoa fez ameaças específicas ou mostrou intenção ou disposição de atacar a organização ou organizações parecidas?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Pesquisa de Contexto Regional
-    - Pesquia de Contexto Técnico
-    - Avaliando ameaças legais
+  - Pesquisa de Contexto Regional
+  - Pesquia de Contexto Técnico
+  - Avaliando ameaças legais
 references:
-    - Outras Metodologias de Análise de Contexto
-    - Pesquisa sobre infraestrutura de comunicações
+  - Outras Metodologias de Análise de Contexto
+  - Pesquisa sobre infraestrutura de comunicações
 operational_security: |
   * Use VPNs ou Tor para pesquisar se estiver fazendo a pesquisa de um país que está, esteve ou pode estar em conflito ou competiação com o país da organização, ou de um país que é conhecido por fazer vigilância.
 info_required: []
