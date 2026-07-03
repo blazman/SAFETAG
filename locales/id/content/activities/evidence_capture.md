@@ -4,11 +4,11 @@ approaches:
   - Technical
 position: 50
 authors:
-    - Anonymous
+  - Anonymous
 remote_options:
-    - None
+  - None
 skills_required:
-    - Forensik Digital
+  - Forensik Digital
 skills_trained: []
 summary: |
   This component briefs the tools and procedures required to acquire the image
@@ -26,23 +26,23 @@ overview: |
   preventing modification of the evidence.
 materials_needed: |
   **Skills Needed**
-  
+
   * Use of evidence capture tools (below) to capture memory dumps and to
   byte-copy the data in order to create a forensic image to be used to execute
   tests without affecting the original evidence received.
-  
+
   **Required software** - depending on the data acquisition type and the
   operating system, you will need the following tools:
-  
+
   * Live imaging:
     * Windows: DumpIt
     * Mac OS: OSXpmem
     * Linux: LiME - Linux Memory Extractor
   * Dead imaging:
     * DEFT distro
-  
+
   **Additional materials**
-  
+
   * Labels or tags
   * anti-static bags
   * equally sized or larger hard drive or storage device to store the image
@@ -65,21 +65,21 @@ considerations: |
   modification of the evidence.
 walk_through: |
   **The Chain of Custody: How to handle forensic data**
-  
+
   The Chain of Custody (often referred to as audit trail or chain of evidence)
   is the process of preserving the integrity of the digital evidence. Being able
   to maintain the Chain of Custody is very important for forensic evidence. This
   means that you need to record, and be able to prove, that authorized personnel
   were in control of the evidence at all times, and that no unauthorized person
   or device or mechanism could have altered the evidence while in our custody.
-  
+
   To maintain the Chain of Custody, it is imperative to carefully document what
   happens to the evidence. This means:
-  
+
   - **Store the evidence in an anti-static bag**, or similar appropriate
   container that will protect the device from static electricity or other
   destructive forces.
-  
+
   - **Clearly label the evidence.** There must be no confusion about a piece of
   evidence. All evidence, whether hard drives, USB sticks, DVDs, etc. should be
   clearly labeled with the following information:
@@ -93,7 +93,7 @@ walk_through: |
   evidence should "sign for it"**, which means documentation should be produced
   where the recipient of the evidence confirms they have received the evidence
   into their custody with their signature.
-  
+
   - **Deny unauthorized personnel from accessing the data** - Every reasonable
   effort must be taken to prevent unauthorized access to the stored evidence.
   This means:
@@ -103,14 +103,14 @@ walk_through: |
   - **If you have to send evidence via courier, or the postal service**:
   - Special containers should be used to seal the evidence in such a way that the container cannot be opened without it being apparent (e.g. seal with special tape that, if removed, cannot be replaced without showing that the container has been opened).
   - Make a copy (image) of the evidence before sending the original through the post or courier service, and generate a hash of the image.
-  
+
   **Live or Dead Imaging?**
-  
+
   Different processes and tools are used depending on what kind of data
   acquisition and investigation will be done. However, in order to make a
   correct decision on how to get the forensic image, you should take into
   account the following questions:
-  
+
   - Is the computer networked? The data in a networked device could be remotely
   erased. That's why this question is relevant and time sensitive.
   - Is the computer running? Important volatile information could be lost if the
@@ -125,7 +125,7 @@ walk_through: |
   investigation. If the disk is encrypted, the investigator should ask for the
   password and decrypt the disk manually.
   - Is the console unlocked? if the console is locked, a live CD should be used.
-  
+
   Regarding the definitions, we call 'dead imaging', or 'offline imaging', the
   process of obtaining evidence from systems that are switched off and where no
   data processing is taking place, while 'live imaging', or 'memory imaging',
@@ -138,8 +138,8 @@ walk_through: |
   investigator needs to decide what alternative is best in each given situation.
   Another approach is to use specialized tools to extract volatile data from the
   computer before shutting it down.
-  
-  
+
+
   ___
 recommendations: |
   See [Incident Response guidance](https://safetag.org/activities/incident_response).
