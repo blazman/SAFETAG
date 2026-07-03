@@ -3,6 +3,10 @@ require("dotenv").config({
 });
 
 module.exports = {
+  // Set only for subpath deploys (e.g. GitHub Pages project site at
+  // /<repo>/). Unset in production (safetag.org serves at root). Build with
+  // `--prefix-paths` to apply it. See .github/workflows/deploy-weblate-preview.yml.
+  pathPrefix: process.env.PATH_PREFIX || undefined,
   siteMetadata: {
     title: `Safetag`,
     description: `Create custom Safetag guides for your needs`,

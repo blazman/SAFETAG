@@ -1,0 +1,64 @@
+# Public preview of the `weblate` branch, built from the committed translations
+# (no Transifex). Deploys to GitHub Pages so the Weblate-driven content can be
+# reviewed at https://blazman.github.io/SAFETAG/.
+#
+# One-time setup: repo Settings -> Pages -> Build and deployment -> Source:
+# "GitHub Actions". Then this runs on every push to `weblate` (including Weblate's
+# own translation pushes) and can be triggered manually.
+
+name: Deploy Weblate preview (GitHub Pages)
+
+on:
+  push:
+    branches: [weblate]
+  workflow_dispatch:
+
+# Allow the workflow to publish to Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One preview at a time; let a newer push cancel an in-flight build.
+concurrency:
+  group: weblate-preview
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      SITE_NAME: "Safetag"
+      # Serve under /SAFETAG/ (project Pages subpath). Consumed by gatsby-config.
+      PATH_PREFIX: /SAFETAG
+    steps:
+      - name: Checkout weblate branch
+        uses: actions/checkout@v4
+
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Build (translations are committed — no Transifex step)
+        run: npm run build-deploy   # gatsby build --prefix-paths
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
