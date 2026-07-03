@@ -4,19 +4,19 @@ approaches:
   - بحث
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - مكتمل
+  - مكتمل
 skills_required:
-    - بحث
-    - جمع التبرعات
-    - Report writing
+  - بحث
+  - جمع التبرعات
+  - Report writing
 skills_trained: []
 summary: |
   In this component the auditor documents resources that the host may be able to
   leverage to address the technical, regulatory, organizational, or behavioral
   vulnerabilities identified during the audit.
-  
+
   This can include, but is not limited to, local technical support and incident
   response groups/trade organizations, places to obtain discount software,
   trainers, and guides/resources they can use to support their up-skilling.

@@ -4,13 +4,13 @@ approaches:
   - Pesquisa
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Completado
+  - Completado
 skills_required:
-    - Pesquisa
-    - Captação de Recursos
-    - Escrita de Relatórios
+  - Pesquisa
+  - Captação de Recursos
+  - Escrita de Relatórios
 skills_trained: []
 summary: |
   Neste componente, o auditor documenta os recursos que o anfitrião pode usar para resolver as vulnerabilidades técnicas, regulatórias, organizacionais ou comportamentais identificadas durante a auditoria.Isso pode incluir, mas não se limita a, suporte técnico local e grupos de resposta a incidentes/organizações comerciais, lugares para conseguir software com desconto, instrutores e guias/recursos que eles podem usar para ajudar no aprimoramento de suas habilidades.
