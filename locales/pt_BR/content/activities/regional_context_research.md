@@ -4,12 +4,12 @@ approaches:
   - Pesquisa
 position: 1
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Completado
+  - Completado
 skills_required:
-    - Pesquisa
-    - Linguagem
+  - Pesquisa
+  - Linguagem
 skills_trained: []
 summary: |
   Esse exercício foca na pesquisa e na reconfirmação de questões regionais, desde tendências gerais até restrições legais específicas e preocupações de segurança, além de notícias atuais e desafios persistentes.
