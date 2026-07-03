@@ -4,10 +4,10 @@ approaches:
   - လူလူချင်း ဆက်ဆံမှုဆိုင်ရာ
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 skills_trained: []
 remote_options:
-    - ပြည့်စုံသည်
+  - ပြည့်စုံသည်
 time_required_minutes: 120
 organization_size_under: 1000
 summary: |
@@ -29,9 +29,9 @@ walk_through: |
   * Share a liability waiver signed by the host organization. [^PETS_permission_to_test]
   * Obtain approval from any third parties, if necessary. [^PETS_third_parties]
   The Audit agreement, non-disclosure agreement, liability waiver may be accomplished through a single document, or they may be separate documents.
-  
+
   Auditors are encouraged to use, or at least reference text from the following sources:
-  
+
   * Sample Text for a Statement of Work and Engagement Agreement in the [Confidentiality Agreement Activity](https://safetag.org/activities/confidentiality_agreement/).
   * The [SAFETAG Agreement Generator](https://github.com/SAFETAG/safetag_agreement_generator), a python script which provides a decision tree covering the above points, and builds a basic, clear-language agreement which can be translated and formalized as needed. Sample outputs and a diagram of the full decision tree are available in the "outputs" folder of the Agreement Generator repository. This replaces the draft agreement previously part of SAFETAG.
 considerations: |
@@ -43,7 +43,7 @@ overview: |
   level of access that an auditor will have, what is off limits, and the process
   for modifying the scope of the audit when new information arises.
   [^PETS_legal_considerations], [^PETS_separate_permissions]
-  
+
   * Determine a point person for the audit and exchange contact information.  [^PETS_emergency_contact]
   * Explain and get approval to the scope of audit from the host.
   * Agree to the timeline, location, and attendees of the on-site audit. [^pets_pre-engagement_location]
