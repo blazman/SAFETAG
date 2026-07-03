@@ -72,5 +72,7 @@ yarn-error.log
 # local temporary dir
 tmp/
 
-locales/
+# NOTE: `locales/` is intentionally no longer ignored — under the Weblate
+# (Model A) migration, translations live in the repo (see doc/weblate-migration.md).
+# It was ignored under Transifex because `tx pull` regenerated it every build.
 .tx/
