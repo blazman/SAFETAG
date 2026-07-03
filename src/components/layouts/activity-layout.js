@@ -239,7 +239,7 @@ function ActivityLayout({ data }) {
                           <CardHeading variation="primary">
                             {tool}_
                           </CardHeading>
-                          <div><Remark>{toolNodes[tool].short_summary}</Remark></div>
+                          <div><Remark>{(toolNodes[tool] && toolNodes[tool].short_summary) || ''}</Remark></div>
                         </ToolCard>
                       </li>
                     ))}
