@@ -5,34 +5,34 @@ approaches:
   - Recherche
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Complète
+  - Complète
 skills_required:
-    - DNS
-    - OSINT
+  - DNS
+  - OSINT
 skills_trained: []
 summary: |
   DNS est l'abréviation de Domain Name Service. En résumé, il s'agit de traduire
   le nom des hôtes/ordinateurs en adresses IP. Il fournit un moyen de connaître l'adresse IP d'une machine donnée sur Internet, avec l'URL ou le domaine correspondant. On peut le considérer comme un annuaire téléphonique de l'Internet.
-  
+
   L'énumération des DNS est l'une des premières étapes de l'évaluation et de l'audit de la vulnérabilité. C'est une étape qui vous permettra de découvrir d'autres
   cibles potentielles. À l'issue de cette étape d'évaluation, vous pourrez trouver
   des problèmes tels que des fuites d'informations causées par des paramètres par défaut et des mauvaise configuration du serveur. En plus de cela, vous pouvez également avoir un champ plus large de cibles, comme les adresses IP des serveurs internes, les blocs réseau de l'entreprise et les noms de domaine/sous-domaine.
-  
+
   L'énumération DNS peut être accomplie avec un nombre différent d'outils et d'approches. Ce guide aborde certaines de ces approches et les outils nécessaires pour réaliser chacune de ces activités. Vous pouvez effectuer l'énumération DNS de manière passive ou active, en fonction de vos besoins opérationnels en matière de sécurité.
-  
+
   **L'approche passive**, ou indirecte, fait référence au processus d'énumération qui n'envoie aucun trafic ou paquet depuis votre ordinateur, directement vers votre
   cible. Cela peut être fait en utilisant des outils tiers tels que des outils en ligne et des scanners basés sur le cloud.
-  
+
   L'approche **Active**, ou "directe", consiste à envoyer des requêtes DNS et des tests d'énumération directement à la cible. Il faut considérer que du trafic est envoyé sur la cible ce qui peut laisser des traces ou des journaux de trafic provenant de votre IP source. Les techniques actives comprennent le transfert de zone, la recherche inversée, le forçage brutal du domaine et de l'hôte, l'enregistrement standard et la vérification de l'identité (wildcard, SOA, MX, A, TXT, etc.), Cache snooping, et Zone Walking
 overview: |
   * En utilisant une variété de techniques passives et actives, découvrez autant de
   domaines/sous-domaines liés à l'organisation cible que possible.
   * Utilisez-les pour faire avancer d'autres aspects de votre travail afin de découvrir des informations d'identification supplémentaires et des services potentiellement vulnérables ou obsolètes.
-  
+
   **Résultats attendus**
-  
+
   * Une carte plus complète de la présence en ligne de l'organisation, y compris les hôtes/services supplémentaires (potentiellement oubliés) liés à l'organisation.
   *Domaines + adresses IP
   * Sous-domaines + adresses IP
@@ -56,26 +56,26 @@ considerations: |
   * Il est important que nous vérifiions que nous avons le(s) domaine(s) cible(s) correct(s) avant de procéder à l'un des exercices d'analyse/audit/évaluation dans le cadre SAFETAG. La dernière chose que nous ne voudrions pas qu'il se produise est de scanner et d'énumérer la cible qui est hors de portée !)
 walk_through: |
   La flexibilité d'avoir plusieurs options dans l'exécution d'une activité d'énumération DNS est la clé d'une énumération réussie. En pratique, la comparaison des résultats peut aider à garantir que les informations que nous recueillons sont exactes.
-  
+
   ** Une note sur les services de protection DDoS ** Votre enquête peut être bloquée par des services de protection DDoS qui fonctionnent au niveau DNS tels que Deflect ou CloudFlare. ["CloudFlair"](https://blog.christophetd.fr/bypassing-cloudflare-using-internet-wide-scan-data/) fournit certaines options dans ce cas, tout comme le suivi de l'historique DNS et IP pour voir si seuls les enregistrements DNS ont changé.
-  
+
   Une façon d'identifier si un site Web utilise ou non un service DDoS est d'enquêter sur son enregistrement DNS. Étant donné que nous travaillons avec des organisations qui n'ont peut-être pas suffisamment de fonds pour s'abonner à un service d'atténuation DNS, vous les verrez souvent ne pas utiliser la protection DDoS.
-  
+
   - [Into DNS](https://intodns.com)
-  
+
   Recherche de ```Noms de serveur``` ou de votre ```A Record``` qui pointe vers un service DDoS CDN tiers particulier, comme dans les exemples suivants :
-  
+
    - brianna.ns.cloudflare.com (Cloudflare) 
   - toby.ns.cloudflare.com (Cloudflare) 
   - 4k9o.x.incapdns.net (Incapsula)
   - e3396.dscx.akamaiedge.net (Akama)
-  
+
   Si ceux-ci apparaissent sur votre résultat, il y a une forte probabilité que votre cible soit derrière le service DDoS
-  
-  
-  
+
+
+
   **Outils d'énumération DNS :**
-  
+
   | Outils | Descriptif | Type | Techniques |
   |--------|----------------------------------------- -------------|------|------|
   |[Robtex](https://www.robtex.com/)|Collecte des informations publiques sur les numéros IP, les noms de domaine, les noms d'hôte, les systèmes autonomes, les routes, etc., puis indexe les données dans une grande base de données et fournit un accès gratuit à cela données | En ligne | Passif |
@@ -93,12 +93,18 @@ walk_through: |
     - DNSenum
     - Transfert de zone DNS
     - Enregistrements MX
+tools:
+  - Third Party and Online Tools
+  - DNSrecon
+  - DNSenum
+  - DNS Zone Transfer
+  - MX Records
 recommendations: |
   Le DNS est par nature une information publique, mais nous pouvons encore prendre de nombreuses mesures poursécuriser toutes les parties de celui-ci qui révèlent des informations plus privées. Fortinet
   fournit un ensemble de bonnes recommandations :
-  
+
   https://blog.fortinet.com/2016/03/10/10-simple-ways-to-mitigate-dns-based-ddos-attacks
-  
+
   Si le site n'est pas protégé contre les attaques DDoS, il existe plusieurs ressourcesqui fournissent non seulement une protection DDoS mais une sécurité supplémentaire contre
   attaques, telles que :
   - [Deflect.ca](https://deflect.ca)
