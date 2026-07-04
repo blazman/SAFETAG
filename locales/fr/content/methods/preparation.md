@@ -19,7 +19,7 @@ guiding_questions: |
 authors:
   - SAFETAG
 activities:
-  - Plan d'évaluation
+  - Plan d’évaluation
   - Accord de confidentialité
   - Intervention en cas d'incident et contact d'urgence
   - Recherche sur le contexte régional

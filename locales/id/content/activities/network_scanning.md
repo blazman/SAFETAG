@@ -414,7 +414,7 @@ considerations: |
   remote scanning is legal in the jurisdiction you are performing it from and in
   the location of the remote server.
   title: Pemindaian Jaringan
-title: Network Scanning
+title: Pemindaian Jaringan
 skills_required:
   - Pemetaan Jaringan
 overview: >

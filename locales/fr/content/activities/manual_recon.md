@@ -24,7 +24,7 @@ considerations: |
   * Utilisez des VPN ou Tor pour effectuer votre recherche. Tor peut être bloqué par certains services.
   * Certaines recherches peuvent révéler des informations personnelles. Soyez empathique et responsable avec cela, même s'il s'agit d'informations "publiques".
   title: Reconnaissance manuelle
-title: Manual Reconnaissance
+title: Reconnaissance manuelle
 skills_required:
   - Recherche OSINT
 overview: |

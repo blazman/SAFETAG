@@ -17,20 +17,20 @@ authors:
 activities:
   - Assessment Plan
   - Acordo de confidencialidade
-  - Incident Response and Emergency Contact
-  - Regional Context Research
-  - Technical Context Research
+  - Resposta a incidentes e contato de emergência
+  - Pesquisa de Contexto Regional
+  - Pesquia de Contexto Técnico
   - Audit Timeline and Planning
 references:
   - Preparação
-  - Facilitation Preparation
-  - Creating Agreements and Rules of Engagement
-  - Other Pre-Engagement Resources
-  - Incident Handling Resources
-  - Legal Considerations
-  - Data Security Standards
-  - Sensitive Data & Information Guides
-  - Incident Handling Resources
+  - Preparação da Facilitação
+  - Criação de acordos e regras de engajamento
+  - Outros recursos pré-engajamento
+  - Recursos para resposta a incidentes
+  - Considerações Legais
+  - Padrões de Segurança de Dados
+  - Guias sobre Manejo de Dados e Informações Sensíveis
+  - Recursos para resposta a incidentes
 operational_security: |
   * **Prepare os sistemas:** atualize e teste seus sistemas, ferramentas de áudio/vídeo e de auditoria[4], prepare dispositivos e sistemas de armazenamento de acordo  a segurança operacional necessária e certifique-se de ter adaptadores de alimentação, cabos e adaptadores relevantes, drives USB, placas wireless externas e qualquer outro equipamento necessário para os testes.
   * **Prepare-se para a viagem:** verifique toda logística da viagem, incluindo visto, carta-convite, passagens e reservas de hospedagem (prefira hotéis ao invés de AirBNB). Observe que alguns vistos podem exigir um esforço significativo, ter alto custo e podem fazer com que a pessoa que audita fique sem passaporte enquanto estiverem sendo processados.

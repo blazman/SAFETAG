@@ -5,12 +5,12 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - Pesquisa
-    - Varredura de Rede
+  - Pesquisa
+  - Varredura de Rede
 skills_trained: []
 summary: |
   As tecnologias VoIP são muito usadas hoje em dia, porque oferecem uma forma alternativa e flexível de comunicação. Com várias vantagens, como isenção de tarifas, tronco (_trunking_) unificado de voz e dados e serviços de correio de voz e fax acessíveis a todos, os serviços VoIP se tornaram um dos serviços de comunicação mais usados atualmente. No entanto, com o aumento dos ataques cibernéticos e a realidade de que qualquer dispositivo conectado à Internet pode ser um risco potencial para ataques, o VoIP tem sido um dos alvos favoritos de spam, interrupções, phishing de voz, hacking e perda de privacidade.

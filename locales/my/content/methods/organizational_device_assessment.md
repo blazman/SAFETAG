@@ -23,7 +23,7 @@ authors:
 activities:
   - Device and Behaviour Assessment
   - Auditing Authentication for Account Security
-  - တစ်နေ့တာ လုပ်ငန်းဆောင်တာများ
+  - ဘဝရဲ့တစ်နေ့တာ
   - A Night in the Life
   - Assessing Usage of Cloud Services
   - ကွန်ရက်စကင်န်ဖတ်ခြင်း

@@ -1,5 +1,5 @@
 ---
-title: Incident Response and Emergency Contact
+title: Resposta a incidentes e contato de emergência
 approaches:
   - Técnico
   - Interpessoal

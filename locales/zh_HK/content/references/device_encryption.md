@@ -6,4 +6,3 @@ title: Device Encryption By OS
 * Encryption availablility by OS
 * Encryption Guides
 
-

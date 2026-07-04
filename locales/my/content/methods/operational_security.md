@@ -3,7 +3,7 @@ title: Physical and Operational Security
 position: 110
 activities:
   - လှုပ်ရှားမှုလေ့လာရေးလမ်းညွှန်
-  - လုပ်ငန်းလည်ပတ်မှုလုံခြုံရေးစစ်တမ်း
+  - လုပ်ငန်းလည်ပတ်မှုဆိုင်ရာ လုံခြုံရေးစစ်တမ်း
   - ရုံး မြေပုံဆွဲခြင်း
   - Scavenger Hunt
   - Monitor Open Wireless Traffic

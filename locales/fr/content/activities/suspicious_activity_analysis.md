@@ -179,7 +179,7 @@ considerations: |
   * Study outputs for any obviously embarrassing personal information
   * Don’t test anything on your virtual machine without VPN
 skills_required:
-  - Analyse des logiciels malveillants
+  - Analyse de logiciel malveillant
 overview: |
   * Identification and **initial triage/analysis** of suspicious processes, files, and emails (via Anti-Virus scanning results, MISP and Virustotal information, network traffic analysis, and other research)
   * **Analyzing Specific Suspicious Events/Activities** - If the organization have specific concerns or evidence suggesting a targeted attack, the auditor can focus attention to match them against any known attacks or flag them for further research.

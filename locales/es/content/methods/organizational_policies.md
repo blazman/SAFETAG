@@ -6,8 +6,7 @@ summary: |
   agreements, and policies around managing information security and responding
   to threats. It also seeks to reveal presumptions made within the organization
   which are neither shared  (informal or no) nor codified in policies.
-short_summary: |
-   Explore existing organizational practices, informal agreements, and policies around managing information security and responding to threats.
+short_summary: Explore existing organizational practices, informal agreements, and policies around managing information security and responding to threats.
 the_flow_of_information: "![](/img/organizational_policies.png)"
 guiding_questions: |
   * Are there documented policies or practices, including any employee
@@ -16,9 +15,9 @@ guiding_questions: |
   * What is the understanding by the management and/or staff on common security practices?
   * Are there presumptions being made by some staff which are not shared?
   * How are any of these implemented / required / verified within existing organizational practice?
-  
+
   Specific aspects to explore are:
-  
+
   * Password expectations (password management, complexity, requirements
   * entry/exit policies and account management
   * information classification that limits access (e.g. who has access to financial data? partner data?)
@@ -26,21 +25,21 @@ guiding_questions: |
   * Acceptable use policies (what can and cannot staff do with their work devices)
   * Travel policies (VPN usage, etc.)
 authors:
-    - Carlos Guerra
-    - Candace Lazarou
+  - Carlos Guerra
+  - Candace Lazarou
 activities:
-    - Identifying Informal Agreements
-    - Security policy review
-    - Entrevistas
-    - A Day in the Life
+  - Identifying Informal Agreements
+  - Security policy review
+  - Entrevistas
+  - A Day in the Life
 references:
-    - Organizational Policies
-    - Desarrollo de Recomendaciones
+  - Organizational Policies
+  - Desarrollo de Recomendaciones
 operational_security: |
   **Storage**: Store documents and files received in secure and encrypted
   volumes or disks. Be aware of (and avoid using) any insecure temporary
   locations.
-  
+
   **Communication**: Utilize secure communication channels to receive policies and discuss them.
 info_required:
   - Activos
@@ -62,7 +61,7 @@ purpose: |
   practices, guidelines, and informal agreements with what is actually taking
   place (generally using activities from data assessment and device assessment
   methodologies).
-  
+
   * Identify what (if any) baseline policies or informal agreements exist to respond to common information security and business continuity challenges
   * Clarify any presumptions being made but not effectively shared
   * List of existing agreements and gaps?

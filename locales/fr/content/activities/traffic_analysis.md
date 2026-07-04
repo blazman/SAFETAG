@@ -9,7 +9,7 @@ remote_options:
   - avec assistance
 skills_required:
   - Analyse du trafic
-  - Analyse des logiciels malveillants
+  - Analyse de logiciel malveillant
 skills_trained: []
 summary: |
   Any content that is sent out over the network without encryption is easy to

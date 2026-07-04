@@ -7,8 +7,7 @@ summary: |
   and weakness (expertise, finance, willingness to learn, staff time, etc.) to
   adopting new digital and physical security practices. The auditor uses this
   information to modify the audit scope and recommendations accordingly.
-short_summary: |
-   Engage with staff to identify the organization's strengths and weaknesses and use this information to modify audit scope and recommendations.
+short_summary: Engage with staff to identify the organization's strengths and weaknesses and use this information to modify audit scope and recommendations.
 the_flow_of_information: "![](/img/capacity_assessment.png)"
 guiding_questions: |
   * What is the organization's ability to adopt new technologies or practices?
@@ -16,15 +15,15 @@ guiding_questions: |
   * What is the environment that the organization works within like? What barriers, threat actors, and other aspects influence their work?
   * Are there any specific considerations for the audit that would require modifying the overall approach, tools, preparation steps, or timeline?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Interviews
-    - Guiding Questions for High-Risk Organisations
-    - Capacity Assessment Checklist
+  - Interviews
+  - Guiding Questions for High-Risk Organisations
+  - Capacity Assessment Checklist
 references:
-    - Asesmen Kapasitas
-    - Interviews
-    - Background Interview Approaches
+  - Asesmen Kapasitas
+  - Interviews
+  - Background Interview Approaches
 operational_security: |
   * You may be interacting with many staff members. Avoid reporting the comments
   from other staff members to their peers or supervisors unless you clarify that

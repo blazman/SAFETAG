@@ -19,18 +19,18 @@ guiding_questions: |
   * Algum servidor, usuário ou conta de e-mail da organização já foi comprometido no passado?
   * As contas de redes sociais dos executivos/funcionários estão dentro do escopo e, em caso afirmativo, estão em conformidade com as políticas de redes sociais da organização? Que ameaças adicionais elas introduzem?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Reconhecimento Manual
-    - Reconhecimento Automatizado
-    - Rastros do Website
-    - Enumeração de DNS
+  - Reconhecimento Manual
+  - Reconhecimento Automatizado
+  - Rastros de Websites
+  - Enumeração de DNS
 references:
-    - Inteligência em Fontes Abertas (Geral)
-    - Coleta de informações organizacionais
-    - Pesquisa
-    - Pesquisa no Pastebin
-    - Recon-ng
+  - Inteligência em fontes abertas (geral)
+  - Coleta de informações organizacionais
+  - Buscas
+  - Buscas no Pastebin
+  - Recon-ng
 outputs: |
   * Dossiê com informações de “fontes abertas” sobre a organização, seus parceiros e beneficiários, disponíveis online.
   * Uma lista de endereços de e-mail dos membros da organização.
@@ -44,7 +44,6 @@ info_required: []
 info_provided: []
 purpose: |
   Embora grande parte do SAFETAG se concentre nos desafios de segurança digital dentro e ao redor do escritório, informações não intencionais disponíveis em “fontes abertas” (também chamadas fontes públicas) podem representar ameaças reais e merecem atenção significativa. Isso também aumenta a compreensão da auditora sobre a presença digital da organização e dá informações sobre vulnerabilidades específicas a serem investigadas quando a auditora estiver nos locais físicos da organização.
-  
 preparation: |
   Esta seção:
   * não requer acesso privilegiado aos escritórios, infraestrutura ou funcionários da organização;

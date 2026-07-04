@@ -4,12 +4,12 @@ approaches:
   - Interpersonnel
 position: 50
 authors:
-    - AlWalid
+  - AlWalid
 remote_options:
-    - avec assistance
+  - avec assistance
 skills_required:
-    - Facilitation de groupe
-    - Prise en charge psychosociale
+  - Facilitation de groupe
+  - Prise en charge psychosociale
 skills_trained: []
 summary: |
   This activity assists in identifying potential physical security concerns at
@@ -21,9 +21,10 @@ summary: |
   page 19, for additional ideas and guidance on conducting this activity (do note that this
   exercise is only available in an older version of SaferJourno. SaferJourno v2,
   with more up-to-date recommendations, is available [here](https://saferjourno.org/)).
+
 overview: |
   Un animateur local est nécessaire pour mener cette "chasse au trésor" où les membres du personnel recherchent eux-mêmes les problèmes potentiels de sécurité physique. Cette activité ne doit être menée que dans un environnement avec un niveau élevé de confiance et de consentement. L'auditeur doit obtenir l'accord de l'ONG hôte pour impliquer tous les membres du personnel dans l'exercice afin d'éviter de causer des problèmes de confiance. En impliquant les membres du personnel dans l'identification des risques de sécurité physique, vous faites également un pas en avant pour accroître la sensibilisation à ces questions.
-  
+
   Avec la facilitation, les membres du personnel exploreront leur propre bureau à la recherche de risques potentiels pour la sécurité physique et partageront les résultats. Pour réduire le risque d'embarras individuel du personnel, ils examineront d'abord leur propre espace de travail et le sécuriseront avant de regarder autour d'autres parties du bureau. Le facilitateur, en consultation avec l'auditeur et le point de contact de l'organisation, peut déclarer certaines zones "hors limites"
 materials_needed: |
   * (Facultatif) Caméras de téléphone portable (voir les considérations de sécurité opérationnelle ci-dessous)
@@ -42,7 +43,7 @@ walk_through: |
   videochat) to brief them on the activity and map out potential challenges
   (particularly around trust, organizational hierarchies, and any potential
   repercussions). 
-  
+
   The auditor then prepares a checklist of physical vulnerabilities with the
   facilitator, based on the current understanding of the organization's assets
   and the context they are operating within. The auditor, facilitator, and
@@ -50,7 +51,7 @@ walk_through: |
   Note that this is only a list of a suggestions. As with the "Risk Hunting"
   exercise in [SaferJourno v1](https://www.internews.org/sites/default/files/resources/SaferJournoGuide_2014-03-21.pdf), and it should be modified to fit the requirements, assets, and threats the
   organization faces:
-  
+
   * Open windows.
   * Door with key hanging from the lock and/or unlocked doors to secure areas
   * Unlocked access to networking equipment - routers, wifi, modem / cablemodem
@@ -66,14 +67,14 @@ walk_through: |
   * Passwords written on a “sticky note” or other paper taped to a monitor or
   onto the surface of a desk.
   * Smartphones, cameras or other valuable devices left unattended
-  
+
   At the organization, the facilitator explains the activity to the organization
   members. To balance the need for consent with the benefits of identifying
   actual daily practices which may need improvement, the staff should already be
   aware that examining physical devices is part of the audit scope, but not the
   specific activity. Staff will be able to first identify and address their
   personal concerns before others.
-  
+
   * Each staff member will get a paper and a pen to note the physical
   vulnerabilities that they notice (cameras/cellphone cameras can also be used,
   note the operational security considerations listed).
