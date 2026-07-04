@@ -4,9 +4,9 @@ approaches:
   - Research
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - 部分
+  - 部分
 skills_required: []
 skills_trained: []
 summary: |

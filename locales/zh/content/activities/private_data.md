@@ -4,12 +4,12 @@ approaches:
   - 人际的
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - 小组协助
-    - Risk Assessment
+  - 小组协助
+  - Risk Assessment
 skills_trained: []
 summary: |
   Guide staff through an activity to have them list private data within the
@@ -20,7 +20,7 @@ materials_needed: ''
 considerations: ''
 walk_through: |
   **Personal Information To Keep Private**
-  
+
   Information that can be used to identify individuals, organizations, and even
   communities of practice should be treated with the utmost care. Some data,
   like names, phone numbers, and addresses are obvious, while others, like
@@ -28,7 +28,7 @@ walk_through: |
   accounts may be less obvious. Also, combinations of information - location,
   data, and type of activity, or even an issue area of interest and a city name
   may specify a very small number of activists or organizations.
-  
+
   This spreadsheet, part of the [Responsible Data Forum documentation
   sprint](https://wiki.responsibledata.io/RDF_Budapest) provides a useful
   baseline of types of data and ways to manage or obfsucate it usefully:  [Data
@@ -40,7 +40,7 @@ recommendations: |
   extension, their users), as well as very sensitive organizational data. None
   of this data, by intention, accident, or adversarial action, should be shared
   with third parties.
-  
+
   Please refer to the Analysis and Reporting section for the limited data set
   that is required for project reporting, and to the Operational Security
   section for guidance on data security.

@@ -4,10 +4,10 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 skills_trained: []
 remote_options:
-    - with-support
+  - with-support
 time_required_minutes: 60
 organization_size_under: 25
 summary: |
@@ -18,7 +18,7 @@ walk_through: |
   examinando. Use guias online e a documentação do produto para verificar o status de segurança das configurações existentes.
 considerations: ""
 skills_required:
-    - Administração de Sistema
+  - Administração de Sistema
 overview: |
   * Dá uma olhada nas configurações padrão.
   * Descubra se os sistemas estão usando senhas ou usuários padrão.

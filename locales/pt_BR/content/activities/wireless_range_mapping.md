@@ -4,11 +4,11 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Nenhum
+  - Nenhum
 skills_required:
-    - Sem fio
+  - Sem fio
 skills_trained: []
 summary: |
   Esse componente permite que a auditora mostre a “visibilidade” da rede sem fio de uma organização para ver até onde ela vai além da área controlada. As redes sem fio costumam ser consideradas tão confiáveis quanto as redes com fio dos escritórios, que elas substituíram em grande parte, mas têm diferenças importantes. As redes sem fio costumam ser “visíveis” de fora do escritório — de espaços comuns ou até mesmo da rua. Sem acesso adicional, isso revela muitas informações sobre o tamanho da organização e o tipo de dispositivos conectados à sua rede.

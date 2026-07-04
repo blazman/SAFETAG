@@ -3,7 +3,7 @@ title: Lista de Comprobación del Juego de Viaje
 approaches: []
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options: []
 skills_required: []
 skills_trained: []

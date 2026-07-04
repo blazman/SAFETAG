@@ -4,9 +4,9 @@ approaches:
   - သုတေသန
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - တစ်ပိုင်းတစ်စ
+  - တစ်ပိုင်းတစ်စ
 skills_required: []
 skills_trained: []
 summary: |

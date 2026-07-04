@@ -4,10 +4,10 @@ approaches:
   - Pesquisa
 position: 50
 authors:
-    - Natasha Msonza
-    - Neil Blazevic
+  - Natasha Msonza
+  - Neil Blazevic
 remote_options:
-    - Completado
+  - Completado
 skills_required: []
 skills_trained: []
 summary: |

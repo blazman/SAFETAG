@@ -4,13 +4,13 @@ approaches:
   - تقني
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - لا شيء
+  - لا شيء
 skills_required:
-    - Wireless
-    - Traffic Analysis
-    - Password auditing
+  - Wireless
+  - Traffic Analysis
+  - Password auditing
 skills_trained: []
 summary: |
   WPS was built as an addition to WPA to make it easier to add devices without

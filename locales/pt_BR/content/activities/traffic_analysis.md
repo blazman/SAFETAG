@@ -4,12 +4,12 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - Análise de Tráfego
-    - Análise de Malware
+  - Análise de Tráfego
+  - Análise de Malware
 skills_trained: []
 summary: |
   Qualquer conteúdo enviado pela rede sem criptografia é fácil de interceptar; isso inclui e-mails, senhas da web e mensagens de bate-papo.Esse invasor pode ser alguém, como um cliente do cibercafé onde um funcionário está trabalhando, que por acaso está usando a mesma rede local para se conectar à Internet. Ou pode ser alguém que trabalha para uma organização com acesso privilegiado à rede relevante, como o provedor de serviços de Internet (ISP) do remetente ou do destinatário e outras conexões de backbone de rede feitas ao longo do caminho.

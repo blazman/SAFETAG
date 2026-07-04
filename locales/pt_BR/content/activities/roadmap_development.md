@@ -4,20 +4,18 @@ approaches:
   - Interpessoal
   - Pesquisa
 authors:
-    - SAFETAG
-    - Carlos Guerra
-    - 0xche
+  - SAFETAG
+  - Carlos Guerra
+  - 0xche
 skills_required:
-    - Escrita
+  - Escrita
 skills_trained: []
 remote_options:
-    - Completado
+  - Completado
 time_required_minutes: 240
 organization_size_under: 1000
-summary: |
-   This component consists of an auditor sorting their recommendations in relation to the organization’s threats and capacity. The auditor prioritizes vulnerabilities, weighs the implementation costs of recommendations and then creates an actionable roadmap for the organization to make their own informed choices about possible next steps as they move forward.
-short_summary: |
-   " "
+summary: This component consists of an auditor sorting their recommendations in relation to the organization’s threats and capacity. The auditor prioritizes vulnerabilities, weighs the implementation costs of recommendations and then creates an actionable roadmap for the organization to make their own informed choices about possible next steps as they move forward.
+short_summary: " "
 materials_needed: ""
 considerations: |
   * Treat the data and analyses of this step with the utmost security.
@@ -39,8 +37,7 @@ walk_through: |
   * **Documenting Existing Successes:** Place the recommendations on a timeline that includes the existing practices of the organization to show that the remediation process is a continuation of the hosts existing in/formal security practices. [\[1\]](https://safetag.org/activities/roadmap\_development\#footnotes)
   **\[1\] See: "Threat Modeling: Designing for Security" by Adam Shostack, p. 298\.**
   title: Desenvolvimento de Plano
-overview: |
-   As part of SAFETAG's dedication to building agency and supporting organizational adoption of safer practices, a careful prioritization of vulnerabilities is invaluable in keeping audit results from appearing overwhelming. An organization needs to be able to weigh their possible paths forward against the time lost from program activities, the cost to implement the threat, and the other threats that they are not addressing. Roadmapping is used to give the host the tools to make these decisions and provide them with a recommended path forward that will allow them to make immediate gains towards protecting themselves. The existing in/formal security practices captured during this process will be used to remove organizational and psycho-social barriers to starting new practices.
-recommendations: |
-   "* You can check the [RAWRR tool by Conexo](https://conexo.org/project/rawrr/), which proposes a structure to build the roadmap and create reports around it. "
+title: Roadmap Development
+overview: As part of SAFETAG's dedication to building agency and supporting organizational adoption of safer practices, a careful prioritization of vulnerabilities is invaluable in keeping audit results from appearing overwhelming. An organization needs to be able to weigh their possible paths forward against the time lost from program activities, the cost to implement the threat, and the other threats that they are not addressing. Roadmapping is used to give the host the tools to make these decisions and provide them with a recommended path forward that will allow them to make immediate gains towards protecting themselves. The existing in/formal security practices captured during this process will be used to remove organizational and psycho-social barriers to starting new practices.
+recommendations: "\"* You can check the [RAWRR tool by Conexo](https://conexo.org/project/rawrr/), which proposes a structure to build the roadmap and create reports around it. \""
 ---

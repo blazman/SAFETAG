@@ -4,12 +4,12 @@ approaches:
   - 技术的
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - Wireless
-    - Traffic Analysis
+  - Wireless
+  - Traffic Analysis
 skills_trained: []
 summary: |
   Open and MAC-address-filtered wireless access points are not only open to
@@ -23,16 +23,16 @@ materials_needed: ''
 considerations: ''
 walk_through: |
   The auditor can easily gain access to an open or MAC address filtered access point.
-  
+
     * MAC-Address Spoofing
       * Start the wireless interface in monitor mode
       * Identify MAC addresses that are on the whitelist
-  
+
   ```bash
   airodump-ng
   ```
       * Change our MAC address to one that’s on the whitelist
-  
+
   ```bash
   ifconfig mon0 down
   macchanger -m [MAC ADDRESS IDENTIFIED] mon0

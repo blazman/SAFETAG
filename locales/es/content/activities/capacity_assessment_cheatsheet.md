@@ -4,15 +4,15 @@ approaches:
   - Investigación
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Parcial 
+  - Parcial
 skills_required: []
 skills_trained: []
 summary: |
   Una monolítica, de un momento de la entrevista con el personal clave no es siempre posible o recomendable, pero interactuar con una gran variedad de personal, expone valiosa 
   información acerca de todos los aspectos de la auditoría, de las vulnerabilidades de la capacidad a las barreras ocultas. Esto sirve como una "hoja de trucos" de algunos de los temas a explorar 
-  
+
   tanto durante la fase de preparación y planeamiento y a lo largo de la auditoría proceso.
 overview: ''
 materials_needed: ''

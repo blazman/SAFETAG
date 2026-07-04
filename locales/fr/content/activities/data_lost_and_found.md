@@ -3,7 +3,7 @@ title: Risques de perte et de découverte des données
 approaches: []
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options: []
 skills_required: []
 skills_trained: []

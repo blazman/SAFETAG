@@ -1,11 +1,10 @@
 ---
 title: تقييم البيانات
-position: 80  
+position: 80
 summary: |
   This component allows the auditor to identify what sensitive data exists for
   the organization, where it is stored, how it is transferred, and who accesses it.
-short_summary: |
-   هذا المكون يمكّن المدقق من معرفة البيانات الدقيقة الموجودة لدى المؤسسة، وما مكان تخزينها، وكيفية نقلها.
+short_summary: هذا المكون يمكّن المدقق من معرفة البيانات الدقيقة الموجودة لدى المؤسسة، وما مكان تخزينها، وكيفية نقلها.
 the_flow_of_information: "![](/img/data_assessment.png)"
 method_icon: "/img/data_assessment_icon.png"
 guiding_questions: |
@@ -16,16 +15,16 @@ guiding_questions: |
   * Does the staff agree on what constitutes sensitive data?
   * What data does each staff member need to be able to access in order to do their job?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Sensitive Data
-    - Risks of Data Lost and Found
-    - تقييم عملية استخدام الخدمات السحابية
-    - The Impacts of a Lost Device
-    - The Impacts of a "Found" Device
-    - Private Data
+  - Sensitive Data
+  - Risks of Data Lost and Found
+  - تقييم عملية استخدام الخدمات السحابية
+  - The Impacts of a Lost Device
+  - The Impacts of a "Found" Device
+  - Private Data
 references:
-    - تقييم البيانات
+  - تقييم البيانات
 outputs: |
   * A map of the staff's understanding of critical organizational data:
       * what that data is,
@@ -45,7 +44,7 @@ purpose: |
   needs. While the auditor has insight on some of this based on the Network
   Access and Network Mapping work, cross-staff understanding and agreement on
   what constitutes sensitive data will support later organizational change.
-  
+
   An adversary who obtains a laptop, workstation, or backup drive will be able to read or modify sensitive information on the device, even if that staff member has set a strong account password. This applies to threats involving loss, theft, and confiscation, but also to "checkpoint" scenarios in which they may only have access for a few minutes. Furthermore, in the event of a burglary or office raid, an adversary could obtain all sensitive information on the organization's devices, possibly even undetected.
 preparation: |
   * Facilitation skills or experience is useful for these exercises

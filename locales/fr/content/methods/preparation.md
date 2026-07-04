@@ -15,25 +15,26 @@ guiding_questions: |
   * What will be the procedure for incident handling in the event that the auditor causes or uncovers an incident during the course of the assessment?
   * What are the legal, physical, or social risks for the auditor & organization associated with conducting the audit or having audit results leak? [^PETS_legal_considerations]
   * Does the security situation of the location or organization require additional planning? Are your software tools up to date and working as expected?
+
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Plan d'évaluation
-    - Accord de confidentialité
-    - Intervention en cas d'incident et contact d'urgence
-    - Recherche sur le contexte régional
-    - Technical Context Research
-    - Calendrier et planification de l'audit
+  - Plan d'évaluation
+  - Accord de confidentialité
+  - Intervention en cas d'incident et contact d'urgence
+  - Recherche sur le contexte régional
+  - Technical Context Research
+  - Calendrier et planification de l'audit
 references:
-    - Préparation
-    - Facilitation Preparation
-    - Creating Agreements and Rules of Engagement
-    - Other Pre-Engagement Resources
-    - Incident Handling Resources
-    - Legal Considerations
-    - Normes de sécurité des données
-    - Sensitive Data & Information Guides
-    - Incident Handling Resources
+  - Préparation
+  - Facilitation Preparation
+  - Creating Agreements and Rules of Engagement
+  - Other Pre-Engagement Resources
+  - Incident Handling Resources
+  - Legal Considerations
+  - Normes de sécurité des données
+  - Sensitive Data & Information Guides
+  - Incident Handling Resources
 operational_security: |
   * **Prepare Systems:** Update and test your systems, A/V and audit
     tools[^latest_version_of_tools], prepare storage devices and systems to
@@ -54,9 +55,9 @@ outputs: |
   * Systems updated and ready for testing.
   * Risks to host and auditor conducting a SAFETAG audit.
   * Modifications to the audit plan as necessary.
-  
+
   In case audit involves travel:
-  
+
   * Any Visas or paperwork needed, plus travel arragements (tickets, hotels) for auditor travel.
   * A travel kit. [^travel_kit_appendix]^,^[^NIST_SP_800-115-travel_prep]
 info_provided: []

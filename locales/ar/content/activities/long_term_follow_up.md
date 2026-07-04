@@ -4,11 +4,11 @@ approaches:
   - بين الأشخاص
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - مكتمل
+  - مكتمل
 skills_required:
-    - Report writing
+  - Report writing
 skills_trained: []
 summary: |
   Follow up with host after a few months to check on progress, get long-term

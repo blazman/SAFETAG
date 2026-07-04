@@ -19,17 +19,17 @@ guiding_questions: |
   * Apa implikasi dari malware tertarget bagi organisasi, dan bagi proses asesmen saat ini?
   * Tipe malware apa yang mesti memicu pendekatan tanggap insiden?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Analisis Aktivitas Mencurigakan
-    - Forensik Digital dan Pengambilan Bukti
-    - Analisis Forensik
-    - Kontak Tanggap Insiden dan Darurat
-    - Riset Konteks Teknis
-    - Pemindaian Jaringan
+  - Analisis Aktivitas Mencurigakan
+  - Forensik Digital dan Pengambilan Bukti
+  - Analisis Forensik
+  - Kontak Tanggap Insiden dan Darurat
+  - Riset Konteks Teknis
+  - Pemindaian Jaringan
 references:
-    - Analisis Malware
-    - Forensik Digital
+  - Analisis Malware
+  - Forensik Digital
 operational_security: |
   * Untuk keterlibatan dengan potensi ancaman tingkat tinggi, auditor harus melakukan **Asesmen Kapabilitas Lawan** yang lebih komprehensif - berdasarkan riset konteks teknis. Adakah Ancaman Persisten Lanjutan yang perlu dipertimbangkan? Bagaimana cara kerjanya? Adakah indikator terkompromi yang diketahui untuk dicari?
   * Perjanjian tentang pengambilan data pada perangkat yang terinfeksi harus ditandatangani dengan organisasi sebelum langkah ini.
@@ -41,11 +41,11 @@ operational_security: |
 info_required: []
 outputs: |
   **Karena keterbatasan waktu, auditor harus fokus mengidentifikasi aktivitas mencurigakan dan segera memilahnya**. Banyak di antaranya merupakan positif palsu yang terkait dengan perangkat lunak non-berbahaya lain yang menyebabkan mesin "berperilaku aneh" atau jenis perangkat lunak berbahaya lain yang kurang serius (dan tidak ditargetkan) seperti adware atau ransomware.
-  
+
   Jika hal ini tidak dapat dikesampingkan, pengumpulan bukti, menjalankan riset dan analisis dasar, serta menilai risiko dan dampak terhadap prioritas organisasi akan membantu memprioritaskan tindakan lebih lanjut. Analisis biner yang mendalam sebaiknya disimpan untuk pekerjaan pasca-audit selama fase pelaporan dan tindak lanjut. Jika aset kritis terkompromi, auditor mungkin perlu mengoordinasikan langkah-langkah mitigasi yang mendesak dengan pakar TI lainnya.
-  
+
   Manajemen waktu sangat krusial saat merespons potensi infeksi malware dan ancaman serupa yang lebih canggih. Jika menggunakan metode ini, auditor harus terus-menerus mempertimbangkan apakah akan melanjutkan proses ini atau menyelesaikan aspek lain dari rencana audit mereka. Di akhir proses audit, tanpa pemahaman tentang toleransi risiko organisasi, kapasitas yang ada, praktik/proses/kebijakan saat ini, dan aset informasi yang ada akan menghambat kemampuan auditor untuk memberikan laporan yang diprioritaskan atau memahami konteks seputar aktivitas berpotensi berbahaya yang telah mereka temukan.
-  
+
   Hasil utama dari identifikasi ancaman tingkat lanjut harus berupa bukti seperti berkas, email, tangkapan layar, dan URL yang disertakan dalam pesan atau ditemukan pada koneksi yang mencurigakan.
 info_provided: []
 purpose: |
@@ -57,7 +57,7 @@ purpose: |
   dan analisis lalu lintas.
 preparation: |
   #### Keterampilan Dasar
-  
+
   * Pengetahuan tentang cara mendeteksi elemen berbahaya, memindai mesin, dan membersihkannya
   * Kemampuan melakukan riset malware awal dengan aman
   * Kemampuan membuat citra mesin dan mempraktikkan forensik digital serta proses pengambilan bukti yang baik (lihat [Aktivitas Pengambilan Bukti](https://safetag.org/activities/evidence_capture))

@@ -11,25 +11,26 @@ guiding_questions: |
   * Qual será o procedimento para a resposta a incidentes no caso de a auditora causar ou descobrir um incidente durante a avaliação?
   * Quais são os riscos legais, físicos ou sociais para a auditora e a organização, associados à realização da auditoria ou ao vazamento dos resultados da auditoria? [^PETS_legal_considerations]
   * A situação de segurança do local ou da organização requer algum planejamento adicional? Suas ferramentas de software estão atualizadas e funcionando conforme o esperado?
+
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Assessment Plan
-    - Acordo de confidencialidade
-    - Incident Response and Emergency Contact
-    - Regional Context Research
-    - Technical Context Research
-    - Audit Timeline and Planning
+  - Assessment Plan
+  - Acordo de confidencialidade
+  - Incident Response and Emergency Contact
+  - Regional Context Research
+  - Technical Context Research
+  - Audit Timeline and Planning
 references:
-    - Preparation
-    - Facilitation Preparation
-    - Creating Agreements and Rules of Engagement
-    - Other Pre-Engagement Resources
-    - Incident Handling Resources
-    - Legal Considerations
-    - Data Security Standards
-    - Sensitive Data & Information Guides
-    - Incident Handling Resources
+  - Preparação
+  - Facilitation Preparation
+  - Creating Agreements and Rules of Engagement
+  - Other Pre-Engagement Resources
+  - Incident Handling Resources
+  - Legal Considerations
+  - Data Security Standards
+  - Sensitive Data & Information Guides
+  - Incident Handling Resources
 operational_security: |
   * **Prepare os sistemas:** atualize e teste seus sistemas, ferramentas de áudio/vídeo e de auditoria[4], prepare dispositivos e sistemas de armazenamento de acordo  a segurança operacional necessária e certifique-se de ter adaptadores de alimentação, cabos e adaptadores relevantes, drives USB, placas wireless externas e qualquer outro equipamento necessário para os testes.
   * **Prepare-se para a viagem:** verifique toda logística da viagem, incluindo visto, carta-convite, passagens e reservas de hospedagem (prefira hotéis ao invés de AirBNB). Observe que alguns vistos podem exigir um esforço significativo, ter alto custo e podem fazer com que a pessoa que audita fique sem passaporte enquanto estiverem sendo processados.
@@ -41,9 +42,9 @@ outputs: |
   * Sistemas atualizados e prontos para testes.
   * Matriz de riscos para a organização anfitriã e a auditora que realizará uma auditoria SAFETAG.
   * Modificações no plano de auditoria, conforme necessário.
-  
+
   Caso a auditoria envolva viagens:
-  
+
   * Todos e quaisquer vistos ou documentos necessários, além de providências de viagem (passagens, hotéis) para a pessoa que fará auditoria.
   * Um kit de viagem. [^travel_kit_appendix]^,^[^NIST_SP_800-115-travel_prep]
 info_provided: []

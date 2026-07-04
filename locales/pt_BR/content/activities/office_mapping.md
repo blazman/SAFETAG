@@ -4,18 +4,18 @@ approaches:
   - Interpessoal
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required: []
 skills_trained: []
 summary: |
   Esta atividade visa identificar potenciais vulnerabilidades físicas nas práticas de segurança da informação de uma organização, documentando a disposição física atual do escritório e a localização dos principais ativos, bem como potenciais riscos “externos”, tais como espaços de escritório próximos/partilhados.
-  
+
   Isso pode ser feito pessoalmente, de forma independente ou em conjunto com a atividade “Visita guiada”, e também pode ser feito antes de uma avaliação ou remotamente por um funcionário disposto que saiba onde esses ativos estão localizados (geralmente um funcionário técnico ou administrativo). Isso também pode ser realizado em um ambiente com vários escritórios ou home office, quando  a pessoa que audita  não pode visitar todos os locais.
 overview: |
   Nesta atividade, a auditora ou a organização desenha um mapa do espaço do escritório e anota os locais onde se encontram informações ou ativos potencialmente valiosos.Esta atividade pode ser combinada com a atividade [Visita Guiada](https://safetag.org/pt_BR/activities/guided_tour/).
-  
+
   Guiada, para reduzir o constrangimento de tomar notas enquanto se caminha pelo escritório durante a visita. Se for feita remotamente, as duas atividades separadas podem ser usadas para verificar a precisão de cada uma. Isso também pode ser feito antecipadamente por um ponto de contato da organização, para fornecer preparação adicional à auditora.
 materials_needed: |
   * Bloco de notas e/ou software simples de desenho ou planta baixa
@@ -32,8 +32,8 @@ walk_through: |
   * Caminhe pelo escritório e desenhe uma planta baixa (não confie na memória). Considere tirar fotos de áreas específicas (por exemplo, layouts confusos ou áreas difíceis de capturar no desenho). Anote onde os intrusos poderiam ter acesso ao escritório, onde podem estar armazenados dados confidenciais (na mesa do diretor executivo, em um armário, em dispositivos) e outros itens relevantes. Anote também a privacidade geral que o escritório oferece (se é um espaço compartilhado, um prédio compartilhado, etc.).
   * Anote a localização de qualquer um dos seguintes itens aplicáveis:
   * Salas de escritório e armazenamento:
-  
-  
+
+
   * Salas de reunião
   * Escritórios/mesas dos funcionários
   * Armazenamento de arquivos em papel, como registros financeiros e de recursos humanos
@@ -62,14 +62,13 @@ walk_through: |
   * Triturador de papel
   * Servidores (servidor de arquivos, e-mail, backup, etc.) e/ou computadores desktop/torre (que nunca saem do escritório)
   * Backups digitais (unidades de fita, discos rígidos, “máquinas do tempo”, etc.)
-  
+
   Se estiver realizando essa atividade remotamente e/ou antes de uma auditoria, pode ser útil pedir a vários funcionários que desenhem mapas de forma independente e forneçam à organização perguntas orientadoras adicionais:
-  
+
   * Se você estivesse brincando de esconde-esconde, qual seria o melhor lugar para se esconder?
   Como eles entram/saem, onde guardam as coisas (armários, etc.)
   * O que há nas proximidades do escritório? Ele fica em um espaço compartilhado/aberto/de coworking? Fica em um prédio comercial? Em uma casa? Em um apartamento? Em que andar do prédio fica o escritório? O que mais há nas proximidades (outros escritórios? Prédios residenciais, restaurantes/cafés)?
   * Se você descobrisse que seu escritório foi invadido, qual seria sua primeira suposição sobre onde ou como o ladrão entrou?
-  
 recommendations: |
   Consulte a seção de recomendações na [Atividade Visita Guiada](https://safetag.org/pt_BR/activities/guided_tour).
 organization_size_under: 50

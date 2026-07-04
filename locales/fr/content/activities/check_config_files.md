@@ -4,10 +4,10 @@ approaches:
   - Technique
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 skills_trained: []
 remote_options:
-    - avec assistance
+  - avec assistance
 time_required_minutes: 60
 organization_size_under: 25
 summary: |
@@ -17,7 +17,7 @@ walk_through: |
   Cela dépendra du logiciel ou du système particulier que vous examinez. Utilisez les guides en ligne et la documentation du produit pour vérifier l'état de sécurité des configurations existantes.
 considerations: ""
 skills_required:
-    - Administration système
+  - Administration système
 overview: |
   * Explorer les configurations par défaut. 
   * Identifier si les systèmes utilisent des mots de passe ou des utilisateurs par défaut. 

@@ -4,9 +4,9 @@ approaches:
   - بحث
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - جزئي
+  - جزئي
 skills_required: []
 skills_trained: []
 summary: |

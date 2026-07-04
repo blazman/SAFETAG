@@ -1,25 +1,25 @@
 ---
 title: Resposta a Incidentes e Suporte Durante Auditorias
 position: 150
-activities: 
-    - Incident Response
-    - In-audit debrief meetings
+activities:
+  - Incident Response
+  - In-audit debrief meetings
 authors:
-    - SAFETAG
+  - SAFETAG
 info_provided: []
 info_required: []
 references:
-    - Facilitation Preparation
-    - Digital Security Trainings
-    - Guias de Segurança Digital
+  - Facilitation Preparation
+  - Digital Security Trainings
+  - Guias de Segurança Digital
 method_icon: "/img/responsive_support_icon.png"
 summary: |
   During the audit, the auditor provides assistance for any immediate action needed (spot training, tool fixes, consulting on upcoming projects or ongoing activities) -- this may also involve addressing vulnerabilities found that triggered an incident response.
-  
+
   Note that this in-audit support is not always appropriate and should match the needs and expectations of the organization. Some organizations prioritize an 'audit-only' approach in which no changes are made to systems, vulnerabilities, or staff capacity. In other cases, the organization will benefit from quick action to resolve issues. It is important to document any changes made, and carefully weigh the pros and cons of intervening, given the risks of unintended outcomes. Another risk is that the time spent providing this support will detract from your ability to complete a thorough assessment.
-  
+
   Ensure you document all work done, strive to engage and build capacity of team members so that they will be able to reproduce and maintain the work you have performed (rather than building dependency), and report on works completed in your final report/debrief. 
-  
+
   Continuous communication is also critical during assessments, and an in-audit debrief meeting may be offered multiple times, especially for longer engagements.
 purpose: |
   In-audit activities and training are used to increase an organization's agency to seek out and address immediate security challenges within their

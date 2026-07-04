@@ -4,10 +4,10 @@ approaches:
   - Técnico
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 skills_trained: []
 remote_options:
-    - with-support
+  - with-support
 time_required_minutes: 60
 organization_size_under: 25
 summary: |
@@ -19,7 +19,7 @@ walk_through: |
   status of exiting configurations.
 considerations: ""
 skills_required:
-    - Administración de Sistemas
+  - Administración de Sistemas
 overview: |
   * Explore default configurations.
     * Identify if systems are using default passwords or users

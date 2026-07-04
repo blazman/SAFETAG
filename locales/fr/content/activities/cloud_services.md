@@ -4,11 +4,10 @@ approaches:
   - Recherche
 position: 50
 authors:
-    - Natasha Msonza
-    - Neil Blazevic
+  - Natasha Msonza
+  - Neil Blazevic
 remote_options:
-    - Complète
-  
+  - Complète
 skills_required: []
 skills_trained: []
 summary: |
@@ -23,9 +22,9 @@ overview: |
   * Examiner l'utilisation des services cloud par l'organisation (quels services, quelles données, politiques d'accès)
   * Examiner les politiques formelles des services cloud utilisés
   * Recherchez les problèmes de sécurité historiques avec chaque fournisseur et leur réponse.
-  
+
   **Résultats attendus**
-  
+
   * Une liste de tous les services tiers / cloud identifiés en cours d'utilisation
   * Une cartographie de quelles données et métadonnées et quels utilisateurs ont accès sur quels fournisseurs
 materials_needed: ''
@@ -35,7 +34,7 @@ walk_through: |
   Il est de plus en plus difficile de gérer des organisations complexes sans dépendre de fournisseurs de services basés sur le cloud, tels que l'hébergement de messagerie, l'hébergement Web ou la gestion/sauvegarde de documents. Les organisations (et assistées par l'auditeur) doivent examiner leurs options dans la sélection des fournisseurs de cloud et, en parallèle, envisager des moyens d'appliquer des pratiques et des politiques à leur utilisation pour répondre aux exigences de sécurité organisationnelles.
 recommendations: |
   Planifiez des examens réguliers (annuels ?) des services externes pour vous assurer qu'ils répondent aux exigences organisationnelles en matière de fonctionnalité et de sécurité, de solvabilité commerciale et d'exportation ou de transfert de données.
-  
+
   Lorsque vous envisagez de formaliser l'utilisation de nouveaux services tiers, passez en revue les questions et les processus ici pour aider à guider la décision.
 organization_size_under: 1000
 time_required_minutes: 60

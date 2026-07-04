@@ -4,10 +4,10 @@ approaches:
   - Interpersonnel
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 skills_trained: []
 remote_options:
-    - avec assistance
+  - avec assistance
 time_required_minutes: 120
 organization_size_under: 25
 summary: |
@@ -19,7 +19,7 @@ materials_needed: |
   * Appareil photo pour capturer numériquement les données
 walk_through: |
   Préparez un tableau à feuilles mobiles / un espace sur le tableau blanc pour suivre le processus, les menaces, les impacts et les adversaires qui sont identifiés au cours d'autres activités. Les participants peuvent facilement prendre de l'avance sur le processus lorsqu'ils explorent des idées individuelles. Garder un espace pour ces activités "à venir" aidera à les recentrer sur l'activité en cours.
-  
+
   **Stratégie pré-mortem : (30 minutes)** La stratégie pré-mortem a été conçue pour sortir les participants d'une perspective de défense de leurs plans et stratégies et pour se protéger des failles. On leur donne "une perspective où ils [recherchent] activement les failles de leur propre plan". [^ pré-mortum]
   * Expliquer l'activité pré-mortem. Les participants doivent imaginer qu'il y a des mois dans le futur et qu'ils ont continué à faire leur travail normalement. Et quelque chose s'est produit qui les a rendus totalement incapables de fonctionner ou fonctionnant à un niveau très médiocre. "C'est tout ce qu'ils savent; ils doivent expliquer ce qui s'est passé." [^ pré-mortum]
   * Créer une large liste d'explications possibles pour ce qui s'est passé.
@@ -47,9 +47,9 @@ considerations: |
   * Assurez-vous que toutes les notes/dessins physiques sont effacés et détruits une fois enregistrés numériquement.
   * Assurez-vous que tous les enregistrements numériques de ce processus sont conservés en toute sécurité et cryptés.
 skills_required:
-    - Facilitation de groupe
-    - Prise en charge psychosociale
-    - Évaluation des risques
+  - Facilitation de groupe
+  - Prise en charge psychosociale
+  - Évaluation des risques
 overview: |
   * Activité "pré-mortem"
   * Identification des processus critiques
@@ -58,6 +58,5 @@ overview: |
   * Identification des impacts
   * Exploration de l'adversaire (probabilité)
   * Classement des impacts
-recommendations: |
-   "Cette activité peut conduire à des sentiments de désespoir ainsi qu'attiser des peurs directes ou des défis auxquels le personnel est confronté. Il est important de rappeler au personnel que tout risque peut être atténué, et en effet, l'objectif d'un audit est d'identifier les plus prioritaires en fonction de la probabilité réelle et de fournir des conseils sur l'atténuation."
+recommendations: "\"Cette activité peut conduire à des sentiments de désespoir ainsi qu'attiser des peurs directes ou des défis auxquels le personnel est confronté. Il est important de rappeler au personnel que tout risque peut être atténué, et en effet, l'objectif d'un audit est d'identifier les plus prioritaires en fonction de la probabilité réelle et de fournir des conseils sur l'atténuation.\""
 ---

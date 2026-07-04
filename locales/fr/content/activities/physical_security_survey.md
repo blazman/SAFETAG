@@ -5,25 +5,25 @@ approaches:
   - Recherche
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Partiel
+  - Partiel
 skills_required:
-    - Sondages
-    - Entrevue
+  - Sondages
+  - Entrevue
 skills_trained: []
 summary: |
   Cette activité aide l'auditeur à évaluer les politiques et pratiques de sécurité opérationnelles actuelles de l'organisation par le biais d'enquêtes et/ou d'entretiens en personne ou à distance. En demandant également d'examiner et d'officialiser les politiques ainsi qu'en effectuant plusieurs itérations de celles-ci avec différents membres du personnel, une vérification de base des pratiques et de la connaissance/compréhension des politiques existantes peut être réalisée
 overview: |
   L'auditeur interroge et/ou demande des informations sur l'enquête auprès des représentants de l'organisation, demande des documents justificatifs (par exemple, des politiques) le cas échéant, et itère/répète si nécessaire.
-  
+
   Cette activité est utilisée pour renforcer la compréhension de l'auditeur des risques physiques auxquels l'organisation est confrontée dans son travail car ils ont un impact sur la sécurité de l'information :
-  
+
   * Discuter des risques potentiels et de l'historique
   * Explorez la configuration physique du bureau
   * Déterminer les contrôles d'accès et les politiques associées (qui a accès à quoi, quand ?)
   * Déterminer où et quand les membres du personnel travaillent (bureau, café, espaces de coworking, domicile, en déplacement/affectations à distance)
-  
+
   Cela peut être fait entièrement à distance via des canaux de communication sécurisés (voir les considérations de sécurité opérationnelle), et il peut être utile de le faire partiellement ou entièrement avant un audit en personne pour mieux comprendre les risques opérationnels liés aux déplacements vers le bureau.
 materials_needed: |
   * (facultatif) Système d'enquête avec les précautions de sécurité et les contrôles d'accès appropriés
@@ -36,38 +36,38 @@ considerations: |
   * A noter que SAFETAG se focalise uniquement sur les impacts numériques de la sécurité physique. Ce guide ne fournit pas une évaluation complète de la sécurité physique.
 walk_through: |
   Cette activité devrait s'appuyer sur le travail de préparation de l'auditeur, ainsi que sur l'évaluation des capacités et le travail de recherche contextuelle :
-  
+
   * **Évaluation de la capacité :** Si l'auditeur a déjà passé l'entretien d'évaluation de la capacité, la plupart des réponses à ses questions d'introduction "Ouvrir" (5-22) fournissent l'historique des menaces, la probabilité et certaines informations de base sur la politique, et la les questions regroupées sous la rubrique "Informations sur les menaces" (58-68) approfondissent les problèmes et les réponses précédents. Si celles-ci n'étaient pas posées, elles
   peuvent être inclus ici en tant qu'entretien/enquête de suivi.
   * **Recherche contextuelle :** Assurez-vous que la recherche contextuelle a révélé si l'organisation serait ciblée par des adversaires en raison de leur travail (par exemple, plaidoyer, engagement ou couverture médiatique de sujets socialement sensibles, etc.).
   L'identification des menaces et la recherche sur le contexte technique devraient donner un aperçu des capacités techniques probables des adversaires (des logiciels malveillants ou d'autres outils de surveillance sont-ils utilisés (https://sii.transparencytoolkit.org/) ? Surveillance/surveillance physique ? Enregistreurs de frappe ?)
-  
+
   Une fois qu'un entretien initial ou une enquête a eu lieu (dans le cadre de
   ou dédiée aux questions susmentionnées), envoyer une demande de suivi pour toute politique mentionnée ou référencée (politiques de voyage, politiques d'intégration/délocalisation pour les changements de personnel, politiques d'utilisation d'appareils personnels ("BYOD"), etc.). Après avoir examiné ces documents, demandez toute politique supplémentaire à laquelle ils peuvent se référer (politiques générales en matière d'informatique ou de sécurité) et/ou planifiez un entretien de suivi ou une enquête informelle pour approfondir les questions restantes sans réponse sur la situation de sécurité opérationnelle de l'organisation ainsi que leurs adaptations à celui-ci. Dans le cas (probable) où il n'y a pas de politiques régissant ces sujets, l'auditeur peut demander à leurs points de contact pour ces discussions quelles sont les pratiques générales et développer et
   vérifier cela par des activités supplémentaires.
-  
+
   Lors de la création de nouvelles questions, veillez à ne pas "mener" sur la sécurité d'une manière qui découragerait les réponses honnêtes et transparentes. Par exemple, demandez "Organisez-vous des événements et des formations communautaires ?" au lieu de "Autorisez-vous des personnes extérieures à entrer dans votre bureau" ?
-  
+
   Vous trouverez ci-dessous des questions qui ne sont pas déjà couvertes dans le processus d'entretien d'évaluation des capacités, puis des questions sélectionnées de ce processus qui sont particulièrement utiles ici.
-  
+
   **Aménagement des bureaux et soucis de proximité**
-  
+
   Décrivez votre bureau - se trouve-t-il à un étage d'un immeuble ? Un étage entier ? (À quel niveau du bâtiment ?) À quelle distance se trouvent les autres bâtiments ? S'agit-il d'un espace de bureau ouvert partagé ou d'un espace de co-working ? (réseau partagé ? accès libre ?) ?
-  
+
   L'organisation a-t-elle fait face à des cambriolages/vols, des cambriolages ou des descentes dans les bureaux ?
   Si oui, que s'est-il passé, quand et comment avez-vous réagi (ou avez-vous une politique ou un plan d'urgence ? Quand a-t-il été révisé/mis à jour pour la dernière fois ?)
-  
+
   Quels autres réseaux wifi pouvez-vous voir ? (Voir https://wigle.net/ )
-  
+
   **Contrôles d'accès physique**
-  
+
   Considérez-vous que votre espace de bureau est sécurisé ?
-  
+
   - [ ] Non
   - [ ] Oui
-  
+
   Qui a un accès indépendant à l'espace de bureau et un accès de routine après les heures de bureau (c'est-à-dire qui est capable de déverrouiller l'espace). Cela peut inclure le personnel de sécurité, de nettoyage ou d'autres services du bâtiment.
-  
+
   Avez-vous des politiques et des procédures pour autoriser et limiter l'accès physique non autorisé aux systèmes numériques et aux installations dans lesquelles ils sont hébergés ?
   - [ ] Non
   - [ ] Oui
@@ -80,12 +80,12 @@ walk_through: |
   - [ ] Non
   - [ ] Oui
   **Commandes de l'appareil**
-  
+
   Avez-vous des procédures pour sécuriser physiquement les appareils portables tels que les ordinateurs portables et les téléphones portables ?
   - [ ] Non
   - [ ] Oui
   Si oui, veuillez les mettre en évidence
-  
+
   Avez-vous un personnel clé responsable de la sécurité des ressources numériques ?
   - [ ] Non
   - [ ] Oui
@@ -96,15 +96,15 @@ walk_through: |
   - [ ] Non
   - [ ] Oui
   Si oui, quelles sont les démarches ?
-  
+
   **Planification d'urgence**
-  
+
   Avez-vous un plan de continuité des activités en cas d'incidents graves ou
   catastrophe pour vos ressources numériques et est-ce actuel ?
   - [ ] Non
   - [ ] Oui
   Si oui, veuillez souligner les mesures prises.
-  
+
   Votre plan identifie-t-il les zones et les installations qui doivent être bouclées
   immédiatement en cas d'urgence?
   - [ ] Non
@@ -113,14 +113,14 @@ walk_through: |
   - [ ] Non
   - [ ] Oui
   **Programmes et personnel**
-  
+
   * Organisez-vous des événements ou des formations au bureau ? Ouvrez "cybercafé" ou
   espace de réunion communautaire?
   * Organisez-vous des réunions 1: 1 avec des bailleurs de fonds, des partenaires,
   * Le personnel travaille-t-il ou se réunit-il à domicile ou dans des cafés/restaurants ?
   **Questions sélectionnées de l'entretien d'évaluation des capacités, "Ouvrir"
   section:**
-  
+
   * Sur quelles questions l'organisation travaille-t-elle ? Ces questions sont-elles sensibles là où
   tu travailles?
   * Où votre organisation a-t-elle des activités ?
@@ -141,9 +141,9 @@ walk_through: |
   * Organiser des formations
   * Recevoir des formations
   * Collecte de fonds
-  
+
   **À partir de "Informations sur les menaces"**
-  
+
   * À votre connaissance, à quelle fréquence les incidents ci-dessous se produisent-ils dans les zones géographiques ou les zones problématiques dans lesquelles votre organisation est active ? Pourriez-vous s'il vous plaît me dire si vous pensez qu'ils n'arrivent jamais, parfois ou souvent
   * Le gouvernement intercepte légalement les informations communiquées par la société civile ou une personne privée
   * Le gouvernement confisque légalement l'équipement en raison des informations qu'il contient
@@ -195,7 +195,7 @@ walk_through: |
   * L'équipement et/ou les fournitures ont été préparés
   * Autre
   **De la section technique uniquement** :
-  
+
   * Des procédures de reprise après sinistre sont-elles en place pour les données d'application ?
   * Des procédures de gestion du changement sont-elles en place ?
   * Quelle est la durée moyenne de réparation des pannes de systèmes ?
@@ -207,7 +207,7 @@ walk_through: |
   * À quand remonte la dernière restauration des sauvegardes ?
 recommendations: |
   Voir la section des recommandations dans [Activité de visite guidée] (https://safetag.org/activities/guided_tour).
-  
+
   Pour des recommandations utiles en matière de politique organisationnelle, consultez le SANS
   [Politique de sécurité des informations
   Modèles] (https://www.sans.org/security-resources/policies)

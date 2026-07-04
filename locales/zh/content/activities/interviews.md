@@ -4,16 +4,16 @@ approaches:
   - 人际的
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - Complete
+  - Complete
 skills_required:
-    - Interviewing
+  - Interviewing
 skills_trained: []
 summary: |
   The auditor conducts interviews with various staff members to gather
   information on the organizations risks and capacity.
-  
+
   Q&A sessions are unabashedly _white box_ aspects of a security assessment, and
   you will occasionally hear push-back along the lines of, "You wouldn't have
   found that thing if we hadn't told you about this other thing." Compelling
@@ -33,9 +33,9 @@ considerations: |
   * If the auditor or organization believes that there is a good chance of surveillance on the channel you are communicating over, do the rest of the interview on a secured channel or in person where possible, though some information-gathering is critical to do before planning the audit. Inability to do so contributes towards a no-go situation.
 walk_through: |
   The questions below are roughly divided into categories for management, program staff, and technical staff.  The questions for technical staff may be best asked of the manager or another point of contact.  Within that section, there are specific questions that often only actual IT staff are likely to be able to answer.  An auditor may find value in re-asking the same questions to multiple staff members.  Specifically, however, the "Baseline Threat Identification Questions" should be asked of whoever the auditor feels most able or willing to answer them.
-  
+
   In all cases, the HCD Toolkit recommends that you "warm up the participant with questions they are comfortable with." [^HCD_toolkit] -- balance this against not asking questions which you should already know from basic organizational research, followed with informative questions which "prompt bigger, even aspirational, thinking that they may not be accustomed to on a daily basis." [^HCD_toolkit]
-  
+
   * What is your position in the organization?
   * What are your main responsibilities in this organization?
   * What issues does the organization work on? (Provide an example if needed - examples below)
@@ -62,9 +62,9 @@ walk_through: |
   * How many projects is your organization currently managing?
   * What is the organization’s working language? (for password dictionary)
   * Why are you having the audit done?
-  
+
   ###### Management and Baseline Questions
-  
+
   * Could you tell me, approximately, which percentage of the organization’s currently annual budget is dedicated to supporting the use of digital or mobile technology?
   * Does the organization have its own office space?
   * Does the organization have a domain name or brand identity that is used for all online communications?
@@ -87,13 +87,13 @@ walk_through: |
     * Run trainings
     * Receive trainings
     * Fundraising
-  
+
   **Go Specific**
-  
+
   "Dig deeper on the challenge at hand & prompt with ‘what if’ scenarios."
-  
+
   * Is the manager aware that a test is about to be performed?
-  
+
   * What is the most important reason for your organization to exist? (Provide an example if needed - examples below)
     * To raise awareness in the organization's policy area.
     * To impact policy.
@@ -112,11 +112,11 @@ walk_through: |
     * Financial Services
     * Other Services
   * Does the organization have a hierarchy for decision-making, according to which different people have different responsibilities and levels of authority?
-  
+
   **Go Personal**
-  
+
   "Dig deeper on the practices outside of work & prompt with ‘what if’ scenarios."
-  
+
   * Does the staff usually work remotely?
   * Does the staff usually take their work devices home?
   * Does the staff usually access organizational assets from personal devices? (Provide an example if needed - examples below)
@@ -132,11 +132,11 @@ walk_through: |
   * What time does the staff usually come in and get out of the office?
   * How secure are the office surroundings?
   * What are the common means of transportation used?
-  
+
   ###### Program Staff Questions
-  
+
   For organizations with signficant online operations/programs, the following questions may be asked of the management point of contact and/or a program staff member.
-  
+
   * Does the organization primarily rely on digital media in its work?
   * What digital tools does your organization use? (Examples follow)
       * Email
@@ -177,11 +177,11 @@ walk_through: |
     * How well do you believe your organization is able to use appropriate digital and mobile technology tools for the organization’s work?
     * In what ways, if any, have you experienced that technology inhibits the organization’s work?
     * What new activities using digital or mobile technologies would the organization like to attempt in the future? Please give examples of programs, activities, or management functions
-  
+
   ###### Technical Staff Questions
   Ask these of the most technical staff member you are in touch with. If the organization has dedicated IT support, this section also includes specific questions for IT.
-  
-  
+
+
   * Do the organization’s staff have access to computers for their work?
   * How many staff members do not have access to their own computer or need to share computers with other?
   * How many staff members use their personal devices to access organizational assets?
@@ -253,9 +253,9 @@ walk_through: |
     * circumvention software
     * other
   * Other software that is important to the organization’s work? Please describe if needed?
-  
+
   **IT Only**
-  
+
   * Are there any systems which could be characterized as fragile? (systems with tendencies to crash, older operating systems, or which are unpatched)
   * Does the organization have a standard procedure for installing software? If so can they provide a list of the software they install?
   * Is any system monitoring software in place?
@@ -279,9 +279,9 @@ walk_through: |
   * How many internal IP addresses, if applicable?
   * How many external IP addresses, if applicable?
   * Are there any devices in place that may impact the results of audit scans such as a firewall, intrusion detection/prevention system, web application firewall, or load balancers?
-  
+
   ###### Baseline Threat Identification Questions
-  
+
   * To your knowledge, how often do the below incidents occur in the geographic areas or issue areas in which your organization is active? Could you please tell me if you think they happen never, sometimes or often
     * The government lawfully intercepts information communicated by civil society or private person
     * The government lawfully confiscates equipment because of the information it contains
@@ -329,7 +329,7 @@ walk_through: |
     * There are specific plans in place for specific situations
     * Equipment and/or supplies have been made ready
     * Other
-  
+
   * Does the organization experience power outages in its office
   * Does the organization have access to the Internet in its offices?
   * In the last month, has your organization lost access to Internet for reasons other than power outages
@@ -339,9 +339,9 @@ walk_through: |
     * Harrasment?
     * Surveillance?
     * Physical violence?
-  
+
   ###### Questions for Known High Risk Organizations
-  
+
   See [Guiding Questions for High Risk Organizations](https://safetag.org/activities/interviews_highrisk) if there are concerns that the organization may be targeted by advanced threat actors.
 recommendations: ''
 organization_size_under: 50
