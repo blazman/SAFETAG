@@ -19,7 +19,7 @@ activities:
   - Roadmap Development
   - Resource Identification
   - Report Creation
-  - General debrief meeting
+  - General debrief & reporting meeting
 references:
   - Resource Identification
   - Digital Security Guides

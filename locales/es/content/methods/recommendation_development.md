@@ -19,7 +19,7 @@ activities:
   - Desarrollo de la Hoja de Ruta
   - Resource Identification
   - Producción del Informe
-  - General debrief meeting
+  - General debrief & reporting meeting
 references:
   - Resource Identification
   - Digital Security Guides

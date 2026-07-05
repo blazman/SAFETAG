@@ -19,7 +19,7 @@ activities:
   - Développement de la feuille de route
   - Identification des ressources
   - Création de rapport
-  - General debrief meeting
+  - General debrief & reporting meeting
 references:
   - Identification des ressources
   - Digital Security Guides

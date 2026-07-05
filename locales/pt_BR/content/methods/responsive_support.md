@@ -2,7 +2,7 @@
 title: Resposta a Incidentes e Suporte Durante Auditorias
 position: 150
 activities:
-  - Incident Response
+  - Incident Response and Emergency Contact
   - In-audit debrief meetings
 authors:
   - SAFETAG

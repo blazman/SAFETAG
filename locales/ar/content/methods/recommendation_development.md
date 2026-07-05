@@ -19,7 +19,7 @@ activities:
   - تطوير خارطة الطريق
   - Resource Identification
   - توليد التقرير
-  - General debrief meeting
+  - General debrief & reporting meeting
 references:
   - Resource Identification
   - Digital Security Guides

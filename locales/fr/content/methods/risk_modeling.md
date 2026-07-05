@@ -28,7 +28,7 @@ activities:
   - Créer une matrice des risques
   - Sensitive Data
   - Self Doxing
-  - Questions d'orientation pour les organisations à haut risque
+  - Guiding Questions for High-Risk Organisations
   - Assessing legal threats
   - Threat Identification
   - Threat Interaction
@@ -39,7 +39,6 @@ references:
   - Threat Assessment Activities
   - Risk Matrix Activities
   - Alternative Risk Modeling Activities
-  - Questions d'orientation pour les organisations à haut risque
   - Threat research by focus area
   - Threat research by method
   - General Threats by Region

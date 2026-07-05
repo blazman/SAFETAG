@@ -28,7 +28,7 @@ activities:
   - Criando uma Matriz de Risco
   - Sensitive Data
   - Autodoxing
-  - Perguntas Orientadoras para Organizações de Alto Risco
+  - Guiding Questions for High-Risk Organisations
   - Avaliando ameaças legais
   - Threat Identification
   - Threat Interaction
@@ -39,7 +39,6 @@ references:
   - Atividades de Avaliação de Ameaças
   - Atividades de Matriz de Risco
   - Alternative Risk Modeling Activities
-  - Perguntas Orientadoras para Organizações de Alto Risco
   - Threat research by focus area
   - Pesquisa de ameaças por método
   - General Threats by Region

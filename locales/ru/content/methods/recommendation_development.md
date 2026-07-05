@@ -19,7 +19,7 @@ activities:
   - Разработка дорожной карты
   - Resource Identification
   - Создание отчета
-  - General debrief meeting
+  - General debrief & reporting meeting
 references:
   - Resource Identification
   - Digital Security Guides

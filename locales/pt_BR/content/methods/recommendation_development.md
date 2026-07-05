@@ -19,7 +19,7 @@ activities:
   - Desenvolvimento de Plano
   - Identificação de Recursos
   - Criação de Relatório
-  - General debrief meeting
+  - General debrief & reporting meeting
 references:
   - Identificação de Recursos
   - Guias de Segurança Digital
