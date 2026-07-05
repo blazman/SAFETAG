@@ -11,9 +11,9 @@ guiding_questions: |
   * Qual é o entendimento da gerência e/ou da equipe sobre as práticas comuns de segurança?
   * Existem suposições feitas por alguns funcionários que não são compartilhadas?
   * Como é que qualquer uma destas práticas é implementada/exigida/verificada no âmbito das práticas organizacionais existentes?
-  
+
   Aspectos específicos a serem explorados são:
-  
+
   * Expectativas em relação às senhas (gerenciamento, complexidade, requisitos)
   * Políticas de contratação e demissão, e gerenciamento de contas
   * Políticas de acesso ao local de trabalho
@@ -22,36 +22,34 @@ guiding_questions: |
   * Políticas de uso aceitável (o que os funcionários podem ou não fazer com seus dispositivos de trabalho)
   Políticas de viagem (uso de VPN, etc.)
 authors:
-    - Carlos Guerra
-    - Candace Lazarou
+  - Carlos Guerra
+  - Candace Lazarou
 activities:
-    - Identificação de Acordos Informais
-    - Revisão de Política de Segurança
-    - Entrevistas
-    - Um dia na Vida
+  - Identificação de Acordos Informais
+  - Revisão de Política de Segurança
+  - Entrevistas
+  - Um dia na Vida
 references:
-    - Políticas Organizacionais
-    - Desenvolvimento de Recomendações
+  - Políticas Organizacionais
+  - Desenvolvimento de Recomendações
 operational_security: |
   **Armazenamento**: armazene documentos e arquivos recebidos em volumes ou discos seguros e criptografados. Esteja ciente de (e evite usar) quaisquer locais temporários inseguros.
-  
+
   **Comunicação**: utilize canais de comunicação seguros para receber políticas e discuti-las.
 info_required:
-    - "**Armazenamento**: armazene documentos e arquivos recebidos em volumes ou discos seguros e criptografados. Esteja ciente de (e evite usar) quaisquer locais temporários inseguros.
-  
-  **Comunicação**: utilize canais de comunicação seguros para receber políticas e discuti-las."
-    - Capacidades
+  - "**Armazenamento**: armazene documentos e arquivos recebidos em volumes ou discos seguros e criptografados. Esteja ciente de (e evite usar) quaisquer locais temporários inseguros.\n**Comunicação**: utilize canais de comunicação seguros para receber políticas e discuti-las."
+  - Capacidades
 outputs: |
   * Lista de acordos e políticas existentes e suas lacunas
   * Recursos para formalizar/expandir acordos para políticas
   * Fornecimento de suporte inicial para ajudar a organização a decidir e concordar com as orientações básicas sobre controles críticos de segurança digital, como uma lista de verificação de integração, políticas de entrada/saída, etc.
 info_provided:
-    - Capacidades
-    - Barreiras
+  - Capacidades
+  - Barreiras
 method_icon: /img/policy_review_icon.png
 purpose: |
   Muitas organizações menores não possuem políticas formais em torno da segurança da informação. Isso não é inerentemente bom ou ruim, pois em seu lugar muitas vezes existem acordos e práticas informais. O objetivo deste componente é revelar quaisquer suposições que não sejam compartilhadas e ajudar a estabelecer acordos mais formalizados em toda a organização, além de comparar  essas políticas, práticas, diretrizes e acordos informais com o que realmente está acontecendo (geralmente usando atividades das Metodologias de Avaliação de Dados e da Avaliação de Dispositivos).
-  
+
   * Identificar quais políticas básicas ou acordos informais existem (se houver) para responder aos desafios comuns de segurança da informação e continuidade dos negócios
   * Esclarecer quaisquer suposições feitas, mas que não são compartilhadas de forma eficaz
   * Listar acordos existentes e lacunas

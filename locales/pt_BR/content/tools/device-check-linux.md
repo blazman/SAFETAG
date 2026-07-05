@@ -8,47 +8,47 @@ short_summary: Check for security status of Linux desktop devices
 
    * Firewall
 
-  CLI:
+CLI:
 
-  ```sudo iptables -L -n```
-
-
-  CLI:   (Ubuntu, and only if installed)
-
-  ```sudo ufw status```
+```sudo iptables -L -n```
 
 
-  GUI: (Ubuntu, and only if installed)
+CLI: (Ubuntu, and only if installed)
 
-  ```gufw```
+```sudo ufw status```
+
+
+GUI: (Ubuntu, and only if installed)
+
+```gufw```
    * Anti-Virus Version
 
-  CLI deb:
+CLI deb:
 
-  ```dpkg-query -l | grep virus``` rpm: ```yum list installed | grep virus```
+```dpkg-query -l | grep virus``` rpm: ```yum list installed | grep virus```
 
 
-  See also: https://en.wikipedia.org/wiki/Linux_malware#Anti-virus_applications
+See also: https://en.wikipedia.org/wiki/Linux_malware#Anti-virus_applications
 
    * User privilege
 
-  CLI:
+CLI:
 
-  ```groups```
+```groups```
 
    * Drive Encryption
 
-  CLI:
+CLI:
 
-  ```sudo dmsetup status```
+```sudo dmsetup status```
 
    * Services Running
 
-  CLI:
+CLI:
 
-  ```top```
+```top```
 
 
-  CLI:
+CLI:
 
-  ```ps -ef```
+```ps -ef```

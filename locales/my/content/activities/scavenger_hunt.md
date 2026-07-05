@@ -4,12 +4,12 @@ approaches:
   - လူလူခြင်းဆက်ဆံမှုဆိုင်ရာ
 position: 50
 authors:
-    - AlWalid
+  - AlWalid
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - အဖွဲ့လိုက် ကူညီဆောင်ရွက်ပေးခြင်း
-    - စိတ်ပိုင်းဆိုင်ရာ လူမှုရေးစောင့်ရှောက်မှု
+  - အဖွဲ့လိုက် ကူညီဆောင်ရွက်ပေးခြင်း
+  - စိတ်ပိုင်းဆိုင်ရာ လူမှုရေးစောင့်ရှောက်မှု
 skills_trained: []
 summary: |
   This activity assists in identifying potential physical security concerns at
@@ -21,6 +21,7 @@ summary: |
   page 19, for additional ideas and guidance on conducting this activity (do note that this
   exercise is only available in an older version of SaferJourno. SaferJourno v2,
   with more up-to-date recommendations, is available [here](https://saferjourno.org/)).
+
 overview: |
   A local facilitator is required to lead this "scavenger hunt" where staff
   members seek out potential physical security challenges themselves. This
@@ -29,7 +30,7 @@ overview: |
   involve all staff members into the exercise to avoid causing trust issues. By
   involving the staff members in identifying physical security risks, you are
   also taking a step forward to increase  awareness on these issues. 
-  
+
   With facilitation, staff members will explore their own office looking for
   potential physical security risks and share results. To reduce the risk of
   individual staff embarrassment, they will first review their own working space
@@ -63,7 +64,7 @@ walk_through: |
   videochat) to brief them on the activity and map out potential challenges
   (particularly around trust, organizational hierarchies, and any potential
   repercussions). 
-  
+
   The auditor then prepares a checklist of physical vulnerabilities with the
   facilitator, based on the current understanding of the organization's assets
   and the context they are operating within. The auditor, facilitator, and
@@ -71,7 +72,7 @@ walk_through: |
   Note that this is only a list of a suggestions. As with the "Risk Hunting"
   exercise in [SaferJourno v1](https://www.internews.org/sites/default/files/resources/SaferJournoGuide_2014-03-21.pdf), and it should be modified to fit the requirements, assets, and threats the
   organization faces:
-  
+
   * Open windows.
   * Door with key hanging from the lock and/or unlocked doors to secure areas
   * Unlocked access to networking equipment - routers, wifi, modem / cablemodem
@@ -87,14 +88,14 @@ walk_through: |
   * Passwords written on a “sticky note” or other paper taped to a monitor or
   onto the surface of a desk.
   * Smartphones, cameras or other valuable devices left unattended
-  
+
   At the organization, the facilitator explains the activity to the organization
   members. To balance the need for consent with the benefits of identifying
   actual daily practices which may need improvement, the staff should already be
   aware that examining physical devices is part of the audit scope, but not the
   specific activity. Staff will be able to first identify and address their
   personal concerns before others.
-  
+
   * Each staff member will get a paper and a pen to note the physical
   vulnerabilities that they notice (cameras/cellphone cameras can also be used,
   note the operational security considerations listed).

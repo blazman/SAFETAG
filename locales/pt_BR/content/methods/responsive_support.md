@@ -9,7 +9,7 @@ authors:
 info_provided: []
 info_required: []
 references:
-  - Facilitation Preparation
+  - Preparação da Facilitação
   - Digital Security Trainings
   - Guias de Segurança Digital
 method_icon: "/img/responsive_support_icon.png"

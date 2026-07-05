@@ -9,8 +9,7 @@ summary: |
   auditor to identify publicly available resources (such as websites, extranets,
   email servers, but also social media information) connected to the
   organization and remotely gather information about those resources.
-short_summary: |
-   Use publicly available data sources to identify resources, assets, and information connected to the organization and which forms a potential attack surface.
+short_summary: Use publicly available data sources to identify resources, assets, and information connected to the organization and which forms a potential attack surface.
 the_flow_of_information: "![](/img/reconnaissance.png)"
 guiding_questions: |
   * Depending on the organization's security needs, does it "leak" any sensitive
@@ -20,18 +19,18 @@ guiding_questions: |
   * Have any of the organization's servers, users, or e-mail accounts been compromised in the past?
   * Are executive / staff social media accounts in scope, and if so, are they compliant with the organizational social media policies? What additional threats do they introduce?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Reconnaissance manuelle
-    - Reconnaisance automatisée
-    - Website Footprinting
-    - Énumération DNS
+  - Reconnaissance manuelle
+  - Reconnaisance automatisée
+  - Website Footprinting
+  - Énumération DNS
 references:
-    - Open Source Intelligence (General)
-    - Organizational Information Gathering
-    - Searching
-    - Pastebin Searching
-    - Recon-ng
+  - Open Source Intelligence (General)
+  - Organizational Information Gathering
+  - Searching
+  - Pastebin Searching
+  - Recon-ng
 outputs: |
   * Dossier of organizational, partner, and beneficiary "open sources" information exposed online.
     * A list of e-mail address for members of the organization.

@@ -25,7 +25,7 @@ authors:
 activities:
   - Process Mapping
   - Modelagem de risco usando a estratégia pré-mortem
-  - Criando uma matriz de risco
+  - Criando uma Matriz de Risco
   - Sensitive Data
   - Autodoxing
   - Perguntas Orientadoras para Organizações de Alto Risco

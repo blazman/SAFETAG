@@ -5,20 +5,20 @@ approaches:
   - Interpersonal
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - 部分
+  - 部分
 skills_required:
-    - Phishing
-    - Facilitation
-    - Psycho-social care
+  - Phishing
+  - Facilitation
+  - Psycho-social care
 skills_trained: []
 summary: |
   This component focuses on assessing and educating organizational staff on how
   to prevent, identify, and respond to social engineering attempts (Phishing,
   information gathering, cons) that lead to Malware and handing over
   authentication tokens/information.
-  
+
   The educational activities within this section are provided as an alternative
   to actual social engineering attacks against the organization. Audits of
   individual level behavior have a high chance of embarrassing or alienating the
@@ -44,30 +44,30 @@ walk_through: |
   * Lead staff in an activity identifying what critical data (as identified in during the Data Assessment) would be available to a hacker if malware were to get access to different devices.
   ___
   ###### Variant: Phishing Quiz
-  
+
   This a less labor-intensive and less targeted way to work staff through a
   discussion around the risks of phishing and social engineering.  This exercise
   uses a selection of online resources to let participants try and find what
   parts make them inauthentic and therefore possible phishing attempts.
-  
+
   Using guides from the Resources section above (under "Social Engineering
   (Alternatives to Social Engineering Toolkit)"), lead an activity among staff
   to find and discuss the items that raise their suspicion. See also
   http://www.sonicwall.com/furl/phishing/ ,
   http://lifehacker.com/5873050/how-to-boost-your-phishing-scam-detection-skills
-  
+
   ___
   ###### Variant:  Suspicious email Activity
-  
+
   This 60-minute activity is taken from the [Level Up
   Project](https://level-up.cc) and written by  Pablo, Daniel O’Clunaigh, Ali
   Ravi, and Samir Nassar. The activity is called [Analyzing a Potentially
   Harmful
   Email](https://level-up.cc/curriculum/malware-protection/using-antivirus-tools/activity-discussion/analyzing-potentially-harmful-email/l).
-  
+
   In this exercise participants will examine an email for clues about its
   authenticity.
-  
+
   **Materials to Prepare**
   * A “malicious” example e-mail. Details below on how to create your own (which will take an hour or so to prepare, though once it is prepared you don't need to do so again).
     * You can identify examples "in the wild" or from news stories to use, although creating your own can provide more utility and practice for training participants throughout a malware training session, since you can ensure it illustrates everything you want to cover.
@@ -95,7 +95,7 @@ walk_through: |
   Content-Type: text/html; charset="utf-8"
   MIME-Version: 1.0
   Content-Transfer-Encoding: quoted-printable
-  
+
   Remember to visit <a
   href=’http://www.harmfulsite.com’>http://www.example.com</a> to win our
   contest!
@@ -108,11 +108,11 @@ walk_through: |
     * Choose your sender and reciever emails wisely, along with any cc'd emails. These can be used to illustrate how emails can seem trustworthy or valid at first glance and should be examined more closely, as well as the common tactic of cc'ing contacts the recipient may know or are familiar with. Other examples can be addresses that may be secondary accounts for legitimate contacts (e.g., "anna.hrw@gmail.com" as a misleading Human Rights Watch staffer emailing about regional human rights issues if your participants work with HRW).
     * Anything else you can think of, especially any contemporary tactics or tactics that are being employed to target high-risk actors similar to your participants.
   **(Optional) Create your own phishing website**
-  
+
   You can also create a website as an example of phishing. This is recommended
   for trainers with some previous knowledge of HTML editing, Apache server
   configuration, and name to IP-translation using the HOSTS file.
-  
+
   (**Note:** You don’t have to link to this site in your email. The purpose is
   simply to show how a hacker might camouflage a fake site with a clever URL -
   such as “tvvitter.com” - while maintaining the design of the genuine site).
@@ -145,15 +145,15 @@ walk_through: |
   127.0.0.1 www.tvvitter.com #www
   ```
     * Save the changes to your host file. Open your browser and go to tvvitter.com. You should be able to see your mirrored page.
-  
+
   **Running the Activity**
-  
+
   This activity directly blends into the discussion that follows, so the
   division below is somewhat false. You can run this as group activity or with
   the entire group of particpants.  Or you can display the e-mail in your
   projector and having people comment on any inconsistencies. Sending
   particpants the email allows it to be more interactive.
-  
+
   **Option One:** Sharing the e-mail you've prepared with all participants. Ask
   them to open it using a mail client and see what happens when they click the
   links or open the attachment. (Note: Since the EICAR file is a known, albeit
@@ -163,13 +163,13 @@ walk_through: |
   check whether or not they have functioning anti-virus programs that provide
   real-time protection.) You will also want to have the email available on the
   projector for the subsequent discussion.
-  
+
   **Option Two:** Display the email via projector and engage the participants as
   a group as you analyze the email and its contents.  *See also the Phishing
   Quiz example in this section.*
-  
+
   **Discussion**
-  
+
   Once the email is shared, you can lead a discussion as participants explore
   its content and components. Items to cover as you have participants explore
   the email:
@@ -189,7 +189,7 @@ recommendations: |
   email client to your document tools and web browser) which add layers of
   protection (by being up to date, by not running as admin, by having
   script/plugin-blocking turned on) all help.
-  
+
   Using third party services to open and view documents provides yet another
   "trick" to block unwelcome attachments.
 organization_size_under: 100

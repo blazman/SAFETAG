@@ -4,8 +4,7 @@ position: 60
 method_icon: "/img/user_device_assessment_icon.png"
 summary: |
   This component allows the auditor to assess the awareness, attitudes, and capacity of staff members as well as review the status and security of the individual devices/endpoints (whether they are personally- or organizationally-owned) within the organization. This component consists of interviews, surveys, and inspection of devices.
-short_summary: |
-   Assess the security of the individual devices in the organization through interviews, surveys, and inspection of devices.
+short_summary: Assess the security of the individual devices in the organization through interviews, surveys, and inspection of devices.
 the_flow_of_information: "![](/img/user_device_assessment.png)"
 guiding_questions: |
   * What work and personal devices do staff use to accomplish their work, store
@@ -14,25 +13,25 @@ guiding_questions: |
   * What are the organizational processes that staff take part in and the tools and communication channels that are used in those process'?
   * What are the existing in/formal security practices that the participants use to address risks.
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Device and Behaviour Assessment
-    - Mobile Device Assessment
-    - ဘဝရဲ့တစ်နေ့တာ 
-    - A Night in the Life
-    - Auditing Authentication for Account Security
-    - လှုပ်ရှားမှုလေ့လာရေးလမ်းညွှန်
-    - Check Browser and Plugin Vulnerabilities
-    - Remote Network and User Device Assessment
+  - Device and Behaviour Assessment
+  - Mobile Device Assessment
+  - ဘဝရဲ့တစ်နေ့တာ
+  - A Night in the Life
+  - Auditing Authentication for Account Security
+  - လှုပ်ရှားမှုလေ့လာရေးလမ်းညွှန်
+  - Check Browser and Plugin Vulnerabilities
+  - Remote Network and User Device Assessment
 references:
-    - Device Assessment
-    - Password Security
-    - Privilege Separation Across OS
-    - Examining Firewalls Across OS
-    - Identifying Software Versions
-    - Device Encryption By OS
-    - Anti-Virus Updates
-    - Identifying Odd/One-Off Services
+  - Device Assessment
+  - Password Security
+  - Privilege Separation Across OS
+  - Examining Firewalls Across OS
+  - Identifying Software Versions
+  - Device Encryption By OS
+  - Anti-Virus Updates
+  - Identifying Odd/One-Off Services
 outputs: |
   * List of all assets in the organization and whom they belong to.
   * List of software running on staff devices and date of last update/patch level

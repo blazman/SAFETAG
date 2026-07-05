@@ -37,7 +37,7 @@ walk_through: |
   * **Documenting Existing Successes:** Place the recommendations on a timeline that includes the existing practices of the organization to show that the remediation process is a continuation of the hosts existing in/formal security practices. [\[1\]](https://safetag.org/activities/roadmap\_development\#footnotes)
   **\[1\] See: "Threat Modeling: Designing for Security" by Adam Shostack, p. 298\.**
   title: Desenvolvimento de Plano
-title: Roadmap Development
+title: Desenvolvimento de Plano
 overview: As part of SAFETAG's dedication to building agency and supporting organizational adoption of safer practices, a careful prioritization of vulnerabilities is invaluable in keeping audit results from appearing overwhelming. An organization needs to be able to weigh their possible paths forward against the time lost from program activities, the cost to implement the threat, and the other threats that they are not addressing. Roadmapping is used to give the host the tools to make these decisions and provide them with a recommended path forward that will allow them to make immediate gains towards protecting themselves. The existing in/formal security practices captured during this process will be used to remove organizational and psycho-social barriers to starting new practices.
 recommendations: "\"* You can check the [RAWRR tool by Conexo](https://conexo.org/project/rawrr/), which proposes a structure to build the roadmap and create reports around it. \""
 ---

@@ -15,7 +15,7 @@ activities:
   - Perícia (análise forense) digital e obtenção de evidências
   - Análise Forense (Perícia)
   - Resposta a incidentes e contato de emergência
-  - Pesquisa de contexto técnico
+  - Pesquia de Contexto Técnico
   - Varredura de Rede
 references:
   - Análise de Malware

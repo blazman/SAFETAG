@@ -4,12 +4,12 @@ approaches:
   - လူလူခြင်းဆက်ဆံမှုဆိုင်ရာ
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - ပြည့်စုံသည်
+  - ပြည့်စုံသည်
 skills_required:
-    - ကူညီဆောင်ရွက်ပေးခြင်း
-    - စွန့်စားမှု အကဲဖြတ်ချက်
+  - ကူညီဆောင်ရွက်ပေးခြင်း
+  - စွန့်စားမှု အကဲဖြတ်ချက်
 skills_trained: []
 summary: |
   Key to evaluating risk is identifying and understanding what the organization
@@ -22,7 +22,7 @@ overview: |
 materials_needed: |
   All guidance in this section assumes that participants have access to reliable
   wifi.
-  
+
   * Given the complexity of managing several small groups virtually, it is
   helpful to have a point of contact at the organization to assist in
   coordinating logistics. Determine who this might be at the beginning of the
@@ -34,12 +34,13 @@ materials_needed: |
   * Templates
       * **Logistics Document** Available as an OpenDocument in the SAFETAG repository, and online via Google Docs: [Logistics Document](https://drive.google.com/file/d/1Jel7mGJvsAq0F6UKoGnx4eBeCMz8cfOY/view?usp=sharing)
       * **Remote Asset Valuation Table** Available as an OpenDocument Spreadsheet in the SAFETAG repository, and online via Google Docs:[Remote Asset Valuation Table](https://drive.google.com/file/d/1Yf2S6IIOlewzTSBNT-yJ1P9ZZD2d3XVN/view?usp=sharing)
-considerations: |
+considerations: >
   "* Ensure staff invited to the call are not located in an operationally sensitive environment when conducting real time discussions around sensitive matters. This consideration should be adhered to during any remote or in-person engagement. * Some of the documents produced in this exercise may be sensitive. Proceed with caution and ensure documents are sufficiently secured so as not to result in a data leak. * Additional considerations and research should be conducted before using technology for real-time collaboration and teleconferencing. Not all teleconferencing technology is made equal. Be sure to evaluate the risks of using a technology prior to engaging in sensitive conversations online.
+
   "
 walk_through: |
   **Preparation**
-  
+
   * Determine which staff must attend the virtual engagement.
   * Once you have a list, work with your point of contact within the
   organization to divide the team into smaller groups, perhaps by those who work
@@ -56,9 +57,9 @@ walk_through: |
   * With staff input, fill the template in with the most popular places where
   data is kept (laptops, email, shared drives...) prior to beginning the
   meeting.
-  
+
   **Day of**
-  
+
   * The Remote Asset Valuation Table template is ideally completed in two
   phases: 1) Iterating Assets; 2) Evaluating the Sensitive of those Assets, so
   as not to ask too much of the group all at once. However, in past audits, most
@@ -73,9 +74,9 @@ walk_through: |
   * Give an overview of what will be accomplished and the goals.
   * Review the **Logistics Doc** and sequence of events.
   * Review the **Asset Valuation Table** example and answer any questions.
-  
+
   **Breakout Discussions**
-  
+
   * Release groups to connect via their small virtual breakout room. Ask each
   group to assign a notetaker and to discuss each point. You do not want
   individuals to silently complete the document. The point is to stir

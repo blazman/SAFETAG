@@ -406,7 +406,7 @@ walk_through: >
 considerations: |
   * **In Scope Devices** N'oubliez pas que certains ne voudront peut-être pas que vous numérisiez tout sur leur réseau. Pour éviter cela, demandez toujours à votre audité s'il existe des appareils spécifiques qui doivent être exclus. Ces machines peuvent être essentielles à leur fonctionnement ou elles ne veulent tout simplement pas être scannées. Si votre audité a des exclusions, expliquez les conséquences possibles si une machine ne fait pas l'objet d'une évaluation de vulnérabilité. Si vous analysez des serveurs publics, vérifiez que l'hôte du serveur (Entreprise Web, fournisseur de cloud, etc.) a approuvé l'analyse, et que l'analyse à distance est légale dans la juridiction à partir de laquelle vous l'effectuez et dans l'emplacement du serveur distant.
   title: Analyse de réseau
-title: Network Scanning
+title: Analyse de réseau
 skills_required:
   - Analyse de réseau
 overview: >

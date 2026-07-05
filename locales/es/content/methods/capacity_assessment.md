@@ -3,8 +3,7 @@ title: Evaluación de Capacidad
 position: 30
 summary: |
   En este componente, el auditor interactúa con el personal a través de entrevistas y conversaciones para identificar las fortalezas y debilidades de la organización (pericia, finanzas, voluntad de aprender, horas de dedicación del personal, etc.) para adoptar nuevas prácticas de seguridad digital y física. El auditor usa esta información para modificar consecuentemente el alcance de la auditoría y sus recomendaciones.
-short_summary: |
-   Engage with staff to identify the organization's strengths and weaknesses and use this information to modify audit scope and recommendations.
+short_summary: Engage with staff to identify the organization's strengths and weaknesses and use this information to modify audit scope and recommendations.
 the_flow_of_information: "![](/img/capacity_assessment.png)"
 guiding_questions: |
   * What is the organization's ability to adopt new technologies or practices?
@@ -12,15 +11,15 @@ guiding_questions: |
   * What is the environment that the organization works within like? What barriers, threat actors, and other aspects influence their work?
   * Are there any specific considerations for the audit that would require modifying the overall approach, tools, preparation steps, or timeline?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Entrevistas
-    - Guiding Questions for High-Risk Organisations
-    - Evaluación de la Capacidad de la Lista de Evaluación.
+  - Entrevistas
+  - Guiding Questions for High-Risk Organisations
+  - Evaluación de la Capacidad de la Lista de Evaluación.
 references:
-    - Evaluación de Capacidad
-    - Entrevistas
-    - Background Interview Approaches
+  - Evaluación de Capacidad
+  - Entrevistas
+  - Background Interview Approaches
 operational_security: |
   * You may be interacting with many staff members. Avoid reporting the comments
   from other staff members to their peers or supervisors unless you clarify that

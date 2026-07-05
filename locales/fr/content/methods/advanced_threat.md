@@ -21,7 +21,7 @@ authors:
   - SAFETAG
 activities:
   - Suspicious Activity Analysis
-  - Etudes médico-légales numériques et capture de preuves
+  - La criminalistique numérique et la collecte de preuves
   - Analyse criminalistique
   - Intervention en cas d'incident et contact d'urgence
   - Technical Context Research

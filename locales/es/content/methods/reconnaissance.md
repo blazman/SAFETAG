@@ -4,8 +4,7 @@ position: 40
 method_icon: /img/reconnaissance_icon.png
 summary: |
   La metodología de evaluación remota se enfoca en la observación directa de una organización y su infraestructura, consistiendo en el reconocimiento pasivo de fuentes de datos disponibles públicamente ("Inteligencia de Fuente Abierta"). Esto permite al auditor identificar recursos públicamente disponibles (tales como sitios web, extranets, servidores de correo electrónico, pero también información de redes sociales) conectados a la organización, y recopilar información en forma remota acerca de esos recursos.
-short_summary: |
-   Use publicly available data sources to identify resources, assets, and information connected to the organization and which forms a potential attack surface.
+short_summary: Use publicly available data sources to identify resources, assets, and information connected to the organization and which forms a potential attack surface.
 the_flow_of_information: "![](/img/reconnaissance.png)"
 guiding_questions: |
   - Dependiendo de las necesidades de seguridad de la organización, ¿se filtra información online (ubicación, identidad personal, ubicación de los programas)?
@@ -13,18 +12,18 @@ guiding_questions: |
   - ¿Cuál es el patrón para las direcciones de email del personal?
   - ¿Alguno de los servidores de la organización, de los usuarios, de las cuentas de correo electrónico, han sido comprometidas en el pasado?
 authors:
-    - SAFETAG
+  - SAFETAG
 activities:
-    - Manual Reconnaissance
-    - Automated Reconnaisance
-    - Website Footprinting
-    - DNS Enumeration
+  - Manual Reconnaissance
+  - Automated Reconnaisance
+  - Website Footprinting
+  - DNS Enumeration
 references:
-    - Open Source Intelligence (General)
-    - Recolección de Información Organizacional
-    - Searching
-    - Pastebin Searching
-    - Recon-ng
+  - Open Source Intelligence (General)
+  - Recolección de Información Organizacional
+  - Searching
+  - Pastebin Searching
+  - Recon-ng
 outputs: |
   * Dossier of organizational, partner, and beneficiary "open sources" information exposed online.
     * A list of e-mail address for members of the organization.

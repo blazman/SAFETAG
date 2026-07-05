@@ -295,7 +295,7 @@ barreiras organizacionais e psicossociais ao início de novas práticas.
 
 ### Habilidades De Base
 
-### Preparation
+### Preparação
 
 ### Materiais necessários
 
@@ -386,7 +386,7 @@ verificação para validar que as ameaças foram tratadas.
 
 ### Habilidades De Base
 
-### Preparation
+### Preparação
 
 ### Materiais necessários
 

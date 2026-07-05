@@ -17,7 +17,7 @@ guiding_questions: |
 authors:
   - SAFETAG
 activities:
-  - သတိထားရမည့် အချက်အလက်များ
+  - အကဲဆတ်သော ဒေတာ
   - Risks of Data Lost and Found
   - Assessing Usage of Cloud Services
   - The Impacts of a Lost Device

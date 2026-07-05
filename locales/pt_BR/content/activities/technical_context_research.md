@@ -1,5 +1,5 @@
 ---
-title: Technical Context Research
+title: Pesquia de Contexto Técnico
 position: 50
 approaches:
   - Pesquisa

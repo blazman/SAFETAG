@@ -9,7 +9,7 @@ remote_options:
   - with-support
 skills_required:
   - Traffic Analysis
-  - Malware ခွဲခြမ်းစိတ်ဖြာခြင်း
+  - အန္တရာယ်ရှိသည့် ဆော့ဖ်ဝဲ ခွဲခြမ်းစိတ်ဖြာခြင်း
 skills_trained: []
 summary: |
   Any content that is sent out over the network without encryption is easy to

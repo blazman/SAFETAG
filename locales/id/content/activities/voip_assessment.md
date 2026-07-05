@@ -5,12 +5,12 @@ approaches:
   - Technical
 position: 50
 authors:
-    - SAFETAG
+  - SAFETAG
 remote_options:
-    - with-support
+  - with-support
 skills_required:
-    - Research
-    - Pemindaian Jaringan
+  - Research
+  - Pemindaian Jaringan
 skills_trained: []
 summary: |
   VoIP technologies are commonly used nowadays as it provides an alternate
@@ -34,7 +34,7 @@ materials_needed: |
 considerations: ''
 walk_through: |
   See VOIP references.
-  
+
   Wireshark has built in VOIP filtering and call-reconstruction tools:
   https://wiki.wireshark.org/VoIP_calls (test this against a sample capture:
   https://wiki.wireshark.org/SampleCaptures?action=AttachFile&do=view&target=rtp_example.raw.gz)
