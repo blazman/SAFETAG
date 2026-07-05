@@ -19,15 +19,15 @@ summary: >
   de autenticação de contas dentro de uma organização e dá orientações sobre como desenvolver recomendações para implementar um kit de ferramentas de autenticação resistente a phishing.
 short_summary: Avaliar a segurança e a eficácia das práticas de autenticação de contas dentro de uma organização e dar orientações sobre como implementar uma abordagem resistente a phishing.
 overview: >
-  "* Verificar se estão usando fatores de segurança resistentes a phishing, como
-  chaves de segurança físicas ou senhas de acesso
+  "
+
+  * Verificar se estão usando fatores de segurança resistentes a phishing, como chaves de segurança físicas ou senhas de acesso
 
   * Verificar se não faltam controles de autenticação essenciais, como a verificação em duas etapas
 
   * Avaliar o uso de gerenciadores de credenciais ou senhas em toda a organização, incluindo configurações importantes, como ativar o preenchimento automático neles
 
-  * Analisar estratégias que diminuam a superfície de ataque e simplifiquem a autenticação, como usar o login único sempre que possível e restringir concessões
-  OAuth inseguras 
+  * Analisar estratégias que diminuam a superfície de ataque e simplifiquem a autenticação, como usar o login único sempre que possível e restringir concessões OAuth inseguras 
 
   (acesso a dados de aplicativos de terceiros)
 

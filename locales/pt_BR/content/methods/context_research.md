@@ -6,7 +6,11 @@ summary: |
 short_summary: Identificar o contexto regional e tecnológico relevante necessário para realizar uma auditoria segura e bem informada.
 the_flow_of_information: "![](/img/context_research.png)"
 guiding_questions: |
-  * Quais são as barreiras de infraestrutura que existem na região?* Quais são as principais ameaças digitais não direcionadas nesta região?* Quais são as principais ameaças digitais direcionadas que as organizações que fazem esse trabalho enfrentam nessa região/país?* Existem implicações legais para a segurança digital no país? (por exemplo, legalidade da criptografia, ferramentas de anonimato, etc.)* Alguma organização ou pessoa fez ameaças específicas ou mostrou intenção ou disposição de atacar a organização ou organizações parecidas?
+  * Quais são as barreiras de infraestrutura que existem na região?
+  * Quais são as principais ameaças digitais não direcionadas nesta região?
+  * Quais são as principais ameaças digitais direcionadas que as organizações que fazem esse trabalho enfrentam nessa região/país?
+  * Existem implicações legais para a segurança digital no país? (por exemplo, legalidade da criptografia, ferramentas de anonimato, etc.)
+  * Alguma organização ou pessoa fez ameaças específicas ou mostrou intenção ou disposição de atacar a organização ou organizações parecidas?
 authors:
   - SAFETAG
 activities:

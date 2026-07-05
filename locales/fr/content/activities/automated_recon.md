@@ -54,7 +54,7 @@ walk_through: |
 
   ___
 
-  ###### Variant : Recon-ng
+  ###### Variant : Recon-ng
 
   **Qu'est-ce que recon-ng?**
 
@@ -79,7 +79,7 @@ walk_through: |
   Vous trouverez ci-dessous une présentation de l'utilisation de recon-ng v5, mais il existe également une bonne série de vidéos d'introduction à recon-ng V5 à l'adresse [Recon-ng v5 series](https://www.youtube.com/playlist?list=PLBf0hzazHTGOg9taK90uFjdcb8UgGfRKZ).
   **Bases de l'interface**
 
-  Lancez recon-ng à partir de la ligne de commande :
+  Lancez recon-ng à partir de la ligne de commande :
 
   ```
   # recon-ng
@@ -87,7 +87,7 @@ walk_through: |
 
   En appuyant deux fois sur la touche de tabulation, vous pouvez utiliser l'auto-complétion pour voir les options disponibles.
   disponibles. C'est un bon moyen de se familiariser avec les commandes et la navigation.
-  navigation. Sur une nouvelle installation, appuyer deux fois sur la touche de tabulation affichera :
+  navigation. Sur une nouvelle installation, appuyer deux fois sur la touche de tabulation affichera :
 
   ```
 
@@ -99,7 +99,7 @@ walk_through: |
 
   Ce sont les commandes de premier niveau
 
-  La complétion automatique (en appuyant sur la tabulation) fonctionne même à l'intérieur des commandes :
+  La complétion automatique (en appuyant sur la tabulation) fonctionne même à l'intérieur des commandes :
 
   ```
   [recon-ng][default] > show
@@ -121,7 +121,7 @@ walk_through: |
   que les modules ont un format de nom spécifique qui aide l'utilisateur à comprendre le
   le flux de données à l'intérieur de l'outil. Rappelez-vous que recon-ng organise les informations
   dans un certain nombre de tables de base de données telles que les domaines, les hôtes, les contacts, les fuites.
-  Les modules utilisent la syntaxe suivante : "<<étape méthodologique>/<tableau d'entrée>-<tableau de sortie>/<module>".
+  Les modules utilisent la syntaxe suivante : "<<étape méthodologique>/<tableau d'entrée>-<tableau de sortie>/<module>".
   table>/<module>``. Les entrées constituent la première partie de chaque module, et les
   les sorties sont la deuxième partie. Le nom du module lui-même est l'outil utilisé pour
   traiter les données. Ainsi, recon/domains-hosts/brute-hosts prend les noms de domaine
@@ -138,7 +138,7 @@ walk_through: |
   Si vous voulez lire ce que fait un module avant de l'installer, alors exécutez
   ``marketplace info <modulename>``
 
-  Les résultats de la requête de recherche ressemblent à ceci :
+  Les résultats de la requête de recherche ressemblent à ceci :
 
   ```
   [recon-ng][default] > marketplace search DNS
@@ -167,13 +167,14 @@ walk_through: |
   modules avec ``marketplace install all`` bien que les modules avec des dépendances
   dépendances et les clés API manquantes ne fonctionneront pas tant que vous n'aurez pas répondu à ces besoins.
   Vous pouvez également installer une collection de modules en utilisant des commandes telles que
-  ```marketplace install recon``` to install all the recon/* modules, or
+  ```marketplace install recon``` to install all the recon/
+  * modules, or
   ```marketplace install recon/domains-hosts``` to get all of the domains-hosts
   modules under recon.
 
   **Premières étapes**
 
-  REMARQUE : Ce guide utilise des données échantillons. Les résultats varieront largement selon l'organisation avec laquelle vous travaillez.
+  REMARQUE : Ce guide utilise des données échantillons. Les résultats varieront largement selon l'organisation avec laquelle vous travaillez.
 
   recon-ng vous permet de créer des espaces de travail distincts pour organiser votre travail de
   travail de reconnaissance. Ceci sera probablement utilisé pour séparer les résultats et les conclusions de la
@@ -196,7 +197,7 @@ walk_through: |
   vous effectuez une reconnaissance.
 
   Affichez les informations possibles en utilisant la complétion automatique - tapez la commande
-  ci-dessous, puis appuyez deux fois sur la touche tabulation :
+  ci-dessous, puis appuyez deux fois sur la touche tabulation :
 
   ```
   [recon-ng][websitename] > db insert
@@ -347,7 +348,7 @@ walk_through: |
   query <sql> database query returning one column of inputs
   ```
 
-  Vous remarquez que la valeur actuelle de SOURCE est 'default' ? Regardez ensuite les options de source
+  Vous remarquez que la valeur actuelle de SOURCE est 'default' ? Regardez ensuite les options de source
   le comportement par défaut est d'exécuter le module sur tous les blocs de réseaux trouvés
   dans la table des blocs réseau que nous avons déjà commencé à remplir à la dernière étape.
   étape. Il y a d'autres options comme la résolution d'une IP particulière en changeant
@@ -419,13 +420,13 @@ walk_through: |
   ACME, et vous savez que leur site web est ACME.com, mais saviez-vous qu'ils ont
   une branche à but non lucratif à ACME.org, et qu'il y a une branche européenne à ACME.eu.
   ou que leur équipe de développement gère un extranet à ACME.net et que les vendeurs
-  se connectent à vendor.acme.net tandis que l'équipe de développement se connecte à dev.acme.net ?
+  se connectent à vendor.acme.net tandis que l'équipe de développement se connecte à dev.acme.net ?
 
   Trouvons de nouveaux domaines en utilisant le forçage brut. D'abord, nous devons chercher ce qui est
   disponible, puis installer, charger et exécuter le module sélectionné. Suivez les
   commandes ci-dessous. En raison du grand nombre de TLD, cela peut prendre du temps.
   Si vous en avez assez d'attendre, appuyez sur CTRL + C pour interrompre le processus.
-  il sauvegardera quand même les résultats dans la base de données :
+  il sauvegardera quand même les résultats dans la base de données :
 
   ```
   [recon-ng][websitename] > marketplace search domains-domains
@@ -596,7 +597,7 @@ walk_through: |
   [*] 39 total (35 new) hosts found.
 
   ```
-  Ok c'était plutôt réussi, jetons un coup d'oeil à notre prime :
+  Ok c'était plutôt réussi, jetons un coup d'oeil à notre prime :
 
   ```
   [recon-ng][websitename] > show hosts
@@ -650,7 +651,7 @@ walk_through: |
 
   **Prochaines étapes**
 
-  Voici quelques suggestions pour les étapes suivantes de la phase de reconnaissance :
+  Voici quelques suggestions pour les étapes suivantes de la phase de reconnaissance :
   * Résoudre les adresses IP.
   * Exécuter des modules de collecte de données par balayage de port (essayer recon/hosts-ports/binaryedge en utilisant l'API BinaryEdge).
   * Exécuter des modules de collecte de vulnérabilités.
@@ -667,7 +668,7 @@ walk_through: |
   vous pourrez maîtriser l'utilisation de cet outil pour votre travail de reconnaissance.
 
   **Rapports**
-  * Exportez les données pour les analyser ou les présenter :
+  * Exportez les données pour les analyser ou les présenter :
   ```
   [recon-ng][websitename] > marketplace install reporting/csv
   [recon-ng][websitename] > modules load reporting/csv
@@ -694,14 +695,14 @@ walk_through: |
   en main, ajoutez-les avec ```keys add <apiname> <apikey>```, par exemple ```keys
   add bing_api a7b92c729e829f8a7cba4bc```.
   * Clé API Bing (bing_api) -
-  * Souscrivez à l'abonnement gratuit à l'API de recherche Bing ici : https://azure.microsoft.com/en-us/try/cognitive-services/?api=search-api-v7
+  * Souscrivez à l'abonnement gratuit à l'API de recherche Bing ici : https://azure.microsoft.com/en-us/try/cognitive-services/?api=search-api-v7
   * Utilisez l'option de compte Azure gratuit
   * La clé API sera disponible sur la page ”Account Keys”.
   * Clé API BuiltWith (builtwith_api) -
-  * Créez un compte gratuit ici : https://api.builtwith.com/
+  * Créez un compte gratuit ici : https://api.builtwith.com/
   * Connectez-vous à l'application en suivant le même lien.
   * Clé API Google (google_api) -
-  * Créez un projet API ici : https://console.developers.google.com/project/
+  * Créez un projet API ici : https://console.developers.google.com/project/
   * La clé API sera disponible dans la console de gestion du projet.
   * Cliquez sur le menu ”APIs & auth”.
   * Cliquez sur le sous-menu ”Credentials” (Credentials)
@@ -712,19 +713,19 @@ walk_through: |
   * Clé API IPInfoDB (ipinfodb_api) -
   * NÉCESSITE UNE ADRESSE IP PERMANENTE COMME UN SERVEUR À PARTIR DUQUEL LES DEMANDES D'API SERONT EFFECTUÉES.
   * Nécessite un courriel de domaine personnalisé (il rejette les comptes ”gratuits” comme gmail).
-  * Créez un compte gratuit ici : http://www.ipinfodb.com/register.php
+  * Créez un compte gratuit ici : http://www.ipinfodb.com/register.php
   * Connectez-vous à l'application ici.
   * La clé API sera disponible dans l'onglet ”Account” (Compte).
   * Clé API Shodan (shodan_api) -
-  * Créez un compte ou connectez-vous à Shodan en utilisant l'une des nombreuses options disponibles ici : https://www.shodan.io/
+  * Créez un compte ou connectez-vous à Shodan en utilisant l'une des nombreuses options disponibles ici : https://www.shodan.io/
   * En haut à droite de l'écran, cliquez sur ”My Account” (Mon compte) pour obtenir une clé API.
   * Un compte amélioré est nécessaire pour accéder à la plupart des fonctions de recherche. Le coût actuel est de 50 $ pour un accès à vie. Mettez votre compte à niveau en vous connectant sur https://www.shodan.io et en cliquant sur "Mise à niveau" dans le coin supérieur droit.
   * Clé API de l'application Twitter (twitter_api) et (twitter_secret) -
-  * Créez une application ici : https://apps.twitter.com/
+  * Créez une application ici : https://apps.twitter.com/
   * La clé du consommateur sera disponible sur la page de gestion de l'application.
   * Le secret du consommateur (twitter_secret) sera disponible sur la page de gestion des applications pour l'application créée ci-dessus.
   * Clé API de VirusTotal (virustotal_api)
-  * Créez un compte gratuit en cliquant sur le bouton "S'inscrire à la communauté VirusTotal" ici : https://www.virustotal.com/en/documentation/private-api/#.
+  * Créez un compte gratuit en cliquant sur le bouton "S'inscrire à la communauté VirusTotal" ici : https://www.virustotal.com/en/documentation/private-api/#.
   * Connectez-vous à l'application et sélectionnez ”My API key” (Ma clé API) dans le menu utilisateur.
   * La clé API sera visible en haut de la page.
   * HaveIBeenPwned (hibp_api)
@@ -751,9 +752,9 @@ walk_through: |
   ___
 
 
-  ###### Variante : Foca Analyzer
+  ###### Variante : Foca Analyzer
 
-  Exigences :
+  Exigences :
 
   - Exécutable FOCA
   - Environnement Windows (virtualisé)
@@ -778,7 +779,7 @@ walk_through: |
   Pour créer un projet dans FOCA, cliquez sur ```Project``` (Projet) dans le menu d'onglet, et sélectionnez
   ```New Project``` (Nouveau projet).
 
-  Il y a quelques éléments à remplir dans FOCA :
+  Il y a quelques éléments à remplir dans FOCA :
 
   - **Nom du projet:** Nom de votre projet
   - **Domaine web:** le site web de votre cible
@@ -787,14 +788,14 @@ walk_through: |
   - Dossier de sauvegarde des documents:** Sélectionnez un dossier ou créez un dossier pour vos résultats de l'OFAC.
   vos résultats de l'OFAC
   - Date du projet:** Date de votre projet (automatiquement remplie)
-  - Notes sur le projet : ** Toutes les notes que vous avez pour ce projet particulier.
+  - Notes sur le projet : ** Toutes les notes que vous avez pour ce projet particulier.
 
   Après avoir rempli les formulaires, sélectionnez le bouton ```Create``` (Créer).
 
   **Scanner et rechercher:**
 
   Après avoir enregistré votre projet, vous accédez à la fenêtre principale. Dans le coin supérieur droit
-  Dans le coin supérieur droit de votre écran, vous verrez les deux paramètres :
+  Dans le coin supérieur droit de votre écran, vous verrez les deux paramètres :
 
   - **Moteurs de recherche:** moteurs de recherche que vous vouliez utiliser (*Google, Bing,
   Exalead*)
@@ -804,7 +805,7 @@ walk_through: |
   Cliquez sur le bouton ```Search All``` (Rechercher tout) situé sous les options ```Extension``` pour lancer l'analyse.
   l'analyse.
 
-  Remarque : FOCA vous donnera un avertissement concernant l'adresse IP de la cible et le propriétaire de la zone réseau.
+  Remarque : FOCA vous donnera un avertissement concernant l'adresse IP de la cible et le propriétaire de la zone réseau.
   Ceci sera ajouté au domaine alternatif.
 
   **Analyse des documents publics:**
@@ -819,13 +820,13 @@ walk_through: |
 
   **Downloading Files:**
 
-  Une fois la recherche/le balayage terminé, cliquez avec le bouton droit de la souris sur n'importe quel fichier (REMARQUE : vous pouvez commencer à télécharger les fichiers un par un).
+  Une fois la recherche/le balayage terminé, cliquez avec le bouton droit de la souris sur n'importe quel fichier (REMARQUE : vous pouvez commencer à télécharger les fichiers un par un).
   pouvez commencer à télécharger les fichiers un par un ou tous à la fois en utilisant SHIFT+SELECT.
   vous ne pouvez extraire que les métadonnées des fichiers déjà téléchargés). Si le
   site Web cible contient un grand nombre de fichiers et de documents, vous voudrez peut-être
   télécharger tous les fichiers en une seule fois.
 
-  **Extraction des métadonnées :**
+  **Extraction des métadonnées :**
 
   Après avoir sélectionné un ou plusieurs fichiers qui ont été téléchargés, vous pouvez faire un ```clic droit``` (right-click) et 
   sélectionner ```Télécharger les métadonnées``` (Download Metadata).
@@ -833,7 +834,7 @@ walk_through: |
   commencez par télécharger tous les documents. Ensuite, faites un clic droit, sélectionnez ```Extraire toutes les métadonnées``` (Extract all
   Metadata).
   Après avoir extrait vos métadonnées, vous pouvez maintenant faire un ```clic droit```.
-  à nouveau, et sélectionner : ```analyze metadata```. (Il y a un bouton vert qui apparaîtra
+  à nouveau, et sélectionner : ```analyze metadata```. (Il y a un bouton vert qui apparaîtra
   apparaîtra une fois qu'un fichier a été téléchargé et analysé. Il affichera des barres de progression
   barres de progression de téléchargement pour chaque fichier individuel et le temps qu'il prend pour
   téléchargement)
@@ -842,7 +843,7 @@ walk_through: |
 
   Après avoir téléchargé les documents et extrait les métadonnées, vous pouvez consulter les résultats
   dans le volet de gauche de votre FOCA.
-  Dans le volet de gauche, vous verrez les options suivantes :
+  Dans le volet de gauche, vous verrez les options suivantes :
   - Réseau
   - Domaines
   - Rôles
@@ -851,7 +852,7 @@ walk_through: |
   Sous ```Métadonnées```, vous avez deux sous-menus, ```Documents``` et ```Résumé des métadonnées```.
   L'option "Documents" permet d'afficher les métadonnées récupérées
   par document/fichier. Cependant, sur l'option ``Sommaire des métadonnées``, vous aurez
-  les options suivantes :
+  les options suivantes :
   - Utilisateur
   - Dossiers
   - Imprimantes
@@ -865,11 +866,11 @@ walk_through: |
 
   ___
 
-  ###### Variante : Maltego
+  ###### Variante : Maltego
 
   **C'est quoi Maltego?**
 
-  Selon le site officiel de Maltego, ils définissent Maltego comme :
+  Selon le site officiel de Maltego, ils définissent Maltego comme :
   ”Un outil interactif d'exploration de données qui rend des graphes dirigés pour l'analyse des liens.
   l'analyse des liens. L'outil est utilisé dans les enquêtes en ligne pour trouver des relations
   entre des éléments d'information provenant de diverses sources situées sur Internet.
@@ -878,7 +879,7 @@ walk_through: |
   différentes sources de données. Ces informations sont ensuite affichées sur un graphique basé sur les nœuds, adapté à l'analyse des liens.
   sur un graphique basé sur les nœuds et adapté à l'analyse des liens.”
 
-  Maltego a plusieurs utilisations différentes :
+  Maltego a plusieurs utilisations différentes :
   - Collecte d'informations et exploration de données
   - Adresses électroniques, alias, noms de domaine, enregistrements DNS, adresses IP.
   - Documents et fichiers
@@ -891,7 +892,7 @@ walk_through: |
   que nous trouverons seront par la suite utilisées dans les étapes suivantes de
   audit/évaluation de vulnérabilité/test de pénétration.
 
-  Maltego existe également en différentes versions :
+  Maltego existe également en différentes versions :
   - Maltego XL
   - Maltego Classic
   - Maltego CE (Community Edition)
@@ -901,12 +902,12 @@ walk_through: |
 
   Maltego est disponible dans la dernière version de Kali Linux. (Voir
   [ici](https://www.kali.org/kali-linux-releases))
-  NOTE : Pour exécuter Maltego, vous devez d'abord avoir un compte. Pour vous enregistrer, cliquez
+  NOTE : Pour exécuter Maltego, vous devez d'abord avoir un compte. Pour vous enregistrer, cliquez
   [ici](https://www.paterva.com/web7/community/community.php). Considérez
   attentivement les implications de cette exigence en matière de sécurité
   en particulier si vous utilisez un compte pour plusieurs audits différents.
 
-  **Démarrer :**
+  **Démarrer :**
 
   Avant de poursuivre ce guide, jetons d'abord un coup d'œil aux 3 principaux concepts de Maltego.
   principaux concepts importants de Maltego.
@@ -947,7 +948,7 @@ walk_through: |
   utiliser. (En fonction des transformations que vous avez installées)
 
   Pour cet exercice, cliquez sur le ```+``` sur le côté gauche de ```PATERVA CTAS
-  CE```. Cela vous permettra d'utiliser 4 transformateurs :
+  CE```. Cela vous permettra d'utiliser 4 transformateurs :
   - DNS du domaine
   - Détail du propriétaire du domaine
   - Adresses courriel du domaine
@@ -955,7 +956,7 @@ walk_through: |
   Vous pouvez exécuter chacune de ces transformations individuellement, ou vous pouvez cliquer sur l'icône ```>>``` pour executer ```Toutes les transformations```.
 
   Une fois que vous aurez cliqué sur cette icône, toutes les transformations seront exécutées sur le domaine "paterva.com".
-  Ce résultat graphique inclura :
+  Ce résultat graphique inclura :
   - Sous-domaines
   - Adresses courriel
   - Fichiers et documents

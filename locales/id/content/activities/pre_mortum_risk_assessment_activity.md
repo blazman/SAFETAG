@@ -27,7 +27,8 @@ walk_through: |
   * List the process' that would have to fail for those causes to take effect.
   * Identify two to three process' that are central to the failures and write them on a list of *critical process'.*
   **Process/Interaction Mapping (30 minutes per process):**
-  * Pick a process from the list of *critical processes* identified above.
+  * Pick a process from the list of *critical processes
+  * identified above.
   * Clearly identify the process name on the whiteboard or flipchart.
   * Create a list of individuals who take part in the process.
   * Draw a symbol of the person.

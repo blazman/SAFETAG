@@ -11,9 +11,16 @@ remote_options:
 skills_required: []
 skills_trained: []
 summary: |
-  Durante a avaliação organizacional, você provavelmente vai encontrar prestadores de serviços em nuvem terceirizados que a organização auditada usa. A organização pode querer saber o que você acha da segurança desses serviços. Isso traz vários desafios para você como auditor:* auditar aplicativos web terceirizados provavelmente não faz parte do escopo do trabalho de auditoria* você provavelmente não tem um acordo com o prestador de serviços para verificar o aplicativo deles* uma avaliação adequada levaria mais tempo do que o disponível para a auditoria organizacional* você pode não estar familiarizado com o serviço ou a tecnologia em que ele se baseia Apesar desses desafios, processos organizacionais importantes e dados confidenciais podem estar armazenados ou depender desses aplicativos de terceiros. Pode ser importante para a auditoria fazer uma investigação preliminar e uma avaliação de risco sobre o uso de quaisquer serviços em nuvem de terceiros dos quais eles dependem.
+  Durante a avaliação organizacional, você provavelmente vai encontrar prestadores de serviços em nuvem terceirizados que a organização auditada usa. A organização pode querer saber o que você acha da segurança desses serviços. Isso traz vários desafios para você como auditor:
+  * auditar aplicativos web terceirizados provavelmente não faz parte do escopo do trabalho de auditoria
+  * você provavelmente não tem um acordo com o prestador de serviços para verificar o aplicativo deles
+  * uma avaliação adequada levaria mais tempo do que o disponível para a auditoria organizacional
+  * você pode não estar familiarizado com o serviço ou a tecnologia em que ele se baseia Apesar desses desafios, processos organizacionais importantes e dados confidenciais podem estar armazenados ou depender desses aplicativos de terceiros. Pode ser importante para a auditoria fazer uma investigação preliminar e uma avaliação de risco sobre o uso de quaisquer serviços em nuvem de terceiros dos quais eles dependem.
 overview: |
-  * Verificar como a organização usa os serviços em nuvem (quais serviços, quais dados, políticas de acesso)* Verificar as políticas formais dos serviços em nuvem que estão sendo usados* Pesquisar problemas históricos de segurança com cada provedor e como elesreagiram a isso.**Resultados esperados*** Uma lista de todos os serviços de terceiros/em nuvem identificados que estão sendo usados* Um mapeamento de quais dados e metadados e quais usuários têm acesso em quais provedores
+  * Verificar como a organização usa os serviços em nuvem (quais serviços, quais dados, políticas de acesso)
+  * Verificar as políticas formais dos serviços em nuvem que estão sendo usados
+  * Pesquisar problemas históricos de segurança com cada provedor e como elesreagiram a isso.**Resultados esperados*** Uma lista de todos os serviços de terceiros/em nuvem identificados que estão sendo usados
+  * Um mapeamento de quais dados e metadados e quais usuários têm acesso em quais provedores
 materials_needed: ''
 considerations: |
   * A auditoria de serviços terceirizados **deve ser negociada diretamente com o prestador de serviços** e adiciona uma complexidade significativa ao processo (e normalmente ficaria fora do escopo). Muitas vezes, há questões legais sérias envolvidas na auditoria fora de um acordo formal e assinado.

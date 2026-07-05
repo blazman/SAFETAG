@@ -35,7 +35,9 @@ materials_needed: |
   guide](https://guides.accessnow.org/self-doxing/self-doxing.html)
   * A big sheet of paper or a whiteboard
 walk_through: >
-  "* Prepare before the activity by doing this research on a few members of the
+  "
+
+  * Prepare before the activity by doing this research on a few members of the
 
   organization to identify good examples
 
@@ -54,7 +56,8 @@ walk_through: >
 
   guide](https://guides.accessnow.org/self-doxing/self-doxing.html)
 
-  * While projecting to the group, conduct a research on yourself or a
+  * While projecting to the group, conduct a research on yourself or
+  a
 
   high-profile member of the organization who has given their consent. Perform
 

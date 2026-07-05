@@ -57,7 +57,8 @@ overview: |
 
 materials_needed: ''
 considerations: |
-  *Note:* This section is one of the few sections where the SAFETAG audit does
+  *Note:
+  * This section is one of the few sections where the SAFETAG audit does
   go through attack scenarios, from attempting to "break in" to the wireless
   network to testing exposed ethernet jacks for connectivity.
 

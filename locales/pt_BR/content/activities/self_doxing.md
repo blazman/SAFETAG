@@ -24,29 +24,37 @@ materials_needed: |
   ](https://guides.accessnow.org/self-doxing/self-doxing.html) (em inglês)
   * Uma folha grande de papel ou um quadro branco
 walk_through: >
-  "* Prepare-se antes da atividade fazendo esta pesquisa sobre alguns membros da organização para identificar bons exemplos
+  "
+
+  * Prepare-se antes da atividade fazendo esta pesquisa sobre alguns membros
+  da organização para identificar bons exemplos
 
   * Apresente o problema ao grupo: Os assediadores e stalkers utilizam várias ferramentas e técnicas para recolher informações sobre os seus alvos, mas como estas ferramentas e técnicas são, na sua maioria, públicas e fáceis de utilizar, também podemos utilizá-las em nós mesmo, como medida preventiva. O exercício de  ”Autoexposição”, ou ”self-doxing”, pode nos ajudar a tomar decisões melhor informadas sobre o que compartilhamos online e como. (É claro que esses mesmos instrumentos também podem ser usados para aprender mais do que é imediatamente óbvio sobre alguém que conhecemos online antes de dar nossa total confiança — por exemplo, para decidir se queremos admitir essa pessoa em uma lista de e-mails privada ou em um grupo de redes sociais).
 
 
-  Os métodos utilizados para o doxing (e a autoexposição!) incluem a exploração de arquivos, páginas amarelas, listas telefônicas e outras informações disponíveis publicamente; consultas a motores de busca comuns, como o Google ou o DuckDuckGo; a procura do perfil de uma pessoa em serviços específicos; a pesquisa de informações em fóruns públicos e listas de correio; ou a procura de imagens que a pessoa tenha partilhado (e que, por exemplo, também possa ter publicado noutra conta mais pessoal). Mas também pode consistir simplesmente em procurar informações públicas sobre o proprietário de um site, através de uma simples ”pesquisa whois”.
+  Os métodos utilizados para o doxing (e a autoexposição!) incluem a exploração de arquivos, páginas amarelas, listas telefônicas e outras informações disponíveis publicamente; consultas a motores de busca comuns, como o Google ou o DuckDuckGo; a procura do perfil de uma pessoa em serviços específicos; a pesquisa de informações em fóruns públicos e listas de correio; ou a procura de imagens que a pessoa tenha partilhado (e que, por exemplo, também possa ter publicado noutra conta mais pessoal). Mas também pode consistir simplesmente
+  em procurar informações públicas sobre o proprietário de um site, através de
+  uma simples ”pesquisa whois”.
 
 
-  * Peça ao grupo para pensar em possíveis motores de busca e sites onde possam ser encontradas informações sobre eles e suas comunidades — incentive-os a pensar em serviços locais ou serviços usados por seus amigos, incluindo plataformas de redes sociais.
+  * Peça ao grupo para pensar em possíveis motores de busca e sites onde possam ser encontradas informações
+  sobre eles e suas comunidades — incentive-os a pensar em serviços
+  locais ou serviços usados por seus amigos, incluindo plataformas de redes sociais.
 
   * Distribua cópias deste [guia de autodoxing](https://guides.accessnow.org/self-doxing.html ) da Access Now, no idioma utilizado pela organização
 
-  * Enquanto estiver mostrando algo na tela ou monitor para o grupo, faça uma pesquisa sobre você mesmo ou sobre um membro de destaque da organização que tenha dado seu consentimento.
+  * Enquanto estiver mostrando algo na tela ou monitor para o grupo, faça uma pesquisa sobre você mesmo ou sobre um
+  membro de destaque da organização que tenha dado seu consentimento.
 
   * Faça a pesquisa nos sites mencionados no guia de autodoxing e durante a atividade de brainstorming.
 
   Peça que eles façam a mesma pesquisa sobre si mesmos em duplas ou atribua essa pesquisa como lição de casa.
-    **Observação:** se as pessoas participantes realizarem a
-  pesquisa em casa, é importante alertar o grupo que, ao praticar o autodoxing, há o risco de se expor a resultados que podem ser perturbadores. Diga a eles que, se acharem que precisam de apoio, devem pedir a um amigo próximo para ficar por perto enquanto realizam a pesquisa.
+    **Observação:** se as pessoas participantes realizarem a pesquisa em casa, é importante alertar o grupo que, ao praticar o autodoxing, há o risco de se expor a resultados que podem ser perturbadores. Diga a eles que, se acharem que precisam de apoio, devem pedir a um amigo próximo para ficar por perto enquanto realizam a pesquisa.
   * Instrua as pessoas participantes a usar o navegador Tor e um navegador diferente do que costumam usar para realizar a pesquisa e peça que pesquisem tanto nos sites e serviços listados no guia de autodoxing quanto naqueles mencionados durante a atividade de brainstorming.
-    * Explique que, para decidir o que pesquisar, é preciso tentar entender quais atividades expõem a pessoa a um risco maior de ser atacada por trolls ou outros agentes mal-intencionados. Eles devem se perguntar: ”Por que alguém gastaria horas do seu tempo rastreando informações sobre você na internet?” Acrescente que esse tipo de ataque geralmente afeta minorias ou pessoas que defendem opiniões controversas online, e que o ataque começa a partir das informações que o agente mal-intencionado encontra imediatamente disponíveis — como o apelido e o perfil usados pelo alvo na plataforma onde o ataque começou, ou as fotos que o alvo publicou em sua página. É por aí que eles devem começar.
-    * Instrua o grupo a verificar as propriedades
-  das postagens e mídias que publicaram, para garantir que não estejam vazando seu endereço IP ou outros metadados.
+    * Explique que, para decidir o que pesquisar, é preciso tentar entender quais atividades expõem a pessoa a um risco maior de ser atacada por trolls ou outros agentes mal-intencionados. Eles devem se perguntar: ”Por que alguém gastaria horas do seu tempo rastreando informações sobre você na internet?” Acrescente que esse tipo de ataque geralmente afeta minorias ou pessoas que defendem opiniões controversas
+  online, e que o ataque começa a partir das informações que o agente mal-intencionado encontra imediatamente disponíveis — como o apelido e o perfil usados pelo alvo
+  na plataforma onde o ataque começou, ou as fotos que o alvo publicou em sua página. É por aí que eles devem começar.
+    * Instrua o grupo a verificar as propriedades das postagens e mídias que publicaram, para garantir que não estejam vazando seu endereço IP ou outros metadados.
     * Mostre ao grupo uma pesquisa reversa de imagens no [TinEyE](https://tineye.com/) ou no Google e recomende que eles façam isso com fotos suas que publicaram online.
     * Mostre ao grupo como verificar se sua conta online foi comprometida anteriormente no [Have I Been Pwned?](https://haveibeenpwned.com/)?Explique que, muitas vezes, os resultados são antigos e, que se eles alteraram suas senhas recentemente, aparecer nessa pesquisa pode não ser um problema. Diga a eles que se ainda estiverem usando a senha antiga na conta comprometida ou em outras contas, devem alterá-la imediatamente.
   "

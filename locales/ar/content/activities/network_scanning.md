@@ -245,7 +245,7 @@ walk_through: >
 
   According to it's nmap's website:
 
-  > ”Nmap (”Network Mapper”) is a free and open source (license) utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts”. It's considered as the most popular network mapping tool available.
+  &gt; ”Nmap (”Network Mapper”) is a free and open source (license) utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts”. It's considered as the most popular network mapping tool available.
 
   Below are commands to perform network scanning using Nmap.
 
@@ -320,14 +320,14 @@ walk_through: >
 
   | **\-sV -sC**                                | nmap **\-sV -sC** `172.16.1.1`                                         | Scan using default safe scripts                                                         |
 
-  | **\-sV --script=`scriptname`&ast;**         | **\-sV --script=smb&ast;** `172.16.1.1`                                | Scan target with a set of script (for this example, smb scripts                         |
+  | **\-sV --script=`scriptname`***         | **\-sV --script=smb*** `172.16.1.1`                                | Scan target with a set of script (for this example, smb scripts                         |
 
   | **\--script=`script-name`.nse**             | nmap -sV -p 443 **\--script=ssl-heartbleed.nse** `172.16.1.1`          | Scan using a specific script (for this example, we used the `ssl-heartbleed.nse` script |
 
   | **\--script=`script1`,`script2`,`script3`** | nmap **\--script=asn-query,whois,ip-geolocation-maxmind** `172.16.1.1` | Scan using a multiple different scripts combined                                        |
 
 
-  * **Scanning using Nmap Firewall/IDS Evasion & Spoofing Options**
+  * **Scanning using Nmap Firewall/IDS Evasion &amp; Spoofing Options**
 
 
   | Option                                                     | Command                                             | Description                                                                               |
@@ -346,7 +346,9 @@ walk_through: >
 
   | **\-proxies `http://1.2.3.4:8080`,`http://4.3.2.1:8080`**  | nmap \*\*-proxies http://123.12.23.10:8080,         |                                                                                           |
 
-  | http://211.212.101.22:8080\*\* `172.16.1.1`                | Relay nmap scans through HTTP/SOCKS4 proxies        |                                                                                           |
+  | http://211.212.101.22:8080\*\
+
+  * `172.16.1.1`                | Relay nmap scans through HTTP/SOCKS4 proxies        |                                                                                           |
 
 
   * **Nmap Scan Output Results**
@@ -418,7 +420,9 @@ title: Network Scanning
 skills_required:
   - تخطيط الشبكة
 overview: >
-  "* Confirm what devices and servers are in scope of the audit, and confirm that any service providers (website hosts, cloud hosts, etc.) are informed and OK with any scanning to be conducted.
+  "
+
+  * Confirm what devices and servers are in scope of the audit, and confirm that any service providers (website hosts, cloud hosts, etc.) are informed and OK with any scanning to be conducted.
     * Enumerate and categorize all devices connected to the organization's network. Note that this could include IoT (Internet of Things) devices, such as IP cameras used for security, ”Smart” devices, and personal devices such as mobile phones which may not be in scope. **Discuss the scope of the audit as it applied to devices connected to the work network and ensure the staff understand what you are doing.**
     * In some cases, the audit scope may include external devices. The scanning in these cases will be very targeted. If your auditee agreed to have their public facing machines scanned, keep in mind that you need to consider asking your auditee for whitelisting options for shunning IDS/IPS, firewalls and other blocking mechanisms during your scan. Also make sure that you have verified the target in-scope. This is to avoid scanning out-of-scope targets that may lead you to other problems.
   * Categorize and gather additional detail on the devices that you will discover

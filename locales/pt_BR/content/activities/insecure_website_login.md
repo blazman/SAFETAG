@@ -13,7 +13,8 @@ skills_trained: []
 summary: |
   As senhas administrativas e de usuário no site são enviadas sem criptografia.
 overview: |
-  * Descubra o link de login do administrador do site* Veja se tem uma opção SSL para fazer o login
+  * Descubra o link de login do administrador do site
+  * Veja se tem uma opção SSL para fazer o login
 materials_needed: ''
 considerations: ''
 walk_through: |

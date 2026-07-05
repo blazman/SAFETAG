@@ -245,7 +245,7 @@ walk_through: >
 
   According to it's nmap's website:
 
-  > ”Nmap (”Network Mapper”) is a free and open source (license) utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts”. It's considered as the most popular network mapping tool available.
+  &gt; ”Nmap (”Network Mapper”) is a free and open source (license) utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts”. It's considered as the most popular network mapping tool available.
 
   Below are commands to perform network scanning using Nmap.
 
@@ -320,14 +320,14 @@ walk_through: >
 
   | **\-sV -sC**                                | nmap **\-sV -sC** `172.16.1.1`                                         | Scan using default safe scripts                                                         |
 
-  | **\-sV --script=`scriptname`&ast;**         | **\-sV --script=smb&ast;** `172.16.1.1`                                | Scan target with a set of script (for this example, smb scripts                         |
+  | **\-sV --script=`scriptname`***         | **\-sV --script=smb*** `172.16.1.1`                                | Scan target with a set of script (for this example, smb scripts                         |
 
   | **\--script=`script-name`.nse**             | nmap -sV -p 443 **\--script=ssl-heartbleed.nse** `172.16.1.1`          | Scan using a specific script (for this example, we used the `ssl-heartbleed.nse` script |
 
   | **\--script=`script1`,`script2`,`script3`** | nmap **\--script=asn-query,whois,ip-geolocation-maxmind** `172.16.1.1` | Scan using a multiple different scripts combined                                        |
 
 
-  * **Scanning using Nmap Firewall/IDS Evasion & Spoofing Options**
+  * **Scanning using Nmap Firewall/IDS Evasion &amp; Spoofing Options**
 
 
   | Option                                                     | Command                                             | Description                                                                               |
@@ -346,7 +346,9 @@ walk_through: >
 
   | **\-proxies `http://1.2.3.4:8080`,`http://4.3.2.1:8080`**  | nmap \*\*-proxies http://123.12.23.10:8080,         |                                                                                           |
 
-  | http://211.212.101.22:8080\*\* `172.16.1.1`                | Relay nmap scans through HTTP/SOCKS4 proxies        |                                                                                           |
+  | http://211.212.101.22:8080\*\
+
+  * `172.16.1.1`                | Relay nmap scans through HTTP/SOCKS4 proxies        |                                                                                           |
 
 
   * **Nmap Scan Output Results**
@@ -410,8 +412,9 @@ title: Analyse de réseau
 skills_required:
   - Analyse de réseau
 overview: >
-  "* Confirmez quels appareils et serveurs sont concernés par l'audit et confirmez que tous les fournisseurs de services (hébergeurs de sites Web, hôtes cloud, etc.) sont informés et acceptent
-  toute analyse à effectuer.
+  "
+
+  * Confirmez quels appareils et serveurs sont concernés par l'audit et confirmez que tous les fournisseurs de services (hébergeurs de sites Web, hôtes cloud, etc.) sont informés et acceptent toute analyse à effectuer.
     * Énumérer et classer tous les appareils connectés au réseau de l'organisation. Notez que cela peut inclure les appareils IoT (Internet des objets), tels que les caméras IP utilisées pour la sécurité, les appareils « intelligents » et les appareils personnels tels que les téléphones mobiles, qui peuvent ne pas être concernés. **Discutez de la portée de l'audit tel qu'il s'applique aux appareils connectés au réseau de travail et assurez-vous que le personnel comprend ce que vous faites.**
     * Dans certains cas, la portée de l'audit peut inclure des appareils externes. Le balayage dans ces cas sera très ciblé. Si votre audité a accepté que ses machines publiques soient analysées, gardez à l'esprit que vous devez envisager de demander à votre audité des options de liste blanche pour éviter les IDS/IPS, les pare-feu et autres mécanismes de blocage pendant votre analyse. Assurez-vous également que vous avez vérifié la cible dans le champ d'application. Cela permet d'éviter d'analyser des cibles hors de portée qui pourraient vous conduire à d'autres problèmes.
   * Catégorisez et rassemblez des détails supplémentaires sur les appareils que vous découvrirez

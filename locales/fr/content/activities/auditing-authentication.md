@@ -21,7 +21,9 @@ summary: >
   toolkit. 
 short_summary: Assess the security and effectiveness of account authentication practices within an organization and give guidance on implementing a phishing-resistant approach
 overview: >
-  "* Checking for roll-out of phishing-resistant second factors, such as physical security keys or passkeys
+  "
+
+  * Checking for roll-out of phishing-resistant second factors, such as physical security keys or passkeys
 
   * Checking for absence of essential authentication controls such as 2-step verification
 

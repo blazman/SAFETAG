@@ -14,7 +14,8 @@ summary: |
   Entre em contato com o anfitrião após alguns meses para ver como estão as coisas, ter um retorno depois de um longo prazo e se comentar de recursos novos.
 overview: ''
 materials_needed: |
-  * Uma cópia do relatório* Um sistema seguro para anotações.
+  * Uma cópia do relatório
+  * Um sistema seguro para anotações.
 considerations: |
   * Recomendamos fazer essa ligação usando um sistema seguro, tipo Signal, Jitsi, Google Meet ou Zoom, em vez de usar uma linha telefônica normal. Todos esses têm criptografia de transporte e, em alguns casos, criptografia de ponta a ponta também.
 walk_through: |

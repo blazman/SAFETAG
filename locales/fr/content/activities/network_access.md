@@ -35,7 +35,8 @@ overview: |
 
 materials_needed: ''
 considerations: |
-  *Remarque :* Cette section est l'une des rares sections où l'audit SAFETAG passe en revue les scénarios d'attaque, de la tentative d'"effraction" au réseau sans fil au test des prises Ethernet exposées pour la connectivité.
+  *Remarque :
+  * Cette section est l'une des rares sections où l'audit SAFETAG passe en revue les scénarios d'attaque, de la tentative d'"effraction" au réseau sans fil au test des prises Ethernet exposées pour la connectivité.
 
   Les raisons en sont triples. Premièrement, l'accès au réseau interne d'une organisation a tendance à révéler des données sensibles et des infrastructures "fantômes"
   (telles que l'utilisation de la boîte de dépôt) qui ont conduit à de nombreuses recommandations pour améliorer le contrôle d'accès et à des discussions sur la valeur de la défense en profondeur. Deuxièmement, l'acte spécifique de casser le mot de passe wifi permet une discussion sur la sécurité du mot de passe sans attaquer le mot de passe d'un utilisateur spécifique. Enfin, les réseaux sans fil étant traités comme équivalents aux réseaux câblés dans de nombreux bureaux, il est utile de rappeler à l'organisation que les réseaux sans fil s'étendent au-delà des murs physiques du bureau pour discuter de la rotation des mots de passe et des politiques de réseau invité.

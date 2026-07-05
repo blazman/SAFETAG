@@ -14,7 +14,10 @@ summary: |
   Muitos roteadores sem fio ainda usam a senha padrão listada em [“_RouterDefault Password Search_”](http://www.routerpasswords.com/) (Pesquisa de senhas padrão de roteadores), o que significa que qualquer pessoa com acesso à rede também pode assumir o controle total do roteador, adicionando ferramentas de acesso remoto ou configurando outros ataques.
 short_summary: Verifique se os roteadores têm senhas padrão, firmware sem correções (_patches_), vulnerabilidades, acesso remoto e configuração incorreta.
 overview: |
-  * Encontre o(s) roteador(es) (o comando``route`` funciona bem para isso)* Teste usar senhas padrão* Verifique se há atualizações/vulnerabilidades não corrigidas e backdoors* Investigue dados potencialmente valiosos (logs, usuários conectados)
+  * Encontre o(s) roteador(es) (o comando``route`` funciona bem para isso)
+  * Teste usar senhas padrão
+  * Verifique se há atualizações/vulnerabilidades não corrigidas e backdoors
+  * Investigue dados potencialmente valiosos (logs, usuários conectados)
 materials_needed: ''
 considerations: ''
 walk_through: ''

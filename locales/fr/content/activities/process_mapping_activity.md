@@ -74,7 +74,8 @@ walk_through: |
     * Identifier rapidement l'objectif principal de l'organisation.
     * Une fois qu'une liste complète a été créée, l'auditeur passera ensuite en revue pour identifier avec les participants les processus critiques au sein de l'organisation – c'est-à-dire que sans ces processus, l'organisation ne pourrait pas fonctionner ou fonctionner à un niveau très médiocre, ou ne remplirait pas sa mission
 
-    *REMARQUE :* Si un auditeur ne s'assure pas que le sous-ensemble de processus identifié de manière unique s'adresse à l'ensemble des participants, ses recommandations sont plus susceptibles d'être accueillies avec résistance.
+    *REMARQUE :
+  * Si un auditeur ne s'assure pas que le sous-ensemble de processus identifié de manière unique s'adresse à l'ensemble des participants, ses recommandations sont plus susceptibles d'être accueillies avec résistance.
 
   * **Cartographiez les processus critiques :** Dans cet exercice, l'auditeur dessine à main levée (idéalement sur un tableau blanc pour permettre des changements faciles) une cartographie pour chaque processus guidé par les participants hôtes. L'auditeur doit s'assurer qu'il s'efforce de développer une large compréhension de l'ensemble du processus. Il s'agit d'une activité qui prend du temps, et il est essentiel de gérer leur temps global pour effectuer l'ensemble de l'évaluation des besoins et respecter les contraintes de temps du personnel.
     * Identifiez clairement le nom du processus sur le tableau blanc ou le tableau à feuilles mobiles
@@ -86,8 +87,8 @@ walk_through: |
 
     Ce faisant, il est important de prendre en compte le niveau de détail que vous allez cartographier (cela doit être prédéterminé ou établi pour que tout le monde soit sur la même longueur d'onde). Vous souhaiterez généralement capturer :
 
-    * Les personnes impliquées ;
-    * Les tâches, les conversations et les décisions qu'ils effectuent ;
+    * Les personnes impliquées ;
+    * Les tâches, les conversations et les décisions qu'ils effectuent ;
     * Le flux de matériaux, d'informations et de documents entre eux;
     * Comment se déroulent les actions (courriels, appels, déplacements)
     * La relation et la dépendance entre les étapes.

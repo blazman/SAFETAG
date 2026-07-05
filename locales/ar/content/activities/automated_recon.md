@@ -166,7 +166,8 @@ walk_through: |
   modules with ```marketplace install all``` though modules with missing
   dependencies and missing API keys will not work until you address those needs.
   You can also install a collection of modules by using commands like
-  ```marketplace install recon``` to install all the recon/* modules, or
+  ```marketplace install recon``` to install all the recon/
+  * modules, or
   ```marketplace install recon/domains-hosts``` to get all of the domains-hosts
   modules under recon.
 

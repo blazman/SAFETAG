@@ -89,7 +89,8 @@ walk_through: |
 
   7. Los procedimientos de seguridad para almacenar y administrar la información relacionada con la evaluación pueden revisarse anualmente junto con las pautas por parte de la persona o equipo responsable.
 recommendations: |
-  Algunas guías, artículos, y los recursos que podrían ser útiles para los auditores y las organizaciones cuando se hace este tipo de evaluación son:* (LNPD) Red Jurídica para la Protección de la Democracia en Eslovenia: 
+  Algunas guías, artículos, y los recursos que podrían ser útiles para los auditores y las organizaciones cuando se hace este tipo de evaluación son:
+  * (LNPD) Red Jurídica para la Protección de la Democracia en Eslovenia: 
   <https://pravna-mreza.si/about-us>
 
   * (LNPD) Red Jurídica para la Protección de la Democracia en la república de Eslovenia: <https://pravna-mreza.si/about-us/>

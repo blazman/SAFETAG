@@ -18,7 +18,9 @@ overview: ''
 materials_needed: ''
 considerations: ''
 walk_through: |
-  * Descubra o BSSID do roteador que você quer atacar* Use o Wash pra achar roteadores WPS* Comece o Reaver: tempo estimado: entre 2 e 10 horas
+  * Descubra o BSSID do roteador que você quer atacar
+  * Use o Wash pra achar roteadores WPS
+  * Comece o Reaver: tempo estimado: entre 2 e 10 horas
 recommendations: |
   A entrada do PIN WPS deve ser desativada no roteador sem fio ou ativada apenas temporariamente para adicionar novos dispositivos à rede.
 organization_size_under: 1000

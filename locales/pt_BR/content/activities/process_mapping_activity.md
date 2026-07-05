@@ -63,7 +63,9 @@ overview: |
   described in the [Remote Facilitation](#appendix-remote-facilitation)
   appendix.
 materials_needed: |
-  * Notas Adesivas (Post-its, adesivos)* Marcadores / Canetões* Quadro branco ou flipchart
+  * Notas Adesivas (Post-its, adesivos)
+  * Marcadores / Canetões
+  * Quadro branco ou flipchart
 considerations: |
   This activity contains significant information about the internal process of
   an organization, and requires proper documentation and secure handling. If
@@ -88,7 +90,8 @@ walk_through: |
     * Quickly identify the main purpose of the organization.
     * Once a complete list has been created, the auditor will then go through through to identify with the participants the critical processes within the organization – that is, without these processes the organization would not be able to function or function at a very poor level, or would not fulfill its mission
 
-    *NOTE:* If an auditor does not ensure that the uniquely identified subset of processes speaks to the full range of participants, their recommendations are more likely to be met with resistance.
+    *NOTE:
+  * If an auditor does not ensure that the uniquely identified subset of processes speaks to the full range of participants, their recommendations are more likely to be met with resistance.
 
   * **Map out critical processes:** In this exercises the auditor does free-hand drawing (ideally on a whiteboard to allow for easy changes) mapping for each process guided by the host participants. The auditor needs to make sure that they work to develop a broad understanding of the overall process. This is a time consuming activity, and managing their overall time to complete the entire needs assessment, and respect the time constraints of the staff, is critical.
     * Clearly identify the process name on the whiteboard or flipchart
