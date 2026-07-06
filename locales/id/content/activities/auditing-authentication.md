@@ -21,9 +21,8 @@ summary: >
   toolkit. 
 short_summary: Assess the security and effectiveness of account authentication practices within an organization and give guidance on implementing a phishing-resistant approach
 overview: >
-  "
-
-  * Checking for roll-out of phishing-resistant second factors, such as physical security keys or passkeys
+  * Checking for roll-out of phishing-resistant second factors, such as physical
+  security keys or passkeys
 
   * Checking for absence of essential authentication controls such as 2-step verification
 
@@ -34,15 +33,19 @@ overview: >
   * Assessing internal education, communication, and policies which encouraging the organization to adopt positive practices such as generating and storing all their passwords in the credential manager or password manager
 
   * Providing recommendations to plan for passwordless login
-
-  "
 materials_needed: |
   - Prepared authentication checklists can be helpful
   - List of staff
   - List of online accounts and services used in the organization
   - Physical security keys to distribute, if available
 walk_through: >-
-  "Phishing remains a common attack—and is a major risk for organizations of all sizes. Traditionally, anti-phishing efforts have focused on teaching staff how to recognize and report suspicious emails. While such a strategy should still play a big part in staff security trainings, vigilance alone isn't enough; even cybersecurity professionals have fallen for phishing scams. As such, it's important that the organization also develops a tech toolkit which can mitigate the eventuality of a staff member being successfully phished.
+  Phishing remains a common attack—and is a major risk for organizations of all
+  sizes. Traditionally, anti-phishing efforts have focused on teaching staff how
+  to recognize and report suspicious emails. While such a strategy should still
+  play a big part in staff security trainings, vigilance alone isn't enough;
+  even cybersecurity professionals have fallen for phishing scams. As such, it's
+  important that the organization also develops a tech toolkit which can
+  mitigate the eventuality of a staff member being successfully phished.
 
 
   ###### Auditing online service usage for phishing-resistant authentication configuration
@@ -138,10 +141,16 @@ walk_through: >-
 
   * If the organization uses physical security keys or passkeys, explore how those are managed. Write down the policies that exist, for example whether people are given physical security keys during onboarding, if passkeys are registered on personal or physical devices, etc.  
 
-  * Ensure that the organization has a tested workflow for verifying and restoring access for users whose physical security keys or passkeys have been lost or damaged"
+  * Ensure that the organization has a tested workflow for verifying and restoring access for users whose physical security keys or passkeys have been lost or damaged
 considerations: ""
 recommendations: >
-  "Passkeys can be used as a second factor alongside passwords, or they can be used for so-called passwordless login. More and more services are moving towards the latter. Passwordless login contains its own challenges, including making sure that passkeys are stored and managed safely, ensuring that passkeys are secured with strong passwords or biometrics, and building a workflow for quickly revoking passkeys which have been lost or stolen. When working with an organization’s security admins, it’s worth to:
+  Passkeys can be used as a second factor alongside passwords, or they can be
+  used for so-called passwordless login. More and more services are moving
+  towards the latter. Passwordless login contains its own challenges, including
+  making sure that passkeys are stored and managed safely, ensuring that
+  passkeys are secured with strong passwords or biometrics, and building a
+  workflow for quickly revoking passkeys which have been lost or stolen. When
+  working with an organization’s security admins, it’s worth to:
 
 
   * Explore how different organizations and services are adopting passwordless logins, and what experiences users have with them  
@@ -152,5 +161,5 @@ recommendations: >
   Consider if advanced protection programs, such as those offered by [Google](https://landing.google.com/intl/en_us/advancedprotection/), [Microsoft](https://accountguard.microsoft.com/), [Proton](https://proton.me/support/proton-sentinel), or [Meta](https://www.facebook.com/help/1052552578831700/) are appropriate for the organization. 
 
 
-  If budget allows it (or if pro-bono or suitable open source solutions are possible), consider recommending organizations move towards centrally managed business or enterprise account platforms which allow setting of security policies across the organization."
+  If budget allows it (or if pro-bono or suitable open source solutions are possible), consider recommending organizations move towards centrally managed business or enterprise account platforms which allow setting of security policies across the organization.
 ---

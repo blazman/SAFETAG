@@ -12,11 +12,13 @@ remote_options:
   - مكتمل
 time_required_minutes: 60
 organization_size_under: 1000
-summary: "\"A kick-off call or meeting is generally done when agreeing to conduct a SAFETAG assessment. Think of these meetings as a part of the assessment process, as you will be collecting risk information, technical information, and information on organizational history, culture, and important logistical considerations for the assessment which will inform your next actions within the assessment. \""
+summary: "A kick-off call or meeting is generally done when agreeing to conduct a SAFETAG assessment. Think of these meetings as a part of the assessment process, as you will be collecting risk information, technical information, and information on organizational history, culture, and important logistical considerations for the assessment which will inform your next actions within the assessment. "
 short_summary: Meet with your organization and begin developing an audit plan while collecting contextual data and important logistical considerations for the assessment.
 overview: Below is a recommended set of high-level topics to cover during initial kick-off calls or meetings. The primary goal of these meetings is to establish or build trust between you and the organization, and to set out basic logistical plans for the assessment, so use your judgment on how much information-gathering is possible within early meetings. The meeting should be natural, so use these questions as a guide, not as a strict interview template; you will need to formulate follow-up questions that are relevant to the organization. However, do not let the scheduled time over-run, so focus on the high-level questions and leave details to future 1-on-1 or small group meetings.
 walk_through: >-
-  "You may find it helpful to copy the checklist below BEFORE the kick-off call and customize it based on what you already know/need to know about the organization and the planned assessment. 
+  You may find it helpful to copy the checklist below BEFORE the kick-off call
+  and customize it based on what you already know/need to know about the
+  organization and the planned assessment. 
 
 
   * ONLY if high/extreme risk/is a new connection: is there anything preventing you from having this conversation that we need to address first? For instance, are you using an appropriate communications channel for the call, or do they have concerns about the integrity of the devices they are using for the call?
@@ -56,7 +58,7 @@ walk_through: >-
     * Survey for staff
     * Technical scans
     * Follow-up as needed to explore issues as discovered
-    * Report & risk remediation plan
+    * Report &amp; risk remediation plan
     * (If possible and funded - Remediation support)
   * Discuss timeline
 
@@ -66,5 +68,5 @@ walk_through: >-
     * Access to systems, if relevant, and permission to do any planned scanning (or plan to request specific permission as needed throughout the assessment)
     * Scheduling group calls, if needed
     * Do they want to have a signed agreement?
-  * If needed, agree communications protocols? Email, Signal, PGP, others?"
+  * If needed, agree communications protocols? Email, Signal, PGP, others?
 ---

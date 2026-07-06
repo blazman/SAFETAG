@@ -39,5 +39,5 @@ walk_through: |
   title: Desenvolvimento de Plano
 title: Desenvolvimento de Plano
 overview: As part of SAFETAG's dedication to building agency and supporting organizational adoption of safer practices, a careful prioritization of vulnerabilities is invaluable in keeping audit results from appearing overwhelming. An organization needs to be able to weigh their possible paths forward against the time lost from program activities, the cost to implement the threat, and the other threats that they are not addressing. Roadmapping is used to give the host the tools to make these decisions and provide them with a recommended path forward that will allow them to make immediate gains towards protecting themselves. The existing in/formal security practices captured during this process will be used to remove organizational and psycho-social barriers to starting new practices.
-recommendations: "\"* You can check the [RAWRR tool by Conexo](https://conexo.org/project/rawrr/), which proposes a structure to build the roadmap and create reports around it. \""
+recommendations: "* You can check the [RAWRR tool by Conexo](https://conexo.org/project/rawrr/), which proposes a structure to build the roadmap and create reports around it. "
 ---

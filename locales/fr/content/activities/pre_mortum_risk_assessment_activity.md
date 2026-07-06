@@ -58,5 +58,5 @@ overview: |
   * Identification des impacts
   * Exploration de l'adversaire (probabilité)
   * Classement des impacts
-recommendations: "\"Cette activité peut conduire à des sentiments de désespoir ainsi qu'attiser des peurs directes ou des défis auxquels le personnel est confronté. Il est important de rappeler au personnel que tout risque peut être atténué, et en effet, l'objectif d'un audit est d'identifier les plus prioritaires en fonction de la probabilité réelle et de fournir des conseils sur l'atténuation.\""
+recommendations: "Cette activité peut conduire à des sentiments de désespoir ainsi qu'attiser des peurs directes ou des défis auxquels le personnel est confronté. Il est important de rappeler au personnel que tout risque peut être atténué, et en effet, l'objectif d'un audit est d'identifier les plus prioritaires en fonction de la probabilité réelle et de fournir des conseils sur l'atténuation."
 ---

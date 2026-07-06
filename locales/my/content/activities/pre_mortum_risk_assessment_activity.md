@@ -20,7 +20,8 @@ materials_needed: |
 walk_through: |
   Prepare a flipchart / space on the white-board to keep track of process', threats, impacts, and adversaries that are identified during other activities. Participants can easily get ahead of the process as they explore individual ideas. Keeping a space for these "upcoming" activities will help re-center them on the activity at hand.
 
-  **Pre-Mortem Strategy: (30 Minutes)** The pre-mortem strategy was devised to take participants out of a perspective of defending their plans and strategies and shielding themselves from flaws. They are given "a perspective where they [are] actively searching for flaws in their own plan." [^pre-mortum]
+  **Pre-Mortem Strategy: (30 Minutes)*
+  * The pre-mortem strategy was devised to take participants out of a perspective of defending their plans and strategies and shielding themselves from flaws. They are given "a perspective where they [are] actively searching for flaws in their own plan." [^pre-mortum]
   * Explain the pre-mortem activity. The participants are to imagine that it is months into the future and they have continued doing their work as normal. And something happened that left them entirely unable to function or functioning at a very poor level. "That is all they know; they have to explain what has happened." [^pre-mortum]
   * Create a broad list of possible explanations for what has happened.
   * Identify the most likely explanations.
@@ -62,5 +63,5 @@ overview: |
   * သက်ရောက်မှု ခွဲခြားသတ်မှတ်ခြင်း
   * ရန်သူစူးစမ်းလေ့လာခြင်း (ဖြစ်နိုင်ခြေ)
   * သက်ရောက်မှုအဆင့် သတ်မှတ်ချက်
-recommendations: "\"ဤလုပ်ဆောင်ချက်သည် မျှော်လင့်ချက်ကင်းမဲ့သော ခံစားချက်များ ဖြစ်လာစေနိုင်သည့်အပြင် ဝန်ထမ်းများကြုံတွေ့ရသည့် တိုက်ရိုက်သက်ဆိုင်သော ကြောက်ရွံ့မှုများ သို့မဟုတ် စိန်ခေါ်မှုများကို လှုံ့ဆော်ပေးနိုင်သည်။ မည်သည့်အန္တရာယ်ကိုမဆို လျော့ပါးသွားစေနိုင်ကြောင်း ဝန်ထမ်းများအား သတိပေးဖို့ အရေးကြီးပြီး အမှန်တကယ်ဖြစ်နိုင်ခြေရှိမှုအပေါ် အခြေခံ၍ ဦးစားပေးမှုအမြင့်ဆုံးရှိရမည့် အန္တရာယ်များကို ခွဲခြားသတ်မှတ်ရန်နှင့် လျော့ပါးရေးအတွက် လမ်းညွှန်မှုပေးရန်မှာ စစ်ဆေးမှု၏ ရည်ရွယ်ချက်ပင် ဖြစ်ပါသည်။\""
+recommendations: "ဤလုပ်ဆောင်ချက်သည် မျှော်လင့်ချက်ကင်းမဲ့သော ခံစားချက်များ ဖြစ်လာစေနိုင်သည့်အပြင် ဝန်ထမ်းများကြုံတွေ့ရသည့် တိုက်ရိုက်သက်ဆိုင်သော ကြောက်ရွံ့မှုများ သို့မဟုတ် စိန်ခေါ်မှုများကို လှုံ့ဆော်ပေးနိုင်သည်။ မည်သည့်အန္တရာယ်ကိုမဆို လျော့ပါးသွားစေနိုင်ကြောင်း ဝန်ထမ်းများအား သတိပေးဖို့ အရေးကြီးပြီး အမှန်တကယ်ဖြစ်နိုင်ခြေရှိမှုအပေါ် အခြေခံ၍ ဦးစားပေးမှုအမြင့်ဆုံးရှိရမည့် အန္တရာယ်များကို ခွဲခြားသတ်မှတ်ရန်နှင့် လျော့ပါးရေးအတွက် လမ်းညွှန်မှုပေးရန်မှာ စစ်ဆေးမှု၏ ရည်ရွယ်ချက်ပင် ဖြစ်ပါသည်။"
 ---

@@ -10,7 +10,13 @@ remote_options:
 time_required_minutes: 120
 organization_size_under: 100
 summary: >-
-  "Network scanning is a technique used to gather information about devices connected on a certain network. It involves enumerating open ports and services running to determine the type of device, the operating system it is running, the applications that is it running and a lot more. There are a lot of open source tools that you can used to perform this technique. Though it may look like simple and ordinary technique, it may be used for both good and bad intentions.
+  Network scanning is a technique used to gather information about devices
+  connected on a certain network. It involves enumerating open ports and
+  services running to determine the type of device, the operating system it is
+  running, the applications that is it running and a lot more. There are a lot
+  of open source tools that you can used to perform this technique. Though it
+  may look like simple and ordinary technique, it may be used for both good and
+  bad intentions.
 
 
   The goal for this exercise is to identify, enumerate and categorize all devices connected to the network. Any device that has an IP address is our target. This may include:
@@ -32,13 +38,13 @@ summary: >-
 
   * Smart TVs and appliances
 
-  * Servers and storage devices"
+  * Servers and storage devices
 short_summary: Gather information about devices connected on a network to determine types of device, operating systems, applications that are running, and a lot more
 materials_needed: |
   * Ordinateur portable ou appareil capable de scanner le réseau
   * nmap/zenmap
 walk_through: >
-  "Local networks often have a variety of devices connected to them - servers,
+  Local networks often have a variety of devices connected to them - servers,
 
   laptops, printers, and user devices such as cellphones and tablets. Scanning
 
@@ -403,8 +409,6 @@ walk_through: >
   | **Regular Scan**                 | `nmap`                                                                                                           |
 
   | **Slow Comprehensive Scan**      | `nmap -sS -sU -T4 -A -v -PE -PP -PS80,443 -PA3389 -PU40125 -PY -g 53 --script ”default or (discovery and safe)”` |
-
-  "
 considerations: |
   * **In Scope Devices** N'oubliez pas que certains ne voudront peut-être pas que vous numérisiez tout sur leur réseau. Pour éviter cela, demandez toujours à votre audité s'il existe des appareils spécifiques qui doivent être exclus. Ces machines peuvent être essentielles à leur fonctionnement ou elles ne veulent tout simplement pas être scannées. Si votre audité a des exclusions, expliquez les conséquences possibles si une machine ne fait pas l'objet d'une évaluation de vulnérabilité. Si vous analysez des serveurs publics, vérifiez que l'hôte du serveur (Entreprise Web, fournisseur de cloud, etc.) a approuvé l'analyse, et que l'analyse à distance est légale dans la juridiction à partir de laquelle vous l'effectuez et dans l'emplacement du serveur distant.
   title: Analyse de réseau
@@ -412,18 +416,15 @@ title: Analyse de réseau
 skills_required:
   - Analyse de réseau
 overview: >
-  "
-
   * Confirmez quels appareils et serveurs sont concernés par l'audit et confirmez que tous les fournisseurs de services (hébergeurs de sites Web, hôtes cloud, etc.) sont informés et acceptent toute analyse à effectuer.
-    * Énumérer et classer tous les appareils connectés au réseau de l'organisation. Notez que cela peut inclure les appareils IoT (Internet des objets), tels que les caméras IP utilisées pour la sécurité, les appareils « intelligents » et les appareils personnels tels que les téléphones mobiles, qui peuvent ne pas être concernés. **Discutez de la portée de l'audit tel qu'il s'applique aux appareils connectés au réseau de travail et assurez-vous que le personnel comprend ce que vous faites.**
+    * Énumérer et classer tous les appareils connectés au réseau de l'organisation. Notez que cela peut inclure les appareils IoT (Internet des objets), tels que les caméras IP utilisées pour la sécurité, les appareils « intelligents » et les appareils personnels tels que les téléphones mobiles, qui peuvent ne pas être concernés. **Discutez de la portée de l'audit tel qu'il s'applique
+  aux appareils connectés au réseau de travail et assurez-vous que le personnel comprend ce que vous faites.**
     * Dans certains cas, la portée de l'audit peut inclure des appareils externes. Le balayage dans ces cas sera très ciblé. Si votre audité a accepté que ses machines publiques soient analysées, gardez à l'esprit que vous devez envisager de demander à votre audité des options de liste blanche pour éviter les IDS/IPS, les pare-feu et autres mécanismes de blocage pendant votre analyse. Assurez-vous également que vous avez vérifié la cible dans le champ d'application. Cela permet d'éviter d'analyser des cibles hors de portée qui pourraient vous conduire à d'autres problèmes.
   * Catégorisez et rassemblez des détails supplémentaires sur les appareils que vous découvrirez
 
   * Explorez les vulnérabilités potentielles, les périphériques inattendus et les ports ouverts suspects
-
-  "
 recommendations: >
-  "Alors que les réseaux de bureau sont souvent traités comme des espaces ”de confiance”, des mesures doivent être mises en place pour réduire les dommages potentiels d'un attaquant qui y accède. En outre, les appareils qui « voyagent » - tels que les ordinateurs portables et les téléphones portables - doivent disposer de paramètres de sécurité adéquats (généralement, des pare-feu) pour les protéger sur d'autres réseaux.
+  Alors que les réseaux de bureau sont souvent traités comme des espaces ”de confiance”, des mesures doivent être mises en place pour réduire les dommages potentiels d'un attaquant qui y accède. En outre, les appareils qui « voyagent » - tels que les ordinateurs portables et les téléphones portables - doivent disposer de paramètres de sécurité adéquats (généralement, des pare-feu) pour les protéger sur d'autres réseaux.
 
-  Une politique / stratégie doit être en place pour connecter les appareils personnels aux réseaux professionnels, ainsi que les appareils professionnels aux réseaux non professionnels."
+  Une politique / stratégie doit être en place pour connecter les appareils personnels aux réseaux professionnels, ainsi que les appareils professionnels aux réseaux non professionnels.
 ---

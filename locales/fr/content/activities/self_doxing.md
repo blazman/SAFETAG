@@ -35,8 +35,6 @@ materials_needed: |
   guide](https://guides.accessnow.org/self-doxing/self-doxing.html)
   * A big sheet of paper or a whiteboard
 walk_through: >
-  "
-
   * Prepare before the activity by doing this research on a few members of the
 
   organization to identify good examples
@@ -56,8 +54,7 @@ walk_through: >
 
   guide](https://guides.accessnow.org/self-doxing/self-doxing.html)
 
-  * While projecting to the group, conduct a research on yourself or
-  a
+  * While projecting to the group, conduct a research on yourself or a
 
   high-profile member of the organization who has given their consent. Perform
 
@@ -68,15 +65,27 @@ walk_through: >
   * Either have them do the same research on themselves in pairs or assign this
 
   research as homework.
-    **Note:** If participants perform the research at home, it is important to warn the group that when practicing self-doxing, there is a risk of getting exposed to results that they may find disturbing. Tell them that if they think they may need support, they should ask a close friend to be around while they carry out their research.
+    **Note:*
+  * If participants perform the research at home, it is important to warn the group that when practicing self-doxing, there is a risk of getting exposed to results that they may find disturbing. Tell them that if they think they may need support, they should ask a close friend to be around while they carry out their research.
     * Instruct participants to use the Tor Browser and a browser different than their usual one to perform the research, and ask them to search both on the websites and services listed in the self-doxing guide and in the ones mentioned during the brainstorming.
     * Explain that, to decide what to search for, one should try to understand what activities expose them to a higher risk of being attacked by trolls or other malicious actors. They should ask themselves: ”Why would someone want to spend hours of their time to track information on you in the internet?” Add that this kind of attack often affects minorities or people who support controversial opinions online, and the attack starts from the information that the malicious actor will find immediately available - like the nickname and profile used by the target in the platform where the attack has started, or the pictures the target has published in their page. This is where they should start from.
     * Instruct the group to check the properties of the posts and media they have published, to make sure that they aren't leaking their IP address or other metadata.
     * Show the group a reverse image search on [TinEyE](https://tineye.com/) or Google and recommend they do it on pictures of themselves they have published online.
     * Show the group how to check if their online account has been previously compromised on [Have I Been Pwned?](https://haveibeenpwned.com/). Explain that often results are old and if they have changed their password recently, showing up on this search may not be a problem. Tell them that if they are still using that old password for the compromised account of for other accounts, they should immediately change that password.
-  "
 considerations: >
-  "* Recommend the usage of the Tor Browser for this activity. * Treat threat and adversary data with the utmost security. * Ensure that any physical notes/drawings are erased and destroyed once digitally recorded. * Ensure that any digital recordings of this process are kept secure and encrypted. * Before targeting any individuals, do the research for the organization itself. * If using a staff member for the example, have a private session with them beforehand to make sure you do not expose any sensitive information to the group. * Ensure that you have consent from the staff members you will use as an example for this activity. "
+  * Recommend the usage of the Tor Browser for this activity.
+
+  * Treat threat and adversary data with the utmost security.
+
+  * Ensure that any physical notes/drawings are erased and destroyed once digitally recorded.
+
+  * Ensure that any digital recordings of this process are kept secure and encrypted.
+
+  * Before targeting any individuals, do the research for the organization itself.
+
+  * If using a staff member for the example, have a private session with them beforehand to make sure you do not expose any sensitive information to the group.
+
+  * Ensure that you have consent from the staff members you will use as an example for this activity.
 skills_required:
   - Facilitation de groupe
   - Évaluation des risques
@@ -103,7 +112,9 @@ overview: |
   entire organization, instruct them on how to perform a takedown request to the
   relevant website and/or search engine.
 recommendations: >-
-  "This activity is based off of Access Now's [Self-Doxing Guide](https://guides.accessnow.org/self-doxing.html), which has additional reading and recommendations.
+  This activity is based off of Access Now's [Self-Doxing
+  Guide](https://guides.accessnow.org/self-doxing.html), which has additional
+  reading and recommendations.
 
 
   If significant results are found that might endanger an individual or the
@@ -142,5 +153,5 @@ recommendations: >-
   * **Tumblr**: [How to report a privacy
     violation](https://www.tumblr.com/abuse/privacy)
 
-    * If the public form cannot help, abuse can be reported by email following [these instructions](http://emergencycenter.tumblr.com/post/22769438497/is-there-a-way-to-report-something-on-tumblr)"
+    * If the public form cannot help, abuse can be reported by email following [these instructions](http://emergencycenter.tumblr.com/post/22769438497/is-there-a-way-to-report-something-on-tumblr)
 ---

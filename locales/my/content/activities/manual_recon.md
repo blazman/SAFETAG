@@ -33,7 +33,7 @@ overview: |
   * စိတ်ဝင်စားသော ဓာတ်ပုံများတွင် ပုံသုံးရှာဖွေခြင်းနှင့် exif ကိရိယာများကို အသုံးပြုပါ
   * ထပ်တိုးဒေတာထည့်ရန် နှင့် အလိုအလျောက် ထောက်လှမ်းရာမှ နောက်ထပ်ရှာဖွေတွေ့ရှိချက်များကို သုတေသနပြုရန် အသုံးပြုပါ
 recommendations: >
-  "Part of modern life is having a presence on-line.  For many organizations,
+  Part of modern life is having a presence on-line.  For many organizations,
 
   their online work is key to their success.  It is overall important to
 
@@ -66,5 +66,5 @@ recommendations: >
 
   with the Self-Doxing exercise to identify and mitigate vulnerabilities without
 
-  intruding into team members' privacy."
+  intruding into team members' privacy.
 ---
