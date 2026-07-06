@@ -19,7 +19,8 @@ summary: |
 overview: |
   * Complétez la capture de preuves avec une chaîne de possession en utilisant la capture de preuves
   activité.
-  * **Une fois les activités d'audit de base terminées** (lors du rapport post-audit
+  * **Une fois les activités d'audit de base terminées*
+  * (lors du rapport post-audit
   phase), collaborer avec des chercheurs de confiance ou travailler pour analyser le potentiel
   infections par des logiciels malveillants
   * Si des indicateurs de compromission sont trouvés, retournez à l'activité suspecte

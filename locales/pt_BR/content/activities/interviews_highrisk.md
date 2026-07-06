@@ -42,7 +42,8 @@ considerations: |
   **Considerações psicológicas**
 
   * Peça à equipe para manter as histórias generalizadas, sem especificidade que as personalize ou identifique pessoas, durante a entrevista da organização
-  * Os funcionários podem ficar constrangidos em falar sobre um incidente na frente de toda a organização. * Quando necessário, faça entrevistas ou tenha conversas particulares.
+  * Os funcionários podem ficar constrangidos em falar sobre um incidente na frente de toda a organização.
+  * Quando necessário, faça entrevistas ou tenha conversas particulares.
   * Os funcionários podem exagerar ou superestimar os ataques devido à falta de compreensão do ataque e do impacto.
   * Os funcionários também podem subestimar os ataques devido à exposição excessiva a esses ataques, outros desafios urgentes ou falta de compreensão
   * Quem audita deve ouvir e explicar conceitos, mas deve evitar discutir sobre a “gravidade” do incidente

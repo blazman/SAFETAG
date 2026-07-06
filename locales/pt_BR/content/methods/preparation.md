@@ -32,8 +32,10 @@ references:
   - Guias sobre Manejo de Dados e Informações Sensíveis
   - Recursos para resposta a incidentes
 operational_security: |
-  * **Prepare os sistemas:** atualize e teste seus sistemas, ferramentas de áudio/vídeo e de auditoria[4], prepare dispositivos e sistemas de armazenamento de acordo  a segurança operacional necessária e certifique-se de ter adaptadores de alimentação, cabos e adaptadores relevantes, drives USB, placas wireless externas e qualquer outro equipamento necessário para os testes.
-  * **Prepare-se para a viagem:** verifique toda logística da viagem, incluindo visto, carta-convite, passagens e reservas de hospedagem (prefira hotéis ao invés de AirBNB). Observe que alguns vistos podem exigir um esforço significativo, ter alto custo e podem fazer com que a pessoa que audita fique sem passaporte enquanto estiverem sendo processados.
+  * **Prepare os sistemas:*
+  * atualize e teste seus sistemas, ferramentas de áudio/vídeo e de auditoria[4], prepare dispositivos e sistemas de armazenamento de acordo  a segurança operacional necessária e certifique-se de ter adaptadores de alimentação, cabos e adaptadores relevantes, drives USB, placas wireless externas e qualquer outro equipamento necessário para os testes.
+  * **Prepare-se para a viagem:*
+  * verifique toda logística da viagem, incluindo visto, carta-convite, passagens e reservas de hospedagem (prefira hotéis ao invés de AirBNB). Observe que alguns vistos podem exigir um esforço significativo, ter alto custo e podem fazer com que a pessoa que audita fique sem passaporte enquanto estiverem sendo processados.
   * Considere cuidadosamente as necessidades de preparação da bagagem
     [^travel_kit_appendix]^,^[^NIST_SP_800-115-travel_prep]
 info_required: []

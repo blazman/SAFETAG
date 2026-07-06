@@ -39,7 +39,8 @@ considerations: |
   * In addition to the overall mandate to send information encrypted to the organization, also demand encrypted communication back from them. Failure to establish a secure planning channel also contributes towards a no-go situation by putting both the auditor and organization at risk.
 skills_required: []
 overview: |
-  **Create an Assessment Plan:** Have a "scoping" meeting that outlines the
+  **Create an Assessment Plan:*
+  * Have a "scoping" meeting that outlines the
   level of access that an auditor will have, what is off limits, and the process
   for modifying the scope of the audit when new information arises.
   [^PETS_legal_considerations], [^PETS_separate_permissions]

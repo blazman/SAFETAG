@@ -18,12 +18,14 @@ materials_needed: |
   * Marcadores / Canetas / Canetões
   * Câmera para capturar os dados digitalmente
 walk_through: |
-  Prepare um flipchart/espaço no quadro branco para acompanhar o processo, as ameaças, os impactos e os adversários identificados durante outras atividades. Os participantes podem facilmente adiantar-se ao processo à medida que exploram ideias individuais. Manter um espaço para essas atividades “futuras” ajudará a recentrá-los na atividade em questão.**Estratégia pré-mortem: (30 minutos)** A estratégia pré-mortem foi criada para tirar os participantes da perspectiva de defender seus planos e estratégias e se proteger de falhas. Eles recebem “uma perspectiva em que estão procurando ativamente por falhas em seu próprio plano”. [^pre-mortum]
+  Prepare um flipchart/espaço no quadro branco para acompanhar o processo, as ameaças, os impactos e os adversários identificados durante outras atividades. Os participantes podem facilmente adiantar-se ao processo à medida que exploram ideias individuais. Manter um espaço para essas atividades “futuras” ajudará a recentrá-los na atividade em questão.**Estratégia pré-mortem: (30 minutos)*
+  * A estratégia pré-mortem foi criada para tirar os participantes da perspectiva de defender seus planos e estratégias e se proteger de falhas. Eles recebem “uma perspectiva em que estão procurando ativamente por falhas em seu próprio plano”. [^pre-mortum]
   * Explique a atividade pré-mortem. Os participantes devem imaginar que estão meses no futuro e continuaram fazendo seu trabalho normalmente. E algo aconteceu que os deixou totalmente incapazes de funcionar ou funcionando em um nível muito ruim. “Isso é tudo o que eles sabem; eles têm que explicar o que aconteceu.” [^pre-mortum]
   * Crie uma lista ampla de possíveis explicações para o que aconteceu.
   * Identifique as explicações mais prováveis.
   * Liste os processos que teriam que falhar para que essas causas tivessem efeito.
-  * Identifique dois ou três processos que são centrais para as falhas e anote-os em uma lista de *processos críticos*.**Mapeamento de processos/interações (30 minutos por processo):*** Escolha um processo da lista de *processos críticos
+  * Identifique dois ou três processos que são centrais para as falhas e anote-os em uma lista de *processos críticos*.**Mapeamento de processos/interações (30 minutos por processo):**
+  * Escolha um processo da lista de *processos críticos
   * identificados acima.
   * Identifique claramente o nome do processo no quadro branco ou flipchart.
   * Crie uma lista das pessoas que participam do processo.
@@ -32,7 +34,8 @@ walk_through: |
   * Desenhe linhas com setas conectando as pessoas que interagem entre si nesse processo.
   * Identifique as linhas com palavras que descrevam a interação.
   * Escreva números nas interações para mostrar a ordem em que elas ocorrem.
-  * Continue essa atividade com o próximo *processo crítico*.**NOTAS:*** Você pode adicionar processos subsequentes para examinar se eles são identificados como críticos pelos participantes durante esta atividade. Especificamente, os exercícios na seção Avaliação de Ameaças combinam bem.
+  * Continue essa atividade com o próximo *processo crítico*.**NOTAS:**
+  * Você pode adicionar processos subsequentes para examinar se eles são identificados como críticos pelos participantes durante esta atividade. Especificamente, os exercícios na seção Avaliação de Ameaças combinam bem.
   * Coloque as pessoas em post-its para que possam ser movidas.
   * Explique verbalmente aos participantes o processo concluído para garantir que você não tenha esquecido nada.
   * Faça anotações rápidas para lembrar-se de quaisquer pontos-chave que não estejam claramente marcados no mapa antes de eles passarem para a próxima atividade.

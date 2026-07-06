@@ -17,12 +17,15 @@ materials_needed: |
   * Marcadores / Canetões
   * Quadro branco ou flipchart
 walk_through: |
-  **Identifique e classifique as vulnerabilidades*** Veja o possível impacto da vulnerabilidade.
+  **Identifique e classifique as vulnerabilidades**
+  * Veja o possível impacto da vulnerabilidade.
   * Descubra quaisquer ameaças a processos críticos que a vulnerabilidade possa causar.
   * Identifique o processo com maior impacto se for interrompido.
   * Descubra a possibilidade de exploração.
   * Descubra o nível de recursos necessários para explorar a vulnerabilidade.
-  * Compare os recursos necessários com as capacidades identificadas nas atividades de modelagem de risco e na pesquisa contextual que você fez.**Crie uma matriz de vulnerabilidade/probabilidade*** Posicione a vulnerabilidade na matriz de risco em relação à sua probabilidade e impacto.![Risco vs. Dificuldade](/img/risk_vs_difficulty.svg)![Risco vs. Probabilidade](/img/risk_vs_likelihood.svg)**Crie uma matriz de risco*** Coloque os *impactos
+  * Compare os recursos necessários com as capacidades identificadas nas atividades de modelagem de risco e na pesquisa contextual que você fez.**Crie uma matriz de vulnerabilidade/probabilidade**
+  * Posicione a vulnerabilidade na matriz de risco em relação à sua probabilidade e impacto.![Risco vs. Dificuldade](/img/risk_vs_difficulty.svg)![Risco vs. Probabilidade](/img/risk_vs_likelihood.svg)**Crie uma matriz de risco**
+  * Coloque os *impactos
   * em relação a uma gama de probabilidade.
   * Limpe os mapas de processos críticos para uso em relatórios.
   * Crie uma lista de todos os serviços ou ativos que foram identificados durante a atividade e que ainda não eram conhecidos pelo auditor.![Impacto vs. Gravidade](/img/impact_vs_severity.svg)

@@ -14,7 +14,8 @@ summary: |
   Negocie um acordo com a organização que descreva como a auditora protegerá a privacidade da organização e os resultados da auditoria.
 materials_needed: ""
 walk_through: |
-  **Negocie um acordo de confidencialidade:** negocie um acordo com a organização que descreva como a auditora protegerá a privacidade da organização e os resultados da auditoria.
+  **Negocie um acordo de confidencialidade:*
+  * negocie um acordo com a organização que descreva como a auditora protegerá a privacidade da organização e os resultados da auditoria.
 
 
   Abaixo está um modelo de Declaração de Trabalho e Contrato de Prestação de Serviços que pode ser adaptado ao seu modelo de contrato. Consulte também o [Gerador de Contrato SAFETAG](https://github.com/SAFETAG/safetag_agreement_generator) e os exemplos de contratos [mais avançados](https://github.com/SAFETAG/safetag_agreement_generator/blob/master/outputs/explicit_custom.md)  e também em ["linguagem simples".](https://github.com/SAFETAG/safetag_agreement_generator/blob/master/outputs/plain_custom.md) 

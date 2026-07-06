@@ -24,7 +24,11 @@ operational_security: |
   * Use VPNs ou Tor para pesquisar se estiver fazendo a pesquisa de um país que está, esteve ou pode estar em conflito ou competiação com o país da organização, ou de um país que é conhecido por fazer vigilância.
 info_required: []
 outputs: |
-  * Um resumo das ameaças mais prováveis que o anfitrião e o auditor podem enfrentar:  * Possíveis adversários e sua capacidade e disposição para agir contra o anfitrião,  * Últimas ameaças gerais à segurança cibernética,  * Riscos legais para o anfitrião e o auditor que realizam uma auditoria SAFETAG.* Modificações no plano de auditoria, conforme necessário.
+  * Um resumo das ameaças mais prováveis que o anfitrião e o auditor podem enfrentar:
+  * Possíveis adversários e sua capacidade e disposição para agir contra o anfitrião,
+  * Últimas ameaças gerais à segurança cibernética,
+  * Riscos legais para o anfitrião e o auditor que realizam uma auditoria SAFETAG.
+  * Modificações no plano de auditoria, conforme necessário.
 info_provided: []
 method_icon: /img/context_research_icon.png
 purpose: |

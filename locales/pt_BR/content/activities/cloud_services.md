@@ -19,7 +19,8 @@ summary: |
 overview: |
   * Verificar como a organização usa os serviços em nuvem (quais serviços, quais dados, políticas de acesso)
   * Verificar as políticas formais dos serviços em nuvem que estão sendo usados
-  * Pesquisar problemas históricos de segurança com cada provedor e como elesreagiram a isso.**Resultados esperados*** Uma lista de todos os serviços de terceiros/em nuvem identificados que estão sendo usados
+  * Pesquisar problemas históricos de segurança com cada provedor e como elesreagiram a isso.**Resultados esperados**
+  * Uma lista de todos os serviços de terceiros/em nuvem identificados que estão sendo usados
   * Um mapeamento de quais dados e metadados e quais usuários têm acesso em quais provedores
 materials_needed: ''
 considerations: |
