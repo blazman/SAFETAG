@@ -32,12 +32,22 @@ materials_needed: |
   organized and efficient to move through the exercise as quickly as possible.
   * Agreed upon teleconferencing technology
   * Templates
-      * **Logistics Document** Available as an OpenDocument in the SAFETAG repository, and online via Google Docs: [Logistics Document](https://drive.google.com/file/d/1Jel7mGJvsAq0F6UKoGnx4eBeCMz8cfOY/view?usp=sharing)
-      * **Remote Asset Valuation Table** Available as an OpenDocument Spreadsheet in the SAFETAG repository, and online via Google Docs:[Remote Asset Valuation Table](https://drive.google.com/file/d/1Yf2S6IIOlewzTSBNT-yJ1P9ZZD2d3XVN/view?usp=sharing)
+      * **Logistics Document*
+  * Available as an OpenDocument in the SAFETAG repository, and online via Google Docs: [Logistics Document](https://drive.google.com/file/d/1Jel7mGJvsAq0F6UKoGnx4eBeCMz8cfOY/view?usp=sharing)
+      * **Remote Asset Valuation Table*
+  * Available as an OpenDocument Spreadsheet in the SAFETAG repository, and online via Google Docs:[Remote Asset Valuation Table](https://drive.google.com/file/d/1Yf2S6IIOlewzTSBNT-yJ1P9ZZD2d3XVN/view?usp=sharing)
 considerations: >
-  "* Ensure staff invited to the call are not located in an operationally sensitive environment when conducting real time discussions around sensitive matters. This consideration should be adhered to during any remote or in-person engagement. * Some of the documents produced in this exercise may be sensitive. Proceed with caution and ensure documents are sufficiently secured so as not to result in a data leak. * Additional considerations and research should be conducted before using technology for real-time collaboration and teleconferencing. Not all teleconferencing technology is made equal. Be sure to evaluate the risks of using a technology prior to engaging in sensitive conversations online.
-
-  "
+  * Ensure staff invited to the call are not located in an operationally
+  sensitive environment when conducting real time discussions around sensitive
+  matters. This consideration should be adhered to during any remote or
+  in-person engagement.
+  * Some of the documents produced in this exercise may be sensitive. Proceed
+  with caution and ensure documents are sufficiently secured so as not to result
+  in a data leak.
+  * Additional considerations and research should be conducted before using
+  technology for real-time collaboration and teleconferencing. Not all
+  teleconferencing technology is made equal. Be sure to evaluate the risks of
+  using a technology prior to engaging in sensitive conversations online.
 walk_through: |
   **Preparation**
 

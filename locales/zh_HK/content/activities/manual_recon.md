@@ -54,7 +54,7 @@ overview: |
   * Use to add additional data in to, and to research further discoveries from,
   the automated recon work
 recommendations: >
-  "Part of modern life is having a presence on-line.  For many organizations,
+  Part of modern life is having a presence on-line.  For many organizations,
 
   their online work is key to their success.  It is overall important to
 
@@ -87,5 +87,5 @@ recommendations: >
 
   with the Self-Doxing exercise to identify and mitigate vulnerabilities without
 
-  intruding into team members' privacy."
+  intruding into team members' privacy.
 ---
