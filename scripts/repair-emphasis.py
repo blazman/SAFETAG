@@ -89,17 +89,30 @@ def bullet_lines(value):
 
 
 def repair_value(value):
-    """Merge bullet lines whose emphasis is cut. Returns (new_value, n_merges)."""
+    """Merge lines whose emphasis was cut by a bad bullet split.
+
+    Applies to *any* line with unbalanced emphasis followed by a bullet line —
+    not only to bullets. A paragraph ending in a bold run-in heading is a common
+    victim: the splitter ate the heading's closing ``*`` and turned the prose
+    that followed into a spurious list item::
+
+        ...em questão.**Estratégia pré-mortem: (30 minutos)*
+        * A estratégia pré-mortem foi criada...
+
+    Merging restores ``**...(30 minutos)** A estratégia...`` as one paragraph,
+    and the bullet correctly disappears.
+
+    Returns (new_value, n_merges).
+    """
     lines = value.split("\n")
     out, merges, i = [], 0, 0
     while i < len(lines):
         m = BULLET.match(lines[i])
-        if not m:
-            out.append(lines[i])
-            i += 1
-            continue
-        indent, item = m.groups()
-        # keep merging while this bullet's emphasis is cut and a bullet follows
+        indent, item, is_bullet = ("", lines[i], False)
+        if m:
+            indent, item = m.groups()
+            is_bullet = True
+        # keep pulling the following bullet up while this line's emphasis is cut
         while unbalanced(item) and i + 1 < len(lines):
             nxt = BULLET.match(lines[i + 1])
             if not nxt:
@@ -107,7 +120,7 @@ def repair_value(value):
             item = f"{item}* {nxt.group(2)}"
             merges += 1
             i += 1
-        out.append(f"{indent}* {item}")
+        out.append(f"{indent}* {item}" if is_bullet else item)
         i += 1
     return "\n".join(out), merges
 
