@@ -36,12 +36,17 @@ Dry run by default -- prints every proposed change and writes nothing.
 """
 
 import argparse
+import configparser
 import glob
 import html
+import json
 import os
 import re
 import subprocess
 import sys
+import time
+import urllib.error
+import urllib.request
 
 import yaml
 
@@ -221,6 +226,98 @@ def check(repaired, seed_value, en_value):
     return fails, warns
 
 
+# -------------------------------------------------------------- weblate api
+
+PROJECT = "safetag"
+CONFIG = os.path.expanduser("~/.config/weblate")
+
+
+class Weblate:
+    """Thin read/write client. Credentials come from ~/.config/weblate."""
+
+    def __init__(self):
+        # configparser's default delimiters include ':', which would split the
+        # https:// URL used as the key name in [keys]. Restrict to '='.
+        cp = configparser.ConfigParser(delimiters=("=",))
+        if not cp.read(CONFIG):
+            sys.exit(f"no Weblate config at {CONFIG}")
+        self.url = cp.get("weblate", "url").strip().rstrip("/")
+        keys = dict(cp.items("keys")) if cp.has_section("keys") else {}
+        self.token = next((v.strip() for k, v in keys.items()
+                           if k.strip().rstrip("/") == self.url), None)
+        if self.token is None and len(keys) == 1:
+            self.token = list(keys.values())[0].strip()
+        if not self.token:
+            sys.exit("no API token found in [keys] matching the configured url")
+        self._translations = {}   # component slug -> {filename: translation url}
+
+    def _request(self, path, method="GET", payload=None):
+        url = path if path.startswith("http") else self.url + path
+        data = json.dumps(payload).encode() if payload is not None else None
+        req = urllib.request.Request(url, data=data, method=method, headers={
+            "Authorization": f"Token {self.token}",
+            "User-Agent": "safetag-repair-emphasis",
+            **({"Content-Type": "application/json"} if data else {}),
+        })
+        for attempt in range(5):
+            try:
+                with urllib.request.urlopen(req, timeout=90) as r:
+                    return json.loads(r.read().decode() or "{}")
+            except urllib.error.HTTPError as e:
+                if e.code == 429:                       # rate limited
+                    wait = int(e.headers.get("Retry-After", 10)) + 1
+                    print(f"    rate limited, waiting {wait}s", flush=True)
+                    time.sleep(wait)
+                    continue
+                raise
+        raise RuntimeError(f"gave up after rate limiting: {path}")
+
+    def get(self, path):
+        return self._request(path)
+
+    def patch(self, path, payload):
+        return self._request(path, method="PATCH", payload=payload)
+
+    def translations(self, slug):
+        """{filename: translation api url} for one component, cached."""
+        if slug not in self._translations:
+            out, page = {}, f"/components/{PROJECT}/{slug}/translations/"
+            while page:
+                d = self.get(page)
+                for t in d.get("results", []):
+                    if t.get("filename"):
+                        out[t["filename"]] = t["url"]
+                page = d.get("next")
+            self._translations[slug] = out
+        return self._translations[slug]
+
+    def find_unit(self, slug, filename, source_text):
+        """Locate a unit by its SOURCE string.
+
+        Frontmatter units carry an empty ``context``, so the English value is
+        the only stable identifier. Compared with whitespace collapsed, since
+        Weblate and PyYAML disagree about trailing newlines.
+        """
+        turl = self.translations(slug).get(filename)
+        if not turl:
+            return None, f"no translation for {filename}"
+        want = re.sub(r"\s+", " ", source_text).strip()
+        page = turl + "units/"
+        while page:
+            d = self.get(page)
+            for u in d.get("results", []):
+                src = (u.get("source") or [""])[0]
+                if re.sub(r"\s+", " ", src).strip() == want:
+                    return u, None
+            page = d.get("next")
+        return None, "no unit matched the English source"
+
+
+def component_slug(rel):
+    """'activities/self_doxing.md' -> 'content_activities_self_doxing'."""
+    return "content_" + rel[:-3].replace("/", "_")
+
+
 # ---------------------------------------------------------------------- main
 
 def main():
@@ -229,7 +326,15 @@ def main():
     ap.add_argument("--seed", default=SEED, help=f"pre-damage rev (default {SEED})")
     ap.add_argument("--lang", action="append", help="restrict to language(s)")
     ap.add_argument("--verbose", action="store_true", help="show full field text")
+    ap.add_argument("--resolve", action="store_true",
+                    help="map each proposal to its Weblate unit (still no writes)")
+    ap.add_argument("--apply", action="store_true",
+                    help="WRITE the repairs to Weblate (implies --resolve)")
+    ap.add_argument("--limit", type=int,
+                    help="only act on the first N proposals (use for a canary)")
     args = ap.parse_args()
+    if args.apply:
+        args.resolve = True
 
     # English sources, keyed by "<type>/<name>.md"
     en = {}
@@ -275,7 +380,7 @@ def main():
 
     # ------------------------------------------------------------------ report
     print("=" * 78)
-    print("DRY RUN — no changes written")
+    print("APPLYING — writes to Weblate" if args.apply else "DRY RUN — no changes written")
     print("=" * 78)
     warned = [p for p in proposals if p["warns"]]
     print(f"  proposed repairs : {len(proposals)} fields "
@@ -317,6 +422,57 @@ def main():
             print(f"\n  {b['lang']}  {b['rel']}  [{b['key']}]")
             print(f"      reason: {'; '.join(b['fails'])}")
 
+    if not args.resolve:
+        print("\nRe-run with --resolve to map these to Weblate units, "
+              "then --apply to write.")
+        return 0
+
+    # --------------------------------------------------- resolve / apply
+    wl = Weblate()
+    todo = proposals[:args.limit] if args.limit else proposals
+    print("\n" + "=" * 78)
+    print(f"{'APPLYING' if args.apply else 'RESOLVING'} {len(todo)} of "
+          f"{len(proposals)} proposals")
+    print("=" * 78)
+
+    en_src = {}
+    for rel, d in en.items():
+        en_src[rel] = d
+
+    ok = written = 0
+    problems = []
+    for p in todo:
+        slug = component_slug(p["rel"])
+        source_text = (en_src.get(p["rel"]) or {}).get(p["key"])
+        if not isinstance(source_text, str):
+            problems.append((p, "no English source value")); continue
+        try:
+            unit, err = wl.find_unit(slug, p["file"], source_text)
+        except urllib.error.HTTPError as e:
+            problems.append((p, f"HTTP {e.code} on {slug}")); continue
+        if unit is None:
+            problems.append((p, err)); continue
+        ok += 1
+        cur_target = (unit.get("target") or [""])[0]
+        if re.sub(r"\s+", " ", cur_target).strip() != re.sub(r"\s+", " ", p["before"]).strip():
+            problems.append((p, "unit target differs from the file on disk "
+                                "(Weblate moved on — re-run the dry run)"))
+            continue
+        if not args.apply:
+            print(f"  ok  {p['lang']:6} {p['rel']:52} [{p['key']}] unit={unit['id']}")
+            continue
+        wl.patch(f"/units/{unit['id']}/",
+                 {"target": [p["after"]], "state": unit.get("state", 20)})
+        written += 1
+        print(f"  WROTE {p['lang']:6} {p['rel']:52} [{p['key']}] unit={unit['id']}",
+              flush=True)
+
+    print(f"\n  resolved: {ok}/{len(todo)}"
+          + (f"   written: {written}" if args.apply else ""))
+    if problems:
+        print(f"\n  could not resolve ({len(problems)}):")
+        for p, why in problems[:25]:
+            print(f"    {p['lang']:6} {p['rel']} [{p['key']}]: {why}")
     return 0
 
 
