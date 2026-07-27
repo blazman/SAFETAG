@@ -49,6 +49,14 @@ SEED = "be351ce50"
 BULLET = re.compile(r"^(\s*)\*\s+(.*)$")
 INLINE_CODE = re.compile(r"`[^`]*`")
 
+# A bullet that lost the space after its marker: "*Domains + IP addresses".
+# BULLET does not match it, so it reads as prose with unbalanced emphasis and
+# would wrongly absorb the real bullet beneath it. These exist in the English
+# source too (e.g. content/activities/dns_enumeration.md), so translations are
+# faithfully mirroring a source defect -- leave them alone rather than "repair"
+# two list items into one.
+MALFORMED_BULLET = re.compile(r"^\s*\*[^\s*]")
+
 
 # --------------------------------------------------------------------------- io
 
@@ -141,6 +149,11 @@ def repair_value(value):
         if m:
             indent, item = m.groups()
             is_bullet = True
+        # A malformed bullet is not prose with cut emphasis -- never merge into it
+        if not is_bullet and MALFORMED_BULLET.match(lines[i]):
+            out.append(item)
+            i += 1
+            continue
         # keep pulling the following bullet up while this line's emphasis is cut
         while unbalanced(item) and i + 1 < len(lines):
             nxt = BULLET.match(lines[i + 1])
@@ -178,10 +191,17 @@ def check(repaired, seed_value, en_value):
         newline), and
       * every bullet's emphasis balances afterwards.
 
-    Warning only -- bullet count vs the English source. A translator may
-    legitimately split a sentence differently or add an item, so a mismatch is
-    worth surfacing but is not evidence of damage. It earned its keep as a
-    diagnostic: it is what exposed the run-in-heading gap in ``repair_value``.
+    Bullet count vs the English source is read directionally:
+
+      * **fewer** bullets than English blocks -- a merge that leaves the list
+        shorter than its source has eaten list items, which is damage, not
+        repair;
+      * **more** bullets only warns -- a translator may legitimately split a
+        sentence differently or add an item.
+
+    Both directions earn their keep as diagnostics: "more" exposed the
+    run-in-heading gap in ``repair_value``, and "fewer" caught the over-merge on
+    malformed bullets.
     """
     fails, warns = [], []
     if seed_value is None:
@@ -192,9 +212,12 @@ def check(repaired, seed_value, en_value):
            if BULLET.match(ln) and unbalanced(BULLET.match(ln).group(2))]
     if bad:
         fails.append(f"{len(bad)} bullet(s) still unbalanced")
-    if isinstance(en_value, str) and bullet_lines(repaired) != bullet_lines(en_value):
-        warns.append(f"bullet count differs from EN "
-                     f"({bullet_lines(repaired)} vs {bullet_lines(en_value)})")
+    if isinstance(en_value, str):
+        got, want = bullet_lines(repaired), bullet_lines(en_value)
+        if got < want:
+            fails.append(f"repair LOST list items ({got} bullets vs EN {want})")
+        elif got > want:
+            warns.append(f"more bullets than EN ({got} vs {want})")
     return fails, warns
 
 
