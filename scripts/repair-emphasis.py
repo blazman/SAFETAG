@@ -37,6 +37,7 @@ Dry run by default -- prints every proposed change and writes nothing.
 
 import argparse
 import glob
+import html
 import os
 import re
 import subprocess
@@ -130,20 +131,31 @@ def repair_value(value):
 def strip_ws(s):
     """Whitespace-free form for character-fidelity comparison.
 
-    Two transformations Weblate applied legitimately after the seed are
-    normalised away, so they don't masquerade as character loss:
-      * ``&`` was re-escaped to ``&amp;`` (invisible when rendered)
-      * stray leading/trailing ``"`` left inside block scalars by Transifex
-        were stripped
+    Weblate re-serialised HTML entities in both directions since the seed --
+    ``&`` became ``&amp;`` and ``>`` became ``&gt;``, while ``&ast;`` was decoded
+    to a literal ``*``. None of that is character loss, so decode entities on
+    both sides before comparing. Stray leading/trailing ``"`` that Transifex left
+    inside block scalars, and that Weblate stripped, are ignored likewise.
     """
-    s = s.replace("&amp;", "&")
+    s = html.unescape(s)
     s = re.sub(r"\s+", "", s)
     return s.strip('"')
 
 
 def check(repaired, seed_value, en_value):
-    """Return list of failure reasons (empty == all checks pass)."""
-    fails = []
+    """Return (blocking_failures, warnings).
+
+    Blocking -- these are correctness guarantees:
+      * no character loss vs the pre-damage seed (the merge only removed a
+        newline), and
+      * every bullet's emphasis balances afterwards.
+
+    Warning only -- bullet count vs the English source. A translator may
+    legitimately split a sentence differently or add an item, so a mismatch is
+    worth surfacing but is not evidence of damage. It earned its keep as a
+    diagnostic: it is what exposed the run-in-heading gap in ``repair_value``.
+    """
+    fails, warns = [], []
     if seed_value is None:
         fails.append("no seed value to compare against")
     elif strip_ws(repaired) != strip_ws(seed_value):
@@ -152,10 +164,10 @@ def check(repaired, seed_value, en_value):
            if BULLET.match(ln) and unbalanced(BULLET.match(ln).group(2))]
     if bad:
         fails.append(f"{len(bad)} bullet(s) still unbalanced")
-    if isinstance(en_value, str) and bullet_lines(repaired) > bullet_lines(en_value):
-        fails.append(f"more bullets than EN source "
-                     f"({bullet_lines(repaired)} > {bullet_lines(en_value)})")
-    return fails
+    if isinstance(en_value, str) and bullet_lines(repaired) != bullet_lines(en_value):
+        warns.append(f"bullet count differs from EN "
+                     f"({bullet_lines(repaired)} vs {bullet_lines(en_value)})")
+    return fails, warns
 
 
 # ---------------------------------------------------------------------- main
@@ -201,18 +213,22 @@ def main():
             seed_value = seed_d.get(key) if isinstance(seed_d, dict) else None
             en_value = (en.get(rel) or {}).get(key)
 
-            fails = check(repaired, seed_value if isinstance(seed_value, str) else None,
-                          en_value)
+            fails, warns = check(repaired,
+                                 seed_value if isinstance(seed_value, str) else None,
+                                 en_value)
             rec = dict(file=f, lang=lang, rel=rel, key=key, merges=merges,
-                       before=value, after=repaired, fails=fails)
+                       before=value, after=repaired, fails=fails, warns=warns)
             (blocked if fails else proposals).append(rec)
 
     # ------------------------------------------------------------------ report
     print("=" * 78)
     print("DRY RUN — no changes written")
     print("=" * 78)
+    warned = [p for p in proposals if p["warns"]]
     print(f"  proposed repairs : {len(proposals)} fields "
           f"({sum(p['merges'] for p in proposals)} merges)")
+    print(f"    of which warn  : {len(warned)} (bullet count differs from EN — "
+          f"worth a spot-check, not blocking)")
     print(f"  blocked (review) : {len(blocked)} fields")
 
     bylang = {}
