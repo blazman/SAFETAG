@@ -22,20 +22,34 @@ summary: |
   A abordagem **passiva**, ou "indireta", refere-se ao processo de enumeração que não envia nenhum tráfego ou pacotes da sua máquina diretamente para o seu alvo. Isso pode ser feito usando ferramentas de terceiros, como ferramentas online e scanners baseados em nuvem.
 
   A abordagem **ativa**, ou "direta", refere-se ao envio de consultas DNS e testes de enumeração diretamente para o alvo. Considere que o tráfego é enviado para o alvo, o que pode deixar rastros, como registros de tráfego, provenientes do seu IP de origem. As técnicas ativas incluem transferência de zona, pesquisa reversa, força bruta no domínio e servidor, enumeração de registros padrão (curinga, SOA, MX, A, TXT etc.), espionagem de cache (_cache snooping_) e deslocamento de zona (_zone walking_).
-overview: |2
+overview: |
+  * Using a variety of passive and active techniques, uncover as many
+  domains/subdomains linked to the target organization as possible.
+  * Use these to advance other aspects of your work to discover additional
+  credentials and potential vulnerable or outdated services.
 
+  **Expected Outputs**
 
-
-  * Um mapa suficientemente preciso da presença online da organização, incluindo hosts/serviços adicionais (potencialmente esquecidos) conectados à organização. *Domínios + endereços IP
-  * Subdomínios + endereços IP
-  * Registros MX + endereços IP
-  * Chaves DNS (DNSKeys)
-  * Registros SOA, registros DNS e registrador
-  * Domínios hospedados no mesmo endereço IP
-  * Registros históricos de DNS
-  * Reputação do domínio (Web of Trust)
-  * Algumas dessas informações já podem dar uma ideia de como está a configuração da infraestrutura do seu alvo. Por exemplo, você pode ver se o domínio alvo usa uma CDN (Rede de Entrega de Conteúdo, ou Content Delivery Network em inglês) ou, às vezes, se usam serviços de mitigação de DDoS (Ataque Distribuído de Negação de Serviço, ou Distributed Denial of Service em inglês), investigando seus registros NS. Você também pode identificar se os registros MX do alvo estão atrás de sistemas DLP (Prevenção de Vazamento de Dados, ou Data Leak Protection, em inglês).
-  Os resultados de sua enumeração DNS podem conter informações mais profundas sobre a organização do cliente (registros DNS internos, nomes de host, nomes de roteadores, endereços IP adicionais). Esses dados às vezes são causados por DNS mal configurado ou que utiliza configurações padrão. Portanto, procure resultados enganosos e falsos positivos.
+  * A fuller map of the organization's online presence, including additional
+  (potentially forgotten) hosts/services connected with the organization.
+  * Domains + IP addresses
+  * Subdomains + IP addresses
+  * MX Records + IP addresses
+  * DNSKeys
+  * SOA records, DNS records and registrar
+  * Domains hosted within the same IP address
+  * DNS history Records
+  * Domain Reputation (Web of Trust)
+  * Some of this information may already give you an idea of how your target's
+  infrastructure setup. For example, you may see if the target domain goes into
+  a CDN (Content Delivery Network) or sometimes DDoS mitigations services by
+  finding out it's NS records. You can also identify if the target's MX records
+  are behind a DLP (Data Leakage Prevention) systems.
+  * The output of your DNS enumeration might contain "more" information about
+  the client organization (internal DNS records, hostnames, router names,
+  additional IP addresses). This data is sometimes caused by misconfigured DNS
+  or default service configurations, so look for misleading and false-positive
+  results.
 materials_needed: |
   * Computador ou Máquina Virtual com [Kali Linux.](https://www.kali.org/downloads/)
   * Conexão à Internet (e preferencialmente, VPN ou TOR)

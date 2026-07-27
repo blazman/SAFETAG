@@ -27,23 +27,33 @@ summary: |
 
   L'approche **Active**, ou "directe", consiste à envoyer des requêtes DNS et des tests d'énumération directement à la cible. Il faut considérer que du trafic est envoyé sur la cible ce qui peut laisser des traces ou des journaux de trafic provenant de votre IP source. Les techniques actives comprennent le transfert de zone, la recherche inversée, le forçage brutal du domaine et de l'hôte, l'enregistrement standard et la vérification de l'identité (wildcard, SOA, MX, A, TXT, etc.), Cache snooping, et Zone Walking
 overview: |
-  * En utilisant une variété de techniques passives et actives, découvrez autant de
-  domaines/sous-domaines liés à l'organisation cible que possible.
-  * Utilisez-les pour faire avancer d'autres aspects de votre travail afin de découvrir des informations d'identification supplémentaires et des services potentiellement vulnérables ou obsolètes.
+  * Using a variety of passive and active techniques, uncover as many
+  domains/subdomains linked to the target organization as possible.
+  * Use these to advance other aspects of your work to discover additional
+  credentials and potential vulnerable or outdated services.
 
-  **Résultats attendus**
+  **Expected Outputs**
 
-  * Une carte plus complète de la présence en ligne de l'organisation, y compris les hôtes/services supplémentaires (potentiellement oubliés) liés à l'organisation.
-  *Domaines + adresses IP
-  * Sous-domaines + adresses IP
-  * Enregistrements MX + adresses IP
-  * Clés DNS
-  * Enregistrements SOA, enregistrements DNS et registraire
-  * Domaines hébergés dans la même adresse IP
-  * Enregistrements de l'historique DNS
-  * Réputation de domaine (Web of Trust)
-  * Certaines de ces informations peuvent déjà vous donner une idée de la configuration de l'infrastructure de votre cible. Par exemple, vous pouvez voir si le domaine cible entre dans un CDN (réseau de diffusion de contenu) ou parfois des services d'atténuation DDoS en découvrant ses enregistrements NS. Vous pouvez également identifier si les enregistrements MX de la cible se trouvent derrière un système DLP (Data Leakage Prevention).
-  * La sortie de votre énumération DNS peut contenir "plus" d'informations sur l'organisation cliente (enregistrements DNS internes, noms d'hôte, noms de routeur, adresses IP supplémentaires). Ces données sont parfois causées par un DNS mal configuré ou des configurations de service par défaut, alors recherchez les résultats trompeurs et faussement positifs.
+  * A fuller map of the organization's online presence, including additional
+  (potentially forgotten) hosts/services connected with the organization.
+  * Domains + IP addresses
+  * Subdomains + IP addresses
+  * MX Records + IP addresses
+  * DNSKeys
+  * SOA records, DNS records and registrar
+  * Domains hosted within the same IP address
+  * DNS history Records
+  * Domain Reputation (Web of Trust)
+  * Some of this information may already give you an idea of how your target's
+  infrastructure setup. For example, you may see if the target domain goes into
+  a CDN (Content Delivery Network) or sometimes DDoS mitigations services by
+  finding out it's NS records. You can also identify if the target's MX records
+  are behind a DLP (Data Leakage Prevention) systems.
+  * The output of your DNS enumeration might contain "more" information about
+  the client organization (internal DNS records, hostnames, router names,
+  additional IP addresses). This data is sometimes caused by misconfigured DNS
+  or default service configurations, so look for misleading and false-positive
+  results.
 materials_needed: |
   * Système ou machine virtuelle exécutant [Kali Linux.](https://www.kali.org/downloads/)
   * Connexion Internet (et éventuellement une configuration VPN ou tor)
