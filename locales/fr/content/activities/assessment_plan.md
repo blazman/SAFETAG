@@ -43,8 +43,7 @@ considerations: |
   * En plus du mandat général d'envoyer des informations cryptées à l'organisation, exigez également d'eux une communication chiffrée. L'incapacité à établir un canal de planification sécurisé contribue également à une situation de non-droit en mettant à la fois l'auditeur et l'organisation en danger.
 skills_required: []
 overview: |
-  **Create an Assessment Plan:*
-  * Have a "scoping" meeting that outlines the
+  **Create an Assessment Plan:** Have a "scoping" meeting that outlines the
   level of access that an auditor will have, what is off limits, and the process
   for modifying the scope of the audit when new information arises.
   [^PETS_legal_considerations], [^PETS_separate_permissions]

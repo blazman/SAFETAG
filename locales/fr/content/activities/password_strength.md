@@ -22,8 +22,7 @@ summary: |
 overview: |
   * Le cas échéant, testez les fichiers de mots de passe découverts, la force du mot de passe du réseau sans fil ou discutez de la façon dont les adversaires attaquent les mots de passe
 materials_needed: |
-  * Pour les attaques basées sur un mot de passe WPA (les plus courantes), un dictionnaire **déjà préparé*
-  * de mots à utiliser pour attaquer le mot de passe sera nécessaire.
+  * Pour les attaques basées sur un mot de passe WPA (les plus courantes), un dictionnaire **déjà préparé** de mots à utiliser pour attaquer le mot de passe sera nécessaire.
   * L'activité Level Up, [Password Reverse Race](https://www.level-up.cc/leading-trainings/training-curriculum/activity/password-reverse-race) fournit une activité de personnel.
 considerations: |
   * Informez-vous des lois locales pertinentes

@@ -352,9 +352,7 @@ walk_through: >
 
   | **\-proxies `http://1.2.3.4:8080`,`http://4.3.2.1:8080`**  | nmap \*\*-proxies http://123.12.23.10:8080,         |                                                                                           |
 
-  | http://211.212.101.22:8080\*\
-
-  * `172.16.1.1`                | Relay nmap scans through HTTP/SOCKS4 proxies        |                                                                                           |
+  | http://211.212.101.22:8080\*\* `172.16.1.1`                | Relay nmap scans through HTTP/SOCKS4 proxies        |                                                                                           |
 
 
   * **Nmap Scan Output Results**

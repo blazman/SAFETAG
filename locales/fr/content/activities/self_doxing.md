@@ -65,8 +65,7 @@ walk_through: >
   * Either have them do the same research on themselves in pairs or assign this
 
   research as homework.
-    **Note:*
-  * If participants perform the research at home, it is important to warn the group that when practicing self-doxing, there is a risk of getting exposed to results that they may find disturbing. Tell them that if they think they may need support, they should ask a close friend to be around while they carry out their research.
+    **Note:** If participants perform the research at home, it is important to warn the group that when practicing self-doxing, there is a risk of getting exposed to results that they may find disturbing. Tell them that if they think they may need support, they should ask a close friend to be around while they carry out their research.
     * Instruct participants to use the Tor Browser and a browser different than their usual one to perform the research, and ask them to search both on the websites and services listed in the self-doxing guide and in the ones mentioned during the brainstorming.
     * Explain that, to decide what to search for, one should try to understand what activities expose them to a higher risk of being attacked by trolls or other malicious actors. They should ask themselves: ”Why would someone want to spend hours of their time to track information on you in the internet?” Add that this kind of attack often affects minorities or people who support controversial opinions online, and the attack starts from the information that the malicious actor will find immediately available - like the nickname and profile used by the target in the platform where the attack has started, or the pictures the target has published in their page. This is where they should start from.
     * Instruct the group to check the properties of the posts and media they have published, to make sure that they aren't leaking their IP address or other metadata.

@@ -36,8 +36,7 @@ walk_through: |
 
   **Create a risk matrix**
 
-  * Place *impacts
-  * against a range of likelihood.
+  * Place *impacts* against a range of likelihood.
   * Clean up critical process maps for use in reporting.
   * Create a list of all services or assets that were identified during the activity that were not already known by the auditor.
 
@@ -56,8 +55,7 @@ overview: |
   * ဖြစ်နိုင်ခြေနှင့် သက်ဆိုင်ရာ အားနည်းချက်များ ဇယားကွက်
   * အားနည်းချက်တစ်ခုစီအတွက် ဖြစ်နိုင်ခြေကို မည်ကဲ့သို့ ဆုံးဖြတ်ခဲ့သည်ကို အတိုချုပ် ခြုံငုံသုံးသပ်ချက်။
   * အားနည်းချက်တစ်ခုစီအတွက် လုပ်ငန်းစဉ်၊ အကျိုးသက်ရောက်မှုနှင့် ဖြစ်နိုင်ခြေ စာရင်း။
-  * ဖြစ်နိုင်ခြေ အမျိုးမျိုးအပေါ်  *သက်ရောက်မှုများ
-  * ထား၍ အန္တရာယ်ရှိသော ဝန်းကျင်အခြေအနေ တစ်ခုကို ဖန်တီးပါ။
+  * ဖြစ်နိုင်ခြေ အမျိုးမျိုးအပေါ်  *သက်ရောက်မှုများ* ထား၍ အန္တရာယ်ရှိသော ဝန်းကျင်အခြေအနေ တစ်ခုကို ဖန်တီးပါ။
   * အားနည်းချက်တစ်ခုစီကို မဖြေရှင်းမချင်း အဖွဲ့အစည်းက လက်ခံနေသည့် ဘေးအန္တရာယ်များကို ခြုံငုံသုံးသပ်ပါ။
 recommendations: ""
 ---

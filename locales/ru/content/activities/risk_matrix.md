@@ -36,8 +36,7 @@ walk_through: |
 
   **Create a risk matrix**
 
-  * Place *impacts
-  * against a range of likelihood.
+  * Place *impacts* against a range of likelihood.
   * Clean up critical process maps for use in reporting.
   * Create a list of all services or assets that were identified during the activity that were not already known by the auditor.
 
@@ -59,8 +58,7 @@ overview: |
   * Chart vulnerabilities against likelihood
   * A short overview of the how the likelihood was determined for each vulnerability.
   * A listing of the process, impact, and likelihood for each vulnerability.
-  * Create a risk matrix placing *impacts
-  * against a range of likelihood.
+  * Create a risk matrix placing *impacts* against a range of likelihood.
   * An overview of the risks the organization is accepting until they address each vulnerability.
 recommendations: ""
 ---

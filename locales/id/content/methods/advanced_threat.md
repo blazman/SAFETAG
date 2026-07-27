@@ -31,8 +31,7 @@ references:
   - Analisis Malware
   - Forensik Digital
 operational_security: |
-  * Untuk keterlibatan dengan potensi ancaman tingkat tinggi, auditor harus melakukan **Asesmen Kapabilitas Lawan*
-  * yang lebih komprehensif - berdasarkan riset konteks teknis. Adakah Ancaman Persisten Lanjutan yang perlu dipertimbangkan? Bagaimana cara kerjanya? Adakah indikator terkompromi yang diketahui untuk dicari?
+  * Untuk keterlibatan dengan potensi ancaman tingkat tinggi, auditor harus melakukan **Asesmen Kapabilitas Lawan** yang lebih komprehensif - berdasarkan riset konteks teknis. Adakah Ancaman Persisten Lanjutan yang perlu dipertimbangkan? Bagaimana cara kerjanya? Adakah indikator terkompromi yang diketahui untuk dicari?
   * Perjanjian tentang pengambilan data pada perangkat yang terinfeksi harus ditandatangani dengan organisasi sebelum langkah ini.
   * Auditor harus memastikan mereka memiliki pemahaman yang jelas dengan organisasi tentang rencana tanggap insiden, titik kontak, dan proses untuk memungkinkan diskusi yang aman.
   * Berurusan dengan perangkat lunak berbahaya itu berrisiko, Anda harus mewaspadai ancaman di sekitarnya, jangan menginfeksi diri sendiri atau mesin lainnya.

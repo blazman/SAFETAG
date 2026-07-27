@@ -37,11 +37,9 @@ considerations: |
 walk_through: |
   Cette activité devrait s'appuyer sur le travail de préparation de l'auditeur, ainsi que sur l'évaluation des capacités et le travail de recherche contextuelle :
 
-  * **Évaluation de la capacité :*
-  * Si l'auditeur a déjà passé l'entretien d'évaluation de la capacité, la plupart des réponses à ses questions d'introduction "Ouvrir" (5-22) fournissent l'historique des menaces, la probabilité et certaines informations de base sur la politique, et la les questions regroupées sous la rubrique "Informations sur les menaces" (58-68) approfondissent les problèmes et les réponses précédents. Si celles-ci n'étaient pas posées, elles
+  * **Évaluation de la capacité :** Si l'auditeur a déjà passé l'entretien d'évaluation de la capacité, la plupart des réponses à ses questions d'introduction "Ouvrir" (5-22) fournissent l'historique des menaces, la probabilité et certaines informations de base sur la politique, et la les questions regroupées sous la rubrique "Informations sur les menaces" (58-68) approfondissent les problèmes et les réponses précédents. Si celles-ci n'étaient pas posées, elles
   peuvent être inclus ici en tant qu'entretien/enquête de suivi.
-  * **Recherche contextuelle :*
-  * Assurez-vous que la recherche contextuelle a révélé si l'organisation serait ciblée par des adversaires en raison de leur travail (par exemple, plaidoyer, engagement ou couverture médiatique de sujets socialement sensibles, etc.).
+  * **Recherche contextuelle :** Assurez-vous que la recherche contextuelle a révélé si l'organisation serait ciblée par des adversaires en raison de leur travail (par exemple, plaidoyer, engagement ou couverture médiatique de sujets socialement sensibles, etc.).
   L'identification des menaces et la recherche sur le contexte technique devraient donner un aperçu des capacités techniques probables des adversaires (des logiciels malveillants ou d'autres outils de surveillance sont-ils utilisés (https://sii.transparencytoolkit.org/) ? Surveillance/surveillance physique ? Enregistreurs de frappe ?)
 
   Une fois qu'un entretien initial ou une enquête a eu lieu (dans le cadre de
@@ -151,7 +149,7 @@ walk_through: |
   * Le gouvernement confisque légalement l'équipement en raison des informations qu'il contient
   * Le gouvernement, les agents publics, les acteurs non étatiques, la police ou les forces de sécurité utilisent la technologie numérique ou mobile pour identifier et cibler les individus à arrêter ou à violer
   * Le gouvernement, les agents publics, les acteurs non étatiques, la police ou les forces de sécurité utilisent la technologie numérique ou mobile pour attaquer la réputation d'individus ou d'organisations
-  * À votre connaissance, à quelle fréquence les acteurs ci-dessous utilisent-ils la technologie numérique ou mobile pour cibler ou identifier des individus en vue d'une arrestation ou d'actes de violence ? L'utilisent-ils jamais, parfois ou souvent ?
+  * À votre connaissance, à quelle fréquence les acteurs ci-dessous utilisent-ils la technologie numérique ou mobile pour cibler ou identifier des individus en vue d'une arrestation ou d'actes de violence ? L'utilisent-ils jamais, parfois ou souvent ?
   * gouvernement ou fonctionnaires
   * acteurs non étatiques (sociétés, groupes sociaux)
   * police, forces de sécurité ou groupes paramilitaires

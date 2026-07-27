@@ -13,8 +13,7 @@ skills_trained: []
 summary: |
   Cette composante présente les outils et les procédures nécessaires à l'acquisition de l'image (vivante ou morte, selon la situation) et au traitement sécurisé des données d'un appareil (ordinateur portable, ordinateur de bureau, disque dur, carte mémoire, clé USB, etc.) qui sont nécessaires pour effectuer ultérieurement une analyse de logiciels malveillants ou un processus de preuve médico-légale.
 overview: |
-  * **Capturer des preuves pour une analyse ultérieure*
-  * - Si des activités suspectes sont identifiées, l'auditeur peut vouloir capturer des preuves (y compris image de disque dur, image mémoire, fichiers suspects, courriels, captures de trafic réseau,URL). à analyser ou à partager avec des professionnels. Cela prend du temps et les preuves capturées sont à haut risque, il faut donc être extrêmement prudent dans la poursuite de cette démarche.
+  * **Capturer des preuves pour une analyse ultérieure** - Si des activités suspectes sont identifiées, l'auditeur peut vouloir capturer des preuves (y compris image de disque dur, image mémoire, fichiers suspects, courriels, captures de trafic réseau,URL). à analyser ou à partager avec des professionnels. Cela prend du temps et les preuves capturées sont à haut risque, il faut donc être extrêmement prudent dans la poursuite de cette démarche.
   * Déterminer quel type d'acquisition de données (imagerie vivante ou morte) est nécessaire.
   * Effectuer l'acquisition de données nécessaire en préservant la chaîne de possession et prévenir la modification des preuves.
 materials_needed: |
@@ -22,8 +21,7 @@ materials_needed: |
 
   * Utilisation d'outils de capture de preuves (ci-dessous) pour capturer les vidages de mémoire et pour mémoire et de copier les données en octet afin de créer une image médico-légale qui sera utilisée pour tests sans affecter les preuves originales reçues.
 
-  **Logiciels requis*
-  * - selon le type d'acquisition de données et le système d'exploitation, vous aurez besoin des éléments suivants
+  **Logiciels requis** - selon le type d'acquisition de données et le système d'exploitation, vous aurez besoin des éléments suivants
   système d'exploitation, vous aurez besoin des outils suivants :
 
   * Imagerie en direct :
@@ -47,8 +45,7 @@ considerations: |
   * Réfléchissez soigneusement à la manière de protéger ces données en transit vers l'analyse. Voir "Comment
   Comment traiter les données médico-légales" ci-dessous pour des notes sur la chaîne de possession.
   * Lors de la copie d'octets de données, soyez extrêmement prudent lorsque vous tapez la ligne de commande
-  `dd` ou autre. Inversez les drapeaux **`if`*
-  * et **`of`**, ou confondez l'étiquette du bloc de périphérique lié au bloc de données source ou de destination **sera à l'origine de la destruction des preuves par l'ordinateur !
+  `dd` ou autre. Inversez les drapeaux **`if`** et **`of`**, ou confondez l'étiquette du bloc de périphérique lié au bloc de données source ou de destination **sera à l'origine de la destruction des preuves par l'ordinateur !
   * Si possible, connectez toujours le disque source avec un bloqueur d'écriture pour empêcher la modification des preuves.
 walk_through: |
   **La chaîne de traçabilité : comment gérer les données médico-légales**

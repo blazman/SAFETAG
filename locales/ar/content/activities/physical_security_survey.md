@@ -58,15 +58,13 @@ walk_through: |
   This activity should build on the preparation work of the auditor, as well as
   the capacity assessment and  context research work:
 
-  * **Capacity Assessment:*
-  * If the auditor has already completed the Capacity
+  * **Capacity Assessment:** If the auditor has already completed the Capacity
   Assessment interview, many of the answers from its introductory "Open Up"
   questions (5-22) provide threat history, likelihood, and some basic policy
   information, and the questions grouped as "Threat Information," (58-68) go
   deeper into previous problems and responses.  If those were not asked, they
   can be included here as a follow-up interview/survey.
-  * **Context Research:*
-  * Ensure context research has revealed whether the
+  * **Context Research:** Ensure context research has revealed whether the
   organization would be targeted by adversaries due to their work (e.g.
   advocacy, engagement in or media coverage of socially sensitive topics, etc.).
   Threat identification and technical context research should  provide insight

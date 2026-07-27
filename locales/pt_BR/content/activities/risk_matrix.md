@@ -25,8 +25,7 @@ walk_through: |
   * Descubra o nível de recursos necessários para explorar a vulnerabilidade.
   * Compare os recursos necessários com as capacidades identificadas nas atividades de modelagem de risco e na pesquisa contextual que você fez.**Crie uma matriz de vulnerabilidade/probabilidade**
   * Posicione a vulnerabilidade na matriz de risco em relação à sua probabilidade e impacto.![Risco vs. Dificuldade](/img/risk_vs_difficulty.svg)![Risco vs. Probabilidade](/img/risk_vs_likelihood.svg)**Crie uma matriz de risco**
-  * Coloque os *impactos
-  * em relação a uma gama de probabilidade.
+  * Coloque os *impactos* em relação a uma gama de probabilidade.
   * Limpe os mapas de processos críticos para uso em relatórios.
   * Crie uma lista de todos os serviços ou ativos que foram identificados durante a atividade e que ainda não eram conhecidos pelo auditor.![Impacto vs. Gravidade](/img/impact_vs_severity.svg)
 considerations: |
@@ -39,8 +38,7 @@ overview: |
   * Gráfico das vulnerabilidades em relação à probabilidade
   * Uma breve visão geral de como a probabilidade foi determinada para cada vulnerabilidade.
   * Uma lista do processo, impacto e probabilidade para cada vulnerabilidade.
-  * Criar uma matriz de risco colocando os *impactos
-  * em relação a uma gama de probabilidades.
+  * Criar uma matriz de risco colocando os *impactos* em relação a uma gama de probabilidades.
   * Uma visão geral dos riscos que a organização está aceitando até que cada vulnerabilidade seja resolvida.
 recommendations: ""
 ---

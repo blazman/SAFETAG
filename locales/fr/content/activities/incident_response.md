@@ -81,8 +81,7 @@ skills_required:
   - Recherche
   - La criminalistique numérique
 overview: |
-  * **Établissez un contact d'urgence :*
-  * Établissez une procédure de traitement des incidents et un contact d'urgence au cas où l'auditeur causerait ou découvrirait un incident au cours de l'évaluation. [^NIST_SP_800-115-Section_7.1]^,^[^PETS_emergency_contact]
+  * **Établissez un contact d'urgence :** Établissez une procédure de traitement des incidents et un contact d'urgence au cas où l'auditeur causerait ou découvrirait un incident au cours de l'évaluation. [^NIST_SP_800-115-Section_7.1]^,^[^PETS_emergency_contact]
   * Convenez des points de contact principaux et secondaires et des informations de contact pertinentes
   * Établir quelle gravité compte comme un "incident" pour l'organisation
   * Convenez des protocoles de sécurité autour de la réponse aux incidents

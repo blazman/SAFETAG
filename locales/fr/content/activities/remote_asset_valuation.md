@@ -22,10 +22,8 @@ materials_needed: |
   * Il est essentiel de rester organisé et le document logistique est très utile à la fois comme outil de communication pour l'organisation et pour que l'auditeur reste organisé et efficace pour effectuer l'exercice le plus rapidement possible.
   * Accord sur la technologie de téléconférence
   * Modèles
-  * **Document logistique*
-  * Disponible sous forme d'OpenDocument dans le référentiel SAFETAG et en ligne via Google Docs : [Document logistique](https://drive.google.com/file/d/1Jel7mGJvsAq0F6UKoGnx4eBeCMz8cfOY/view?usp=sharing)
-  * **Tableau d'évaluation des actifs à distance*
-  * Disponible sous forme de feuille de calcul OpenDocument dans le référentiel SAFETAG et en ligne via Google Docs :[Tableau d'évaluation des actifs à distance](https://drive.google.com/file/d/1Yf2S6IIOlewzTSBNT-yJ1P9ZZD2d3XVN/view?usp=sharing)
+  * **Document logistique** Disponible sous forme d'OpenDocument dans le référentiel SAFETAG et en ligne via Google Docs : [Document logistique](https://drive.google.com/file/d/1Jel7mGJvsAq0F6UKoGnx4eBeCMz8cfOY/view?usp=sharing)
+  * **Tableau d'évaluation des actifs à distance** Disponible sous forme de feuille de calcul OpenDocument dans le référentiel SAFETAG et en ligne via Google Docs :[Tableau d'évaluation des actifs à distance](https://drive.google.com/file/d/1Yf2S6IIOlewzTSBNT-yJ1P9ZZD2d3XVN/view?usp=sharing)
 considerations: >
   * Assurez-vous que le personnel invité à l'appel ne se trouve pas dans
   un environnement opérationnel sensible lors de discussions en temps réel sur

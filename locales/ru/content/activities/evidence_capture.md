@@ -16,8 +16,7 @@ summary: |
   device (laptop, desktop, HDD, memory stick, USB stick, etc.) that is needed to
   later perform a malware analysis or forensic evidence process.
 overview: |
-  * **Capture Evidence for later Analysis*
-  * - If suspicious activities are
+  * **Capture Evidence for later Analysis** - If suspicious activities are
   identified, the auditor may want to capture evidence  (including hard disk
   image, memory image, suspicious files, emails, network traffic captures,
   URLs). to analyze or share with professionals. This is time-consuming and the
@@ -32,8 +31,7 @@ materials_needed: |
   byte-copy the data in order to create a forensic image to be used to execute
   tests without affecting the original evidence received.
 
-  **Required software*
-  * - depending on the data acquisition type and the
+  **Required software** - depending on the data acquisition type and the
   operating system, you will need the following tools:
 
   * Live imaging:
@@ -60,9 +58,7 @@ considerations: |
   * Carefully consider how to protect this data in transit to analysis. See "How
   to handle forensic data" below for notes on the Chain of Custody.
   * While byte-copying data, be extremely careful when typing the command line
-  `dd` or related. Reversing the **`if`*
-  * and **`of`*
-  * flags, or confusing the
+  `dd` or related. Reversing the **`if`** and **`of`** flags, or confusing the
   label of the device block related to the source or destination device **will
   cause the computer to destroy the evidence!**
   * If possible, always connect the source disk with a write blocker to prevent

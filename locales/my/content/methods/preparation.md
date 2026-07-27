@@ -34,14 +34,12 @@ references:
   - သတိထားရမည့် အချက်အလက်နှင့် သတင်းအချက်အလက်များလမ်းညွှန်
   - ထိခိုက်မှု အရင်းအမြစ်များကို ကိုင်တွယ်ခြင်း
 operational_security: |
-  * **Prepare Systems:*
-  * Update and test your systems, A/V and audit
+  * **Prepare Systems:** Update and test your systems, A/V and audit
     tools[^latest_version_of_tools], prepare storage devices and systems to
     reflect the required operational security, and ensure you have power supply
     adapters, cables and relevant adapters, usb drives, external wireless cards
     and any other equipment needed for testing.
-  * **Prepare for Travel:*
-  * Check travel logistics if needed -- visa, letter of
+  * **Prepare for Travel:** Check travel logistics if needed -- visa, letter of
     invitation, travel tickets and hotel reservations. Note that some visas can
     take significant effort and may require the auditor to be without a passport
     while they are being processed.

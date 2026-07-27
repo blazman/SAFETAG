@@ -26,8 +26,7 @@ references:
   - Análise de Malware
   - Análise Forense (Perícia)
 operational_security: |
-  * Para trabalhos com alto nível de ameaças em potencial, o auditor deve fazer uma **Avaliação da Capacidade do Adversário*
-  * mais completa, com base no trabalho de pesquisa do contexto técnico. Tem Alguma Ameaça Persistente Avançada (APT, _Advanced Persistent Threat_) que deva ser levada em conta? Como elas funcionam? Tem algum indicador conhecido de comprometimento que deva ser procurado?
+  * Para trabalhos com alto nível de ameaças em potencial, o auditor deve fazer uma **Avaliação da Capacidade do Adversário** mais completa, com base no trabalho de pesquisa do contexto técnico. Tem Alguma Ameaça Persistente Avançada (APT, _Advanced Persistent Threat_) que deva ser levada em conta? Como elas funcionam? Tem algum indicador conhecido de comprometimento que deva ser procurado?
   * Antes dessa etapa, deve-se assinar um acordo com a organização sobre a captura de dados em dispositivos infectados.
   * O auditor deve garantir que tenha um entendimento claro com a organização sobre um plano de resposta a incidentes, pontos de contato e processo para permitir discussões seguras.
   * Lidar com software malicioso é arriscado, você precisa estar ciente das ameaças ao redor, não infecte a si mesmo ou mais máquinas.

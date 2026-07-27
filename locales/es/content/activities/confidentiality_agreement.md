@@ -15,8 +15,7 @@ summary: |
   protect the privacy of the organization and the outcomes of the audit.
 materials_needed: ""
 walk_through: |
-  **Negotiate a Confidentiality Agreement:*
-  * Negotiate an agreement with the
+  **Negotiate a Confidentiality Agreement:** Negotiate an agreement with the
   organization that outlines how an auditor will protect the privacy of the
   organization and the outcomes of the audit.
 

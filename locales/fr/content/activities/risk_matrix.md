@@ -36,8 +36,7 @@ walk_through: |
 
   **Créer une matrice des risques**
 
-  * Placer les *impacts
-  * par rapport à une fourchette de probabilité.
+  * Placer les *impacts* par rapport à une fourchette de probabilité.
   * Nettoyer les cartes de processus critiques à utiliser dans les rapports.
   * Créez une liste de tous les services ou actifs qui ont été identifiés au cours de l'activité et qui n'étaient pas déjà connus de l'auditeur.
 
@@ -55,8 +54,7 @@ overview: |
   * Graphique des vulnérabilités par rapport à la probabilité
   * Un bref aperçu de la façon dont la probabilité a été déterminée pour chaque vulnérabilité.
   * Une liste du processus, de l'impact et de la probabilité de chaque vulnérabilité.
-  * Créez une matrice des risques en plaçant les *impacts
-  * par rapport à une fourchette de probabilité.
+  * Créez une matrice des risques en plaçant les *impacts* par rapport à une fourchette de probabilité.
   * Un aperçu des risques que l'organisation accepte jusqu'à ce qu'elle corrige chaque vulnérabilité.
 recommendations: ""
 ---

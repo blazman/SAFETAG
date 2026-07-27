@@ -41,10 +41,7 @@ walk_through: >
   * Faça a pesquisa nos sites mencionados no guia de autodoxing e durante a atividade de brainstorming.
 
   Peça que eles façam a mesma pesquisa sobre si mesmos em duplas ou atribua essa pesquisa como lição de casa.
-    **Observação:*
-  * se as pessoas participantes realizarem a
-  pesquisa em casa, é importante alertar o grupo que, ao praticar o autodoxing, há o risco de se expor a resultados que podem ser perturbadores. Diga a eles que, se acharem que precisam de apoio, devem pedir a um amigo próximo para ficar por perto enquanto realizam a pesquisa.
-
+    **Observação:** se as pessoas participantes realizarem a pesquisa em casa, é importante alertar o grupo que, ao praticar o autodoxing, há o risco de se expor a resultados que podem ser perturbadores. Diga a eles que, se acharem que precisam de apoio, devem pedir a um amigo próximo para ficar por perto enquanto realizam a pesquisa.
   * Instrua as pessoas participantes a usar o navegador Tor e um navegador diferente do que costumam usar para realizar a pesquisa e peça que pesquisem tanto nos sites e serviços listados no guia de autodoxing quanto naqueles mencionados durante a atividade de brainstorming.
     * Explique que, para decidir o que pesquisar, é preciso tentar entender quais atividades expõem a pessoa a um risco maior de ser atacada por trolls ou outros agentes mal-intencionados. Eles devem se perguntar: ”Por que alguém gastaria horas do seu tempo rastreando informações sobre você na internet?” Acrescente que esse tipo de ataque geralmente afeta minorias ou pessoas que defendem opiniões controversas online, e que o ataque começa a partir das informações que o agente mal-intencionado encontra imediatamente disponíveis — como o apelido e o perfil usados pelo alvo na plataforma onde o ataque começou, ou as fotos que o alvo publicou em sua página. É por aí que eles devem começar.
     * Instrua o grupo a verificar as propriedades

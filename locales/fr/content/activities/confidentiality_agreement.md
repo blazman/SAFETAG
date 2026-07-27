@@ -14,8 +14,7 @@ summary: |
   Négociez un accord avec l'organisation qui décrit comment un auditeur protégera la confidentialité de l'organisation et les résultats de l'audit.
 materials_needed: ""
 walk_through: |
-  **Négociez un accord de confidentialité :*
-  * Négociez un accord avec l'organisation qui décrit comment un auditeur protégera la confidentialité de l'organisation et les résultats de l'audit.
+  **Négociez un accord de confidentialité :** Négociez un accord avec l'organisation qui décrit comment un auditeur protégera la confidentialité de l'organisation et les résultats de l'audit.
 
   Vous trouverez ci-dessous un exemple d'énoncé de travail et d'accord d'engagement qui peut être adapté à votre modèle d'accord. Voir aussi le [générateur d'accord SAFETAG] (https://github.com/SAFETAG/safetag_agreement_generator) pour un [plus avancé](https://github.com/SAFETAG/safetag_agreement_generator/blob/master/outputs/explicit_custom.md) ainsi qu'un [en "langage clair" flexible](https://github.com/SAFETAG/safetag_agreement_generator/blob/master/outputs/plain_custom.md) texte d'accord et des conseils sur la sélection des clauses à inclure.
 
