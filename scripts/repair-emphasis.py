@@ -89,6 +89,34 @@ def bullet_lines(value):
     return sum(1 for ln in value.split("\n") if BULLET.match(ln))
 
 
+# Collateral from typos in the *English source*, where a stray "* " was
+# indistinguishable from a bullet marker and the splitting pass broke the line.
+# Fixing the source alone does not repair translations already split, and the
+# generic rule cannot see these: "**Network Setting" has an even number of
+# asterisks, so parity reads it as balanced even though the bold is unclosed.
+# Each entry names the commit that fixed the corresponding source file.
+SOURCE_TYPO_COLLATERAL = [
+    # content/activities/web_vulnerability_assessment.md, fixed in 26ec2748f:
+    # "**Network Setting*" -> "**Network Settings**"
+    # First form is the split as it appears now; second is the seed's collapsed
+    # form, so applying this to the seed too keeps the fidelity check honest
+    # rather than reading the correction itself as character loss.
+    (re.compile(r"\*\*Network Setting\n\s*\*\s+windows in Kali"),
+     "**Network Settings** windows in Kali"),
+    (re.compile(r"\*\*Network Setting\*\s+windows in Kali"),
+     "**Network Settings** windows in Kali"),
+]
+
+
+def fix_collateral(value):
+    """Apply the source-typo collateral corrections. Returns (new_value, n)."""
+    n = 0
+    for pat, repl in SOURCE_TYPO_COLLATERAL:
+        value, k = pat.subn(repl, value)
+        n += k
+    return value, n
+
+
 def repair_value(value):
     """Merge lines whose emphasis was cut by a bad bullet split.
 
@@ -202,8 +230,9 @@ def main():
         for key, value in cur.items():
             if not isinstance(value, str) or "*" not in value:
                 continue
-            repaired, merges = repair_value(value)
-            if not merges:
+            staged, collateral = fix_collateral(value)
+            repaired, merges = repair_value(staged)
+            if not merges and not collateral:
                 continue
 
             if f not in seed_cache:
@@ -213,11 +242,12 @@ def main():
             seed_value = seed_d.get(key) if isinstance(seed_d, dict) else None
             en_value = (en.get(rel) or {}).get(key)
 
-            fails, warns = check(repaired,
-                                 seed_value if isinstance(seed_value, str) else None,
-                                 en_value)
+            seed_cmp = (fix_collateral(seed_value)[0]
+                        if isinstance(seed_value, str) else None)
+            fails, warns = check(repaired, seed_cmp, en_value)
             rec = dict(file=f, lang=lang, rel=rel, key=key, merges=merges,
-                       before=value, after=repaired, fails=fails, warns=warns)
+                       collateral=collateral, before=value, after=repaired,
+                       fails=fails, warns=warns)
             (blocked if fails else proposals).append(rec)
 
     # ------------------------------------------------------------------ report
