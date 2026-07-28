@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 A [Gatsby](https://www.gatsbyjs.com) (v5) static site that publishes the SAFETAG guide
 (Security Auditing Framework and Evaluation Template for Advocacy Groups) at
-https://safetag.org. Content is authored as Markdown, translated via Transifex, and
+https://safetag.org. Content is authored as Markdown, translated via Weblate, and
 the site's marquee feature is a client-side **guide builder** that assembles a custom
 PDF from selected content.
 
@@ -28,20 +28,35 @@ npm run format       # prettier --write
 There is **no test suite** — `npm run test` is a placeholder that just echoes a message.
 CI (`.github/workflows/lint-and-test.yml`) only runs lint + that placeholder.
 
-### Translation workflow (Transifex)
+### Translation workflow (Weblate)
 
-Building with translations requires a Transifex API token (`tx init`, then it's read from
-`TX_TOKEN` / `.env.${NODE_ENV}`). The `tx` CLI binary is vendored in the repo root.
+**Translations are committed to this repo** under `locales/` — they are not fetched at
+build time. A build needs no translation credentials and makes no API calls:
+`npm ci && npm run build`.
 
 ```bash
-npm run extract         # i18next-parser scans JS for t()/Trans strings -> locales/en/site.json
-npm run transifex-push  # registers content/ markdown + site.json as Transifex resources and pushes
-npm run transifex-pull  # pulls translations into locales/<lang>/ then runs postprocess.py
+npm run extract   # i18next-parser scans JS for t()/Trans strings -> locales/en/site.json
 ```
 
-`locales/` does not exist until `transifex-pull` generates it. The production deploy
-(`deploy-to-gh-pages.yml`, on push to `main`) runs extract → push → pull → build, then
-publishes `public/` to the `guide` branch via GitHub Pages.
+That is the only translation-related command. Weblate reads the English source
+(`content/**/*.md` and `locales/en/site.json`) straight from the repository and commits
+translations back to `locales/<lang>/`. Saving a translation in Weblate therefore
+produces a commit here, which triggers a rebuild.
+
+Consequences worth knowing:
+
+- **Weblate owns `locales/`.** Editing those files in git risks being overwritten;
+  corrections belong in the Weblate API/UI.
+- **Files can lag Weblate's database.** Weblate only re-serializes a file when a unit
+  *inside it* changes, and it ignores no-op writes — so a stale value can persist on
+  disk after Weblate's own data is correct. Verify against the API before concluding a
+  translation is damaged.
+- Fixing a defect in the **English source** often repairs the translations
+  automatically, via Weblate's "Cleanup translation files" add-on.
+
+The production deploy (`deploy-to-gh-pages.yml`, on push to `main`) is now just
+`npm ci` → lint → `npm run build`, publishing `public/` to the `guide` branch via
+GitHub Pages.
 
 ## Architecture
 
